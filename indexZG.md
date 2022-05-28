@@ -4,21 +4,21 @@ title: Zecheng Gan
 description: "Welcome to my homepage"
 ---
 
-<!--
+
 <div>
 <table class="imgtable">
     <tr>
         <td style="width:256px">
-            <img src="assets/img/jingwei.jpeg" alt="" height="200px" /> 
+            <img src="assets/img/GZC.jpg" alt="" height="200px" /> 
         </td>
             
         <td align="left">
-            <p><h5>Jingwei Liang (梁经纬)</h5>  <a href="https://ins.sjtu.edu.cn/" >Institute of Natural Sciences</a> and <a href="https://www.math.sjtu.edu.cn" >School of Mathematical Sciences</a>  <br /> <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a> <br /></p>
+            <p><h5>Zecheng Gan (干则成)</h5>  <a href="https://ins.sjtu.edu.cn/" >Institute of Natural Sciences</a> and <a href="https://www.math.sjtu.edu.cn" >School of Mathematical Sciences</a>  <br /> <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a> <br /></p>
         </td>
 	</tr>
 </table>
 </div>
--->
+
 
 
 ## Contact
@@ -38,3 +38,4 @@ description: "Welcome to my homepage"
 - <b>B.S. in Mechanical Engineering</b> (2010.06) <br> &ensp; School of Mechanical Engineering, Shanghai Jiao Tong University.
 <!-- - <b>B.S. in Electrical & Information Engineering</b> (2010.06) <br> &ensp; School of Telecommunication and Information Engineering, Nanjing University of Posts and Telecommunications. -->
 
+### Detailed CV: available upon request.
