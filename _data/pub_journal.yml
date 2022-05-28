@@ -37,109 +37,60 @@ toc:
             venue: J. Chem. Phys.
             year: 2019
             url: assets/files/journal/GAN-jcp-2019.pdf
-            misc: <a href="https://icml.cc/Conferences/2020/Awards"><span style="font-weight:600;color:#ee3377;">Selected as JCP Editor's Choice 2019</span></a>
+            misc: <a href="https://aip.scitation.org/toc/jcp/collection/10.1063/jcp.2020.EDCH2019.issue-1"><span style="font-weight:600;color:#ee3377;">Selected as JCP Editor's Choice 2019</span></a>
           
-          - authors: A. Lewis, J. Liang and T. Tian
-            title: Partial Smoothness and Constant Rank
-            venue: SIAM Journal on Optimization, 32(1):276-291
-            year: 2022
-            url: https://arxiv.org/pdf/1807.03134
-            misc: 
-          
-          - authors: K. Wei, A. Aviles-Rivero, J. Liang, Y. Fu, H. Huang and C. Schönlieb 
-            title: "TFPnP: Tuning-free Plug-and-Play Proximal Algorithms with Applications to Inverse Imaging Problems" 
-            venue: Journal of Machine Learning and Research, 23:1-48
-            year: 2022
-            url: https://www.jmlr.org/papers/volume23/20-1297/20-1297.pdf
-            misc: 
-
-          - authors: D. Driggs, J. Liang and C. Schönlieb 
-            title: On the Bias-Variance Tradeoff in Stochastic Gradient Methods 
-            venue: Journal of Machine Learning and Research, 23:1-43
-            year: 2022
-            url: https://www.jmlr.org/papers/volume23/20-316/20-316.pdf
-            misc: 
-
-          - authors: R. Tovey and J. Liang
-            title: "The Fun is Finite:  Douglas--Rachford and Sudoku Puzzle --- Finite Termination and Local Linear Convergence"
-            venue:  Journal of Applied and Numerical Optimization, 3(3):435-456
-            year: 2021
-            url: assets/files/journal/Sudoku.pdf
-            misc:
-
-          - authors: D. Driggs, J. Tang, J. Liang, M. Davies and C. Schönlieb 
-            title: "SPRING: A Fast Stochastic Proximal Alternating Method for Non-smooth Non-convex Optimization" 
-            venue: SIAM Journal on Imaging Science, 14(04):1932-1970
-            year: 2021
-            url: assets/files/conference/spring.pdf
-            misc: 
-
-          - authors: F. Bian, J. Liang and X. Zhang
-            title: A Stochastic Alternating Direction Method of Multipliers for Non-smooth and Non-convex Optimization
-            venue: Inverse Problems, 37(7)
-            year: 2021
-            url: https://arxiv.org/abs/2012.07401
-            misc: <a href="https://doi.org/10.1088/1361-6420/ac0966">DOI:&thinsp;https://doi.org/10.1088/1361-6420/ac0966</a> 
-
-          - authors: A. Dutta, F. Hanzely, J. Liang and P. Richtárik
-            title: Best Pair Formulation & Accelerated Scheme for Non-convex Principal Component Pursuit
-            venue: IEEE Trans. on Signal Processing, 68:6128-6141
-            year: 2020
-            url: assets/files/journal/bp-pcp.pdf
-            misc:
-
-          - authors: C. Molinari, J. Liang and J. Fadili
-            title: Convergence Rates of Forward–Douglas–Rachford Splitting Method
-            venue: Journal of Optimization Theory and Applications, 182(2):606-639
+          - authors: H. Ye, Z. Gan, J. W. Shim, B. Kuang and Y. Yang
+            title: On-node lattices construction using partial Gauss-Hermite quadrature for the lattice Boltzmann method
+            venue: Chin. Phys. B
             year: 2019
-            url: assets/files/journal/rate-fdr.pdf
-            misc: <a href="https://github.com/jliang993/Rate-FDR"><span style="font-weight:600;color:#1a8cff;">code</span></a>
-  
-          - authors: J. Liang, J. Fadili and G. Peyré
-            title: Local Linear Convergence Analysis of Primal–Dual Splitting Methods
-            venue: Optimization, 67(6):821-853
-            year: 2018
-            url: assets/files/journal/rate-pd.pdf
+            url: assets/files/journal/Ye_2019_Chinese_Phys._B_28_054702.pdf
             misc: 
-  
-          - authors: J. Liang, J. Fadili and G. Peyré
-            title: Activity Identification and Local Linear Convergence of Forward-Backward-type methods
-            venue: SIAM Journal on Optimization, 27(1):408-437
+          
+          - authors: M. Ma, Z. Gan and Z. Xu
+            title: Ion structure near core-shell dielectric nanoparticle
+            venue: Phys. Rev. Lett.
             year: 2017
-            url: assets/files/journal/rate-ifb.pdf
+            url: assets/files/journal/ZG-PRL-2017.pdf
             misc: 
 
-          - authors: J. Liang, J. Fadili and G. Peyré
-            title: Local Convergence Properties of Douglas–Rachford and Alternating Direction Method of Multipliers
-            venue: Journal of Optimization Theory and Applications, 172(3):874-913
-            year: 2017
-            url: assets/files/journal/rate-dr.pdf
-            misc: More details on ADMM can be found at <a href="http://arxiv.org/pdf/1606.02116.pdf"><span style="font-weight:600;color:#1a8cff;">arXiv</span></a>
-     
-          - authors: J. Liang, J. Fadili and G. Peyré
-            title: Convergence Rates with Inexact Nonexpansive Operators
-            venue: Mathematical Programming, 59(1):403-434
+          - authors: X. Guan, M. Ma, Z. Gan, Z. Xu and B. Li
+            title: Hybrid Monte Carlo and continuum modeling of electrolyte with concentration-Induced dielectric variations
+            venue: Phys. Rev. E
             year: 2016
-            url: assets/files/journal/rate-nonexpansive-opt.pdf
+            url: assets/files/journal/PhysRevE_Guan.pdf
             misc: 
 
-          - authors: J. Liang, X. Zhang
-            title: Retinex by Higher order Total Variation \(L^1\) Decomposition
-            venue: Journal of Mathematical Imaging and Vision, 52(3):345-355
+          - authors: Z. Gan, S. Jiang, E. Luijten and Z. Xu
+            title: A hybrid method for systems of closely spaced dielectric spheres and ions
+            venue:  SIAM J. Sci. Comput.
+            year: 2016
+            url: assets/files/journal/GAN-SISC-2016.pdf
+            misc:
+
+          - authors: Z. Gan, H. Wu, K. Barros, Z. Xu and E. Luijten
+            title: Comparison of efficient techniques for the simulation of dielectric objects in electrolytes
+            venue: J. Comp. Phys.
             year: 2015
-            url: assets/files/journal/jmiv-retinex.pdf
+            url: assets/files/journal/ZG-JCP-2015.pdf
             misc: 
 
-          - authors: J. Liang, J. Ma and X. Zhang
-            title: Seismic Data Restoration via Data-driven Framelet
-            venue: Geophysics, 79(3):65-74
+          - authors: Z. Gan and Z. Xu
+            title: Efficient implementation of the Barnes-Hut octree algorithm for Monte Carlo simulations of charged systems
+            venue: Sci. China Math.
             year: 2014
-            url: assets/files/resources/journal/geophysics-ddtf.pdf
-            misc: 
+            url: assets/files/journal/science_china.pdf
+            misc:
 
-          - authors: J. Liang, J. Li, Z. Shen and X. Zhang
-            title: Wavelet Frame based Color Image Demosaicing
-            venue: Inverse Problems and Imaging, 7(3):777-794
-            year: 2013
-            url: assets/files/journal/ipi-demosaicing.pdf
-            misc: 
+          - authors: Z. Gan, X. Xing and Z. Xu
+            title: Effects of image charges, interfacial charge discreteness, and surface roughness on the Zeta potential of spherical electric double layers
+            venue: J. Chem. Phys.
+            year: 2012
+            url: assets/files/journal/J_chem_phys.pdf
+            misc:
+
+          - authors: Z. Gan and Z. Xu
+            title: Multiple-image treatment of induced charges in Monte Carlo simulations of electrolytes near a spherical dielectric interface
+            venue: Phys. Rev. E
+            year: 2011
+            url: assets/files/journal/PhysRevE_Gan.pdf
+            misc:
