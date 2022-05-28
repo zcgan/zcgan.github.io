@@ -22,18 +22,19 @@ description: "Welcome to my homepage"
 
 
 ## Contact
-- E-mail: firstname dot lastname AT sjtu dot edu dot cn
-- Office: Room 355, No. 6 Science Building 
+- E-mail: zechenggan@ust.hk
+- Office: FYTRI/CWB
 
 ## Research interests
-&emsp; Non-smooth Optimization, Mathematical Imaging and Data Science.
+&emsp; Scientific Computing, Applied Mathematics, Electromagnetics, Hydrodynamics, Data-driven and Machine Learning methods for Science & Engineering.
 
 
 ## Short bio
-- <b>Tenure-track Associate Professor</b> <br> &ensp; Institute of Natural Science and School of Mathematical Sciences, Shanghai Jiao Tong University.
-- <b>Lecturer in Mathematical Data Science</b> (2020.11-2021.06) <br> &ensp; School of Mathematical Sciences, Queen Mary University of London.
-- <b>Postdoc research associate</b> (2017.04-2020.08) <br> &ensp; Department of Applied Mathematics and Theoretical Physics, University of Cambridge.
-- <b>Ph.D. in Mathematics</b> (2016.10) <br> &ensp; GREYC, ENSICAEN and University of Caen Normandy. 
-<!-- - <b>M.S. in Mathematics</b> (2013.03) <br> &ensp; School of Mathematics & Institute of Natural Sciences, Shanghai Jiao Tong University.  -->
+- <b>Tenure-track Assistant Professor (2021.09-now)</b> <br> &ensp; Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (GZ).
+- <b>Affiliate Assistant Professor (2021.09-now)</b> <br> &ensp; Department of Mathematics, School of Science, The Hong Kong University of Science and Technology (CWB).
+- <b>Postdoc associate</b> (2019.08-2021.08) <br> &ensp; Courant Institute of Mathematical Sciences, New York University.
+- <b>Postdoc assistant professor</b> (2016.09-2019.07) <br> &ensp; Department of Mathematics, University of Michigan, Ann Arbor.
+- <b>Ph.D. in Mathematics</b> (2016.06) <br> &ensp; Department of Mathematics and Institute of Natural Sciences, Shanghai Jiao Tong University. 
+- <b>B.S. in Mechanical Engineering</b> (2010.06) <br> &ensp; School of Mechanical Engineering, Shanghai Jiao Tong University.
 <!-- - <b>B.S. in Electrical & Information Engineering</b> (2010.06) <br> &ensp; School of Telecommunication and Information Engineering, Nanjing University of Posts and Telecommunications. -->
 
