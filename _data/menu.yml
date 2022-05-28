@@ -1,4 +1,10 @@
 toc:
+    - type: Zecheng Gan
+      mitem:
+       - name: Home
+         href: index.html
+         current:
+
     - type: Research
       mitem:
          # - name: Research

@@ -23,10 +23,16 @@
   
           <td id="layout-menu">
             <div class="menu-category">Zecheng Gan</div>
-            <div class="menu-item"><a href="index.html">Home</a></div>
-      
+             {% for item in site.data.menu.toc[0].mitem %}
+            <div class="menu-item">
+              <a href="{{ item.href }}">
+                {{ item.name }}
+              </a>
+            </div>
+            {% endfor %}
+            
             <div class="menu-category">Research</div>
-            {% for item in site.data.menu.toc[0].mitem %}
+            {% for item in site.data.menu.toc[1].mitem %}
             <div class="menu-item">
               <a href="{{ item.href }}">
                 {{ item.name }}
@@ -35,7 +41,7 @@
             {% endfor %}
       
             <div class="menu-category">Teaching</div>
-            {% for item in site.data.menu.toc[1].mitem %}
+            {% for item in site.data.menu.toc[2].mitem %}
             <div class="menu-item">
               <a href="{{ item.href }}">
                 {{ item.name }}
