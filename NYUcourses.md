@@ -1,5 +1,5 @@
 ---
-layout: maths
+layout: NYUcourses
 title: Teaching
 description: Courses at New York University, 2019-2021 
 ---

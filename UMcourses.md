@@ -1,5 +1,5 @@
 ---
-layout: maths
+layout: UMcourses
 title: Teaching
 description: Courses at University of Michigan, Ann Arbor, 2016-2019 
 ---
