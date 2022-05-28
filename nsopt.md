@@ -6,11 +6,10 @@ description: Machine Learning for Materials Science
 
 
 ## Description
-The course mainly covers topics in non-smooth optimization and first-order proximal splitting methods. This includes gradient based methods ((sub)gradient method, proximal gradient method, accelerated gradient methods), operator splitting methods (augmented Lagrangian method, alternating direction method of multipliers, monotone operators and operator splitting schemes), and (possibly) interior-point algorithms. Non-convex optimisation and stochastic optimisation will also be introduced. 
+Machine learning has received a lot of hype over the last decade, with techniques such as convolutional neural networks and deep learning powering a new generation of data-driven analytics. On the other hand, material science has benefited a lot from large-scale modeling & simulation through Molecular Dynamics, Density Functional Theory, and Differential Equations describing rigorous scientific laws. This course aims to provide students trainings with a convergence of the two disciplines. We will start from machine learning basics, its mathematical foundations, then move on to modern machine learning methods for material science problems and hands-on study with Python. Particularly, students will learn about how to combine the data-driven ML techniques with existing knowledge of material science to give reliable physical predictions. Various case studies will be discussed, with real-world material science applications.
 
-
-<!-- ### Lectures
-Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.  -->
+## Lectures
+Tuesday and Thursday, 3:00–4:30pm, remotely via Canvas -> Zoom
 
 
 ### Lecture slides
@@ -39,8 +38,8 @@ Lectures are Monday and Wednesday, 11:00–12:00am, at MR9, Pav. B0.43.  -->
 10. [Non-convex optimisation](nsopt/slides/lecture-09.pdf)
 11. [Stochastic optimisation](nsopt/slides/lecture-10.pdf) -->
 
-**Acknowledgement:** some slides are based on the lecture slides of [Prof. Stephen Boyd](https://web.stanford.edu/~boyd/) and [Prof. Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/).
-
+<!-- **Acknowledgement:** some slides are based on the lecture slides of [Prof. Stephen Boyd](https://web.stanford.edu/~boyd/) and [Prof. Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/).
+-->
 ### Projects
 - [Project 1](nsopt/projects/project-01.pdf) Comparison of gradient descent, heavy-ball method and Nesterov's acceleration scheme, and their proximal versions. ([Instructions](nsopt/project1), [data](nsopt/projects/data.zip), [MATLAB code](nsopt/projects/src_Project1.zip))    
 - [Project 2](nsopt/projects/project-02.pdf) Principal component pursuit. ([Instructions](nsopt/project2), [MATLAB code](nsopt/projects/src_Project2.zip)) 
