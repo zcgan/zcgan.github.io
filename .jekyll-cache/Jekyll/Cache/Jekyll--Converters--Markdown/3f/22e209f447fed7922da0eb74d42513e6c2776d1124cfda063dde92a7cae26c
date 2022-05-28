@@ -1,0 +1,78 @@
+I"2<h2 id="events-organised">Events organised</h2>
+
+<ul style="margin-top:1rem; margin-right:1rem">
+
+<!-- {"title"=>"Mini-symposium \"<i>Recent Advances in Distributed Optimization</i>\"", "conference"=>"International Conference on Continuous Optimization (ICCOPT)", "place"=>"Lehigh University in Bethlehem, Pennsylvania, USA", "date"=>"23 - 24 July, 2022", "co-organisers"=>"<a href=\"https://mingrliu.github.io/\">Mingrui Liu</a>"} -->
+<li>
+  Mini-symposium "<i>Recent Advances in Distributed Optimization</i>" <br /> &emsp; International Conference on Continuous Optimization (ICCOPT), Lehigh University in Bethlehem, Pennsylvania, USA, 23 - 24 July, 2022. <br /> &emsp; Co-organised with: <a href="https://mingrliu.github.io/">Mingrui Liu</a>.
+</li>
+
+<!-- {"title"=>"Mini-symposium \"<i>Sparsity, Optimization and Learning</i>\"", "conference"=>"Curves and Surfaces", "place"=>"Arcachon France", "date"=>"20 - 24 June, 2022", "co-organisers"=>"<a href=\"https://cmhsp2.github.io/\">Clarice Poon</a>"} -->
+<li>
+  Mini-symposium "<i>Sparsity, Optimization and Learning</i>" <br /> &emsp; Curves and Surfaces, Arcachon France, 20 - 24 June, 2022. <br /> &emsp; Co-organised with: <a href="https://cmhsp2.github.io/">Clarice Poon</a>.
+</li>
+
+<!-- {"title"=>"Mini-symposium \"<i>Geometric Aspects of Inverse Problems: Non-smooth Regularization and Optimization</i>\"", "conference"=>"Applied Inverse Problems", "place"=>"Grenoble France", "date"=>"8 - 12 July, 2019", "co-organisers"=>"<a href=\"https://cmhsp2.github.io/\">Clarice Poon</a>"} -->
+<li>
+  Mini-symposium "<i>Geometric Aspects of Inverse Problems: Non-smooth Regularization and Optimization</i>" <br /> &emsp; Applied Inverse Problems, Grenoble France, 8 - 12 July, 2019. <br /> &emsp; Co-organised with: <a href="https://cmhsp2.github.io/">Clarice Poon</a>.
+</li>
+
+<!-- {"title"=>"Mini-symposium \"<a href=\"https://www.siam-is18.dm.unibo.it/minisymposia/99\"><i>Approaches for Fast Optimisation in Imaging and Inverse Problems</i></a>\"", "conference"=>"SIAM Conference on Imaging Science", "place"=>"Bologna Italy", "date"=>"5 - 8 June, 2018", "co-organisers"=>"<a href=\"http://mnikolova.perso.math.cnrs.fr/\">Mila Nikolova</a> and <a href=\"http://www.damtp.cam.ac.uk/user/cbs31/Home.html\">Carola Schönlieb</a>"} -->
+<li>
+  Mini-symposium "<a href="https://www.siam-is18.dm.unibo.it/minisymposia/99"><i>Approaches for Fast Optimisation in Imaging and Inverse Problems</i></a>" <br /> &emsp; SIAM Conference on Imaging Science, Bologna Italy, 5 - 8 June, 2018. <br /> &emsp; Co-organised with: <a href="http://mnikolova.perso.math.cnrs.fr/">Mila Nikolova</a> and <a href="http://www.damtp.cam.ac.uk/user/cbs31/Home.html">Carola Schönlieb</a>.
+</li>
+
+</ul>
+
+<h2 id="selected-presentations">Selected presentations</h2>
+
+<ul style="margin-top:1rem; margin-right:1rem">
+
+<!-- {"title"=>"Adaptive Acceleration for First-order Methods", "conference"=>"SIAM Conference on Optimization", "place"=>"Virtual", "date"=>"20 - 23 July, 2021"} -->
+<li>
+  Adaptive Acceleration for First-order Methods <br /> &emsp; SIAM Conference on Optimization, Virtual, 20 - 23 July, 2021. 
+</li>
+
+<!-- {"title"=>"Trajectory of First-order Methods and Adaptive Acceleration", "conference"=>"Workshop on Efficient Algorithms in Data Science, Learning, and Computational Physics", "place"=>"Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya China", "date"=>"12 - 16 January, 2020"} -->
+<li>
+  Trajectory of First-order Methods and Adaptive Acceleration <br /> &emsp; Workshop on Efficient Algorithms in Data Science, Learning, and Computational Physics, Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya China, 12 - 16 January, 2020. 
+</li>
+
+<!-- {"title"=>"A Fused Alternating relaxed Projection for Feasibility Problem", "conference"=>"The 64th Annual Meeting of the Australian Mathematical Society", "place"=>"University of New England, Australia", "date"=>"8 - 10 December, 2020"} -->
+<li>
+  A Fused Alternating relaxed Projection for Feasibility Problem <br /> &emsp; The 64th Annual Meeting of the Australian Mathematical Society, University of New England, Australia, 8 - 10 December, 2020. 
+</li>
+
+<!-- {"title"=>"Geometry based Acceleration for Non-smooth Optimisation", "conference"=>"International Conference on Continuous Optimization (ICCOPT)", "place"=>"Berlin Germany", "date"=>"5 - 8 August, 2019"} -->
+<li>
+  Geometry based Acceleration for Non-smooth Optimisation <br /> &emsp; International Conference on Continuous Optimization (ICCOPT), Berlin Germany, 5 - 8 August, 2019. 
+</li>
+
+<!-- {"title"=>"Improving FISTA: Faster, Smarter and Greedier", "conference"=>"International Congress on Industrial and Applied Mathematics (ICIAM)", "place"=>"Valencia Spain", "date"=>"15 - 19 July, 2019"} -->
+<li>
+  Improving FISTA: Faster, Smarter and Greedier <br /> &emsp; International Congress on Industrial and Applied Mathematics (ICIAM), Valencia Spain, 15 - 19 July, 2019. 
+</li>
+
+<!-- {"title"=>"Local Linear Convergence of Variance Reducing Stochastic Gradient Descent", "conference"=>"Applied Inverse Problems (AIP)", "place"=>"Grenoble France", "date"=>"8 - 12 July, 2019"} -->
+<li>
+  Local Linear Convergence of Variance Reducing Stochastic Gradient Descent <br /> &emsp; Applied Inverse Problems (AIP), Grenoble France, 8 - 12 July, 2019. 
+</li>
+
+<!-- {"title"=>"Make FISTA Faster Again", "conference"=>"SIAM Conference on Imaging Science", "place"=>"Bologna Italy", "date"=>"5 - 8 June, 2018"} -->
+<li>
+  Make FISTA Faster Again <br /> &emsp; SIAM Conference on Imaging Science, Bologna Italy, 5 - 8 June, 2018. 
+</li>
+
+<!-- {"title"=>"Activity Identification and Local Linear Convergence of Forward–Backward-type Methods", "conference"=>"Optimization", "place"=>"Lisbon Portugal", "date"=>"6 - 8 September, 2017"} -->
+<li>
+  Activity Identification and Local Linear Convergence of Forward–Backward-type Methods <br /> &emsp; Optimization, Lisbon Portugal, 6 - 8 September, 2017. 
+</li>
+
+<!-- {"title"=>"MUSTARD: a MUlti-Step inerTial operAtoR splitting methoD", "conference"=>"Workshop on Signal Processing, Optimization and Compressed Sensing (SPOC)", "place"=>"Nankai University, Tianjin China", "date"=>"17 - 21 December, 2016"} -->
+<li>
+  MUSTARD: a MUlti-Step inerTial operAtoR splitting methoD <br /> &emsp; Workshop on Signal Processing, Optimization and Compressed Sensing (SPOC), Nankai University, Tianjin China, 17 - 21 December, 2016. 
+</li>
+
+</ul>
+
+:ET

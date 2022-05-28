@@ -1,0 +1,65 @@
+# - title: Feasibility, Relaxed Projection and Finite Convergence
+#   conference: 27th IFIP TC7 Conference on System Modeling and Optimization 
+#   place: Quito, Ecuador 
+#   date: 31 August - 4 September, 2020
+
+# - title: A Stochastic Proximal Alternating Linearized Minimization Algorithm
+#   conference: International Conference on Applied Mathematics 2020 
+#   place: Hong Kong, China 
+#   date: 1 - 4 June, 2020
+
+- title: Adaptive Acceleration for First-order Methods
+  conference: SIAM Conference on Optimization
+  place: Virtual
+  date: 20 - 23 July, 2021
+
+- title: Trajectory of First-order Methods and Adaptive Acceleration
+  conference: Workshop on Efficient Algorithms in Data Science, Learning, and Computational Physics
+  place: Tsinghua Sanya International Mathematics Forum (TSIMF), Sanya China
+  date: 12 - 16 January, 2020
+  
+- title: A Fused Alternating relaxed Projection for Feasibility Problem
+  conference: The 64th Annual Meeting of the Australian Mathematical Society
+  place: University of New England, Australia
+  date: 8 - 10 December, 2020  
+
+- title: Geometry based Acceleration for Non-smooth Optimisation
+  conference: International Conference on Continuous Optimization (ICCOPT)
+  place: Berlin Germany 
+  date: 5 - 8 August, 2019
+
+- title: "Improving FISTA: Faster, Smarter and Greedier"
+  conference: International Congress on Industrial and Applied Mathematics (ICIAM)
+  place: Valencia Spain
+  date: 15 - 19 July, 2019
+ 
+- title: Local Linear Convergence of Variance Reducing Stochastic Gradient Descent
+  conference: Applied Inverse Problems (AIP)
+  place: Grenoble France
+  date: 8 - 12 July, 2019
+
+# - title: Make FISTA Faster Again
+#   conference: IMA and OR Society Conference on Mathematics of Operational Research
+#   place: Birmingham UK
+#   date: 25 - 26 April, 2019
+
+- title: Make FISTA Faster Again
+  conference: SIAM Conference on Imaging Science
+  place: Bologna Italy
+  date: 5 - 8 June, 2018
+
+- title: Activity Identification and Local Linear Convergence of Forward–Backward-type Methods
+  conference: Optimization
+  place: Lisbon Portugal
+  date: 6 - 8 September, 2017
+
+- title: "MUSTARD: a MUlti-Step inerTial operAtoR splitting methoD"
+  conference: Workshop on Signal Processing, Optimization and Compressed Sensing (SPOC)
+  place: Nankai University, Tianjin China
+  date: 17 - 21 December, 2016
+  
+# - title: Activity Identification and Local Linear Convergence of Forward–Backward-type Methods
+#   conference: Problèmes Inverses, Contrôle et Optimisation de Formes (PICOF)
+#   place: Autrans France
+#   date: 1 - 3 June, 2016     
+    

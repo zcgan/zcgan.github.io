@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <link rel="icon" href="assets/icon/sjtu.png">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript">
+    jQuery(function ($) {
+      var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+      $('div a').each(function () {
+        if (this.href === path) {
+          $(this).addClass('active');
+        }
+      });
+    });
+  </script>
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Pricipal Component Pursuit | Jingwei Liang</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Pricipal Component Pursuit" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Model and algorithms" />
+<meta property="og:description" content="Model and algorithms" />
+<link rel="canonical" href="http://localhost:4000/nsopt/project2.html" />
+<meta property="og:url" content="http://localhost:4000/nsopt/project2.html" />
+<meta property="og:site_name" content="Jingwei Liang" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Pricipal Component Pursuit" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Model and algorithms","headline":"Pricipal Component Pursuit","url":"http://localhost:4000/nsopt/project2.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/css/style.css?v=">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+
+
+  <table summary="Table for page layout." id="tlayout">
+
+    <tr valign="top">
+      
+      <td id="layout-menu">
+        <div class="menu-category">Jingwei Liang</div>
+        <div class="menu-item"><a href="index.html">Home</a></div>
+
+        <div class="menu-category">Research</div>
+        
+        <div class="menu-item">
+          <a href="../publication.html">
+            Publications 
+          </a>
+        </div>
+        
+
+        <div class="menu-category">Teaching</div>
+        
+        <div class="menu-item">
+          <a href="../nsopt.html">
+            Non-smooth<br />&ensp;Optimization  
+          </a>
+        </div>
+        
+
+      </td>
+
+      <td id="layout-content">
+        <div id="toptitle">
+          <h1>Model and algorithms</h1>
+        </div>
+
+        <p>In this project, we will apply several classic operator splitting schemes to solve the Principal Component Pursuit (PCP, a.k.a. Robust Principal Component Analysis) problem, proposed by Candès, Li, Ma and Wright, 2009.</p>
+
+<h3 id="1-forward-model">1. Forward model</h3>
+
+<p>Suppose we have the following observation 
+\[\tag{1}
+\label{eq:forward}
+f = x + y + \epsilon  , 
+\]
+where \(x \in \mathbb{R}^{m \times n}\) is a sparse matrix, \(y \in \mathbb{R}^{m \times n}\) is a low-rank matrix and \(\epsilon \in \mathbb{R}^{m \times n}\) is white Gaussian noise. The goal is to recover the sparse and low-rank components from the observation \(f\). There are various formulations of this decomposition, in the following we mainly focus on several convex approaches.</p>
+
+<h3 id="2-noiseless-case">2. Noiseless case</h3>
+
+<p>When there is no noise, i.e. \(\epsilon=0\), the decomposition problem can be achieved via the following constrained convex optimisation problem
+\[\tag{2}\label{eq:pcp-1}
+\min_{x,y\in\mathbb{R}^{m\times n}} \mu \|x\|_{1} + \|y\|_{*} 
+\quad \textrm{s.t.} \quad<br />
+x + y  = f .
+\]
+<!-- \\min_{x,y\in\mathbb{R}^{m\timesn}}\mu \\|x\\| _{1}+\\|y\\|_*  -->
+For the above problem, there are two methods can be applied: Douglas–Rachford splitting and Backward–Backward splitting with parameter continuation. Throughout the section, consider 
+\[
+\mu  = \tfrac{1}{ \sqrt{\max \{m, n\}} } .
+\]</p>
+
+<p>Let’s first define several notations
+\[\tag{3}\label{eq:lift}
+z = \begin{pmatrix} x \\ y \end{pmatrix} \in \mathbb{R}^{2m \times n} ,\quad
+R(z) = \mu \|{x}\|_1 +  \|{y}\|_{*} ,\quad
+A = \begin{bmatrix} \mathrm{Id} &amp; \mathrm{Id} \end{bmatrix} .
+\]
+Then \eqref{eq:pcp-1} can be written as
+\[\tag{4}
+\label{eq:pcp-2}
+\min_{z \in \mathbb{R}^{2m \times n}}  R(z)
+\quad
+\textrm{s.t.}
+\quad
+A z  = f .
+\]
+Define the set \(\Omega :=  \{ z \in \mathbb{R}^{2m \times n} : A z = f \}\), then we further get
+\[\tag{5}\label{eq:pcp-3}
+\min_{z \in \mathbb{R}^{2m \times n}} ~ R(z) + \iota_{\Omega}(z)  ,
+\]
+which can be handled by Douglas–Rachford splitting easily. Let \(z = \begin{pmatrix} z_1 \\ z_2 \end{pmatrix}\)</p>
+<ul>
+  <li>The proximal mapping of \(R\)
+  \[
+  \mathrm{prox}_{\gamma R} (z)
+  =
+  \begin{pmatrix}  \mathrm{prox}_{\gamma\mu \|{\cdot}\|_1} (z_1) \\  \mathrm{prox}_{\gamma \|{\cdot}\|_*} (z_2)  \end{pmatrix}  .
+  \]</li>
+  <li>The projection mapping onto \(\Omega\)
+  \[
+  \mathrm{proj}_{\Omega} (z) = z + A^T (AA^T)^{-1}(f - Az)   .
+  \]</li>
+</ul>
+
+<p>Therefore, the iteration of Douglas–Rachford the reads: let \(\gamma &gt; 0\), \(z_{1,0} = 0, z_{2,0} = f\) and \(v = \mathrm{proj}_{\Omega} (z_0) \) 
+\[
+\begin{aligned}
+u_{1,k+1} &amp;= \mathcal{T}_{\gamma\mu} ( 2v_{1,k} - z_{1,k} ) 	\\ 
+u_{2,k+1} &amp;= U \mathcal{T}_{\gamma} ( \Sigma ) V^T	\\ 
+z_{1,k+1} &amp;= z_{1,k} + u_{1,k+1} - v_{1,k}	\\ 
+z_{2,k+1} &amp;= z_{2,k} + u_{2,k+1} - v_{2,k}	\\ 
+v_{k+1} &amp;= \mathrm{proj}_{\Omega} (z_{k+1})  ,
+\end{aligned}
+\]
+where \(\mathcal{T}_{\gamma}(\cdot)\) is the soft-thresholding operation and \(U\Sigma V^T\) is the SVD of \(2v_{2,k} - z_{2,k}\).</p>
+
+<!-- - *Numerical goal* The goal of this realisation is:
+- . Implement the Douglas--Rachford splitting method;
+- . Implement the multi-step inertial acceleration for Douglas--Rachford
+        - $1$-step inertial scheme: choose inertial parameter as $0.1$;
+        - $2$-step inertial scheme: choose inertial parameters as $(0.2, -0.1)$.
+- For both implementations, observe the convergence of $\|{z_{k}-z_{k}m}\|$. -->
+
+<!-- # ==== 2.2 Backward--Backward splitting with parameter continuation
+#
+# By adding an auxiliary variable $w$, we can reformulate $\eqref{eq:pcp-4}$ as
+# \(
+# \begin{equation}\label{eq:pcp-4}
+# \min_{z \in \mathbb{R}^{2m \times n}} ~ R(z) + \iota_{\Omega}(w)
+# \quad
+# \textrm{s.t.}
+# \quad
+# z  = w .
+# \end{equation}
+# \)
+# This time for the equality constraint, we can consider penalising it to the objective function, which leads to
+# \(
+# \begin{equation}\label{eq:pcp-5}
+# \min_{z, w \in \mathbb{R}^{2m \times n}} ~ R(z) + \tfrac{\lambda}{2} \|{z-w}\|^2 + \iota_{\Omega}(w)  .
+# \end{equation}
+# \)
+# To enforce the constraint, one should choose $\lambda = +\infty$ which is impossible in practice. Possible approaches to cope with such problem is:
+#     - choose a large enough value for $\lambda$;
+#     - initialise $\lambda$ with a relative small value and the progressively increase the value.
+#
+# When fixing $z$, $\eqref{eq:pcp-5}$ becomes
+# \(
+# \begin{equation*}
+# \min_{w}~\iota_{\Omega}(w) + \tfrac{\lambda}{2} \|{z-w}\|^2
+# = \min_{w}~\iota_{\Omega}(w) + \tfrac{1}{2\times 1/\lambda} \|{z-w}\|^2
+# = {}^{\lambda^{-1}}\left({ \iota_{\Omega}(z) }\right)
+# \end{equation*}
+# \)
+# which is the Moreau envelope of $\iota_{\Omega}(w)$ indexed by $\lambda^{-1}$. This means that
+# $\nabla \left({ {}^{\lambda^{-1}} ({ \iota_{\Omega}(w) }) } \right) =  \lambda (\mathrm{Id} - \mathrm{proj}_{\Omega})  $
+# is $\lambda$-Lipschitz continuous.
+#
+# The problem we need to solve now reads
+# \(
+# \begin{equation}\label{eq:pcp-6}
+# \min_{z \in \mathbb{R}^{2m \times n}} ~ R(z) + {}^{\lambda^{-1}}\left({ \iota_{\Omega}(z) }\right)   .
+# \end{equation}
+# \)
+# The Forward--Backward splitting method for solving this problem reads: $\gamma \in ]0, 2/\lambda]$
+# \(
+# \begin{equation}\label{eq:bb-1}
+# \begin{aligned}
+# g_{k} &= z_{k} - \gamma \lambda \left({ z_{k} - \mathrm{proj}_{\Omega}(z_{k}) }\right)    \\
+# z_{k+1} &= \mathrm{prox}_{\gamma R}(g_{k})     .
+# \end{aligned}
+# \end{equation}
+# \)
+# The above iteration becomes Backward--Backward splitting when $\gamma\lambda = 1$, \ie $\gamma = 1/\lambda$.  It solves $\eqref{eq:pcp-5}$ with a predetermined $\lambda$ which should be large enough.
+# To apply the continuation technique, consider the following iteration: let $\lambda_0 > 0,~ \gamma \in ]0, 2/\lambda_0]$ and $\alpha > 1$
+# \(
+# \begin{equation}\label{eq:bb-2}
+# \begin{aligned}
+# g_{k} &= z_{k} - \gamma_k \lambda_k \left({ z_{k} - \mathrm{proj}_{\Omega}(z_{k}) }\right)    \\
+# z_{k+1} &= \mathrm{prox}_{\gamma_k R}(g_{k})     \\
+# \lambda_{k+1} &= \alpha \lambda_{k} \\
+# \gamma_{k+1} &= \gamma_{k} / \alpha  .
+# \end{aligned}
+# \end{equation}
+# \) -->
+
+<h3 id="3-noisy-case">3. Noisy case</h3>
+
+<p>When \(\epsilon \neq 0\), then instead of the constrained optimisation problem, we need to consider the following regularised least square
+\[\tag{6}\label{eq:pcp-7}
+\min_{x, y \in\mathbb{R}^{m\times n}}~ \nu \big({ \tfrac{1}{ \sqrt{ \max \{m,n\} } } \|{x}\|_1 +  \|{y}\|_* }\big)  + \tfrac{1}{2}\|{ x + y - f }\\s|^2  ,
+\]
+where \(\nu &gt; 0\) is tradeoff parameter.
+Follow the definitions in \eqref{eq:lift}, we obtain the following simpler formulation
+\[\tag{7}\label{eq:pcp-8}
+\min_{z \in\mathbb{R}^{2m\times n}}~ \nu R(z)  + \tfrac{1}{2}\|{ Az - f }\|^2  ,
+\]
+which can be easily handled by Forward–Backward splitting and FISTA.</p>
+
+<p>Now again, by applying the Moreau envelope trick, \eqref{eq:pcp-7} is equivalent to
+\[\tag{8}\label{eq:pcp-9}
+\min_{x \in \mathbb{R}^{m\times n}}~ \tfrac{\nu}{ \sqrt{ \max \{m,n\} } } \|{x}\|_1 + { ^1\left({ \nu \|{\cdot}\|_1}\right)(f-x) }  ,
+\]
+where \({ ^1\left({ \nu \|{\cdot}\|_1}\right)(f-x) }\) is the Moreau envelope parameterised by \(1\), hence its gradient is \(1\)-Lipschitz.</p>
+
+<h3 id="4-matlab-implementation">4. MATLAB implementation</h3>
+
+<p><em>Generating \(f\) based on \eqref{eq:forward}</em></p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n</span> <span class="o">=</span> <span class="p">[</span><span class="mi">32</span><span class="p">,</span> <span class="mi">32</span><span class="p">];</span> <span class="c1">% dimension of matrix</span>
+
+<span class="c1">% low-rank matrix</span>
+<span class="n">r</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> 
+<span class="n">xl0</span> <span class="o">=</span> <span class="nb">rand</span><span class="p">(</span><span class="n">n</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span><span class="n">r</span><span class="p">)</span><span class="o">*</span><span class="nb">diag</span><span class="p">(</span><span class="n">r</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="nb">rand</span><span class="p">(</span><span class="n">r</span><span class="p">,</span><span class="n">n</span><span class="p">(</span><span class="mi">2</span><span class="p">));</span>
+<span class="n">xl0</span> <span class="o">=</span> <span class="n">xl0</span><span class="p">/</span><span class="nb">max</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">xl0</span><span class="p">(:)))</span> <span class="o">*</span><span class="mi">50</span><span class="p">;</span>
+
+<span class="c1">% sparse matrix, sparsity = 0.2</span>
+<span class="n">xs0</span> <span class="o">=</span> <span class="nb">rand</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="o">*</span><span class="nb">rand</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+<span class="n">xs0</span> <span class="o">=</span> <span class="n">xs0</span><span class="p">/</span><span class="nb">max</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">xs0</span><span class="p">(:)))</span> <span class="o">*</span><span class="mi">50</span><span class="p">;</span>
+
+<span class="n">ratio</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">;</span> 
+<span class="n">mask</span> <span class="o">=</span> <span class="n">proj_mask</span><span class="p">(</span><span class="n">xs0</span><span class="p">,</span> <span class="n">ratio</span><span class="p">,</span> <span class="s1">'p'</span><span class="p">);</span>
+<span class="n">xs0</span> <span class="o">=</span> <span class="n">xs0</span> <span class="o">.*</span> <span class="n">mask</span><span class="p">;</span>
+
+<span class="c1">% exact observation</span>
+<span class="n">f0</span> <span class="o">=</span> <span class="n">xs0</span> <span class="o">+</span> <span class="n">xl0</span><span class="p">;</span>
+
+<span class="c1">% generate noise</span>
+<span class="n">sigma</span> <span class="o">=</span> <span class="mf">1e-2</span><span class="o">*</span><span class="nb">std</span><span class="p">(</span><span class="n">f0</span><span class="p">(:));</span>
+
+<span class="c1">% noisy observation</span>
+<span class="n">f</span> <span class="o">=</span> <span class="n">xs0</span> <span class="o">+</span> <span class="n">xl0</span> <span class="o">+</span> <span class="n">sigma</span><span class="o">*</span><span class="nb">randn</span><span class="p">(</span><span class="n">n</span><span class="p">);</span> <span class="c1">% comment this line for the exact scenario</span>
+</code></pre></div></div>
+
+<p>Details of the codes can be found <a href="projects/src_Project2.zip">here</a>. In the following, we mainly demonstrate the numerical performance comparison.</p>
+
+<h4 id="41-exact-case-and-douglasrachford-splitting">4.1 Exact case and Douglas–Rachford splitting</h4>
+
+<p>The numerical comparison of <em>Douglas–Rachford and its inertial versions</em> is illustrated in the figure below.</p>
+<ul>
+  <li><em>1-DR</em> inertial parameter \(a = [0.4, 0]\).</li>
+  <li><em>2-DR</em> inertial parameter \(a = [0.5, -0.1]\).</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Example 1: two inertial versions are almost the same</th>
+      <th style="text-align: center">Example 2: 2-step iDR is faster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="projects/PCP_exact_DR-bad.png" alt="Comparison" /></td>
+      <td style="text-align: center"><img src="projects/PCP_exact_DR-good.png" alt="Comparison" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Example for which two inertial versions are almost the same.
+
+![Comparison](projects/PCP_exact_DR-bad.png)
+
+Example for which $2$-step inertial DR is much faster under the same parameter choices.
+
+![Comparison](projects/PCP_exact_DR-good.png) -->
+
+<h4 id="42-noiseless-case-and-forwardbackward-splittingfista">4.2 Noiseless case and Forward–Backward splitting/FISTA</h4>
+
+<p>Numerical comparison of <em>Forward–Backward and FISTA</em>.</p>
+
+<p><img src="projects/PCP_inexact.png" alt="Comparison" /></p>
+
+
+
+
+
+        <div id="footer">
+          <div id="footer-text">
+            
+            <span class="site-footer-credits">This page was generated by <a
+                href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc</a> and <a
+                href="https://pages.github.com">GitHub Pages</a>.</span>
+          </div>
+        </div>
+      </td>
+    </tr>
+
+  </table>
+
+
+</body>
+
+</html>

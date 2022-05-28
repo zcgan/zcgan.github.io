@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>The Primal-Dual approach for TV inpainting</title>
+<!-- MathJax -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Jingwei Liang</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="publications.html">Publication</a></div>
+<div class="menu-item"><a href="activities.html">Activity</a></div>
+<div class="menu-item"><a href="codes.html">Codes</a></div>
+<div class="menu-category">Teaching</div>
+<div class="menu-item"><a href="nsopt.html">Non-smooth<br /> Optimisation</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>The Primal-Dual approach for TV inpainting</h1>
+</div>
+<p>The primal-dual algorithm was introduced by A. Chambolle and T. Pock in : a first-order primal-dual algorithm for convex problems with applications to imaging, Journal of Mathematical Imaging and Vision, Volume 40, Number 1 (2011), 120-145. In the following, we review this algorithm and implement it for TV inpainting. </p>
+<p>Let's consider the general optimisation problem:</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\min_{x\in \mathbb{R}^N} F(Ax) + G(x)	,
+\end{equation*}
+\]
+</p><p>where \(A \in \mathbb{R}^{m\times N}\) and \(F: \mathbb{R}^m \to (-\infty, +\infty]\) and \(G: \mathbb{R}^N: (-\infty, +\infty]\) are extended real-valued lower semi-continuous covnex functions. The associated saddle-point problem is</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\min_{x\in\mathbb{R}^N} \max_{v\in\mathbb{R}^m} G(x) + \langle Ax, v \rangle - F^*(v) .
+\end{equation*}
+\]
+</p><p>By taking the first variations of this, we see that \(x^\star\) and \(v^\star\) are solutions to this problem if and only if</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+Ax^\star \in \partial F^*(v^\star) \qquad \textrm{and}\quad  -A^T v^\star \in \partial G(x^\star)	.
+\end{equation*}
+\]
+</p><p>We can rewrite this as</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\begin{aligned}
+v^\star + \delta Ax^\star \in v^\star + \delta \partial F^*(v^\star)   &amp;\quad \Longleftrightarrow \quad  v^\star = \mathrm{Prox}_{\delta F^*}(v^\star + \delta Ax^\star)	\\ 
+x^\star - \tau A^T v^\star \in x^\star + \tau \partial G(x^\star)   &amp;\quad \Longleftrightarrow \quad   x^\star = \mathrm{Prox}_{\tau G}(x^\star - \tau A^T v^\star)	.
+\end{aligned}
+\end{equation*}
+\]
+</p><p>Here, given a function \(H\), its proximity operator is defined by</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\mathrm{Prox}_{\gamma H}(y) = \arg\min_{x} \gamma H(x) + \tfrac{1}{2} \|x-y\|^2 .
+\end{equation*}
+\]
+</p><p>This characerisation of \(x^\star\) and \(v^\star\) suggests ths following iterative scheme: introduce an additional variable \(\bar{x}\) and computing the following iterations, for \(\theta \in [0, 1]\), \(\delta, \tau &gt; 0\) such that \(\delta\tau \|A\|^2 &lt; 1\)</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\begin{aligned}
+	v_{k+1} &amp;= \mathrm{Prox}_{\delta F^*}(v_k + \delta A \bar{x}_k)  \\
+	x_{k+1} &amp;= \mathrm{Prox}_{\tau G}(x_k - \tau A^T v_{k+1}) 	\\
+	\bar{x}_{k+1} &amp;= x_{k+1} + \theta (x_{k+1} - x_k)   ,
+\end{aligned}
+\end{equation*}
+\]
+</p><p>which is the <b>primal-dual algorithm</b>. </p>
+<p>So, if \(\mathrm{Prox}_{\delta F^*}\) and \(\mathrm{Prox}_{\tau G}\) are easy to evaluate, then the primal-dual algorithm is an efficient way to solving our optimisation problem.We remark that by Moreau's identity, the proximal mapping associated with \(F^*\) can be computed from the proximal mapping of \(F\) by</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+x = \mathrm{Prox}_{\delta F^*}(x) + \tau \mathrm{Prox}_{\delta F/delta}(x/\delta)  .
+\end{equation*}
+\]
+</p><p>Let us apply the primal-dual algorithm to total variation inpainting</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\min_{f} \mathrm{TV}(f)	\quad \textrm{subject to} \quad f_{\Omega \setminus D} = g_{\Omega \setminus D} .
+\end{equation*}
+\]
+</p><p>Here, \(\Omega\) is our image domain, \(D\) is the inpainting domain, and \(g\) is the original image. To apply the primal-dual algorithm, we shall let</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+F(f) = \|f\|_1 	,\quad
+G(f) = \iota_{ \{ f_{\Omega \setminus D} = g_{\Omega \setminus D} \} }(f)	\quad \textrm{and} \quad
+A = \nabla .  
+\end{equation*}
+\]
+</p><p>First, load the test image:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+image = <span class="string">'sleeping_dog_des2.PNG'</span>;
+
+gcolor=imread(image);
+g = double(rgb2gray(gcolor));
+g= g/<span class="statement">max</span>(g(:));
+
+<span class="comment">%</span>
+<span class="comment">% a=5;</span>
+<span class="comment">% g =zeros(200);</span>
+<span class="comment">% g(30:170,30:170)=1;</span>
+<span class="comment">% g(:, 100-a:100+a)=0.5;</span>
+
+[m,n]=size(g);
+
+figure, imagesc(g), colormap(gray)
+</pre></div></div>
+<table class="imgtable"><tr><td>
+<img src="files/tvinpainting/img01.png" alt="" height="350px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Define the inpainting domain:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+y=(g==0);<span class="comment">%(abs(g-0.5)&lt;0.2);</span>
+mask= 1-y; <span class="comment">%mask equals 0 on D and equals 1 on elsewhere.</span>
+
+figure(2)
+imagesc(mask); colormap(<span class="string">'gray'</span>);
+</pre></div></div>
+<table class="imgtable"><tr><td>
+<img src="files/tvinpainting/img02.png" alt="" height="350px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Define the proximal operators. One can show that</p>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\mathrm{Prox}_{G}(z)_j = 
+\left\{ 
+\begin{aligned}
+g_j &amp;: j \notin D \\ 
+z_j &amp;: j \in D  
+\end{aligned}
+\right.
+\quad\textrm{and}\quad
+\mathrm{Prox}_{\delta F}(z)_j = 
+\left\{ 
+\begin{aligned}
+\mathrm{sign}(z_j)(|z_j| - \delta) &amp;: |z_j| \geq \delta \\ 
+0 &amp;: o.w. 
+\end{aligned}
+\right.
+\end{equation*}
+\]
+</p><div class="codeblock">
+<div class="blockcontent"><pre>
+Prox_G = @(z) z + mask.*g-mask.*z;
+
+abs2 = @(z) repmat( sqrt(abs(z(:,1:n)).^2 +abs(z(:,1+n:<span class="statement">end</span>)).^2), 1,2);
+sign2 = @(z) [real(sign(z(:,1:n)+1i*z(:,1+n:<span class="statement">end</span>))), imag(sign(z(:,1:n)+1i*z(:,1+n:<span class="statement">end</span>)))];
+Prox_F = @(sigma, z) sign2(z).*(abs2(z)-sigma).*(abs2(z)<span class="operator">&gt;</span>=sigma) ;
+Prox_FS = @(sigma,z) z-sigma*Prox_F(1/sigma, z/sigma);
+</pre></div></div>
+<p>Define the gradient operator and its adjoint (we write \(A(f) = [\partial_1 f, \partial_2 f]\)):</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+A = @(f) [f - circshift(f,1,1) ,f - circshift(f,1,2)];
+AS = @(f) (f(:, 1:n)- circshift(f(:, 1:n),-1,1) ) <span class="operator">...</span>
+            +(f(:,n+1:<span class="statement">end</span>)-circshift(f(:,n+1:<span class="statement">end</span>),-1,2));
+</pre></div></div>
+<p>Define the primal-dual iterations (here, we stop when we reach a maximum number of iterations, but one can also use the 'primal dual gap&rsquo; as a stopping criterion, i.e. stop when the difference between the primal and dual problems is sufficiently small):</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+x =zeros(m,n);
+xi = A(zeros(m,n));
+xbar = zeros(m,n);
+
+maxit = 2000;
+sigma = 2; tau=.95/16/sigma; theta=1;
+
+<span class="statement">for</span> it = 1:maxit
+    xi = Prox_FS(sigma, xi +sigma*A(xbar));
+    xold = x;
+    x = Prox_G(x-tau*AS(xi));
+    xbar = x+theta*(x-xold);
+<span class="statement">end</span>
+</pre></div></div>
+<p>Display the output:</p>
+<table class="imgtable"><tr><td>
+<img src="files/tvinpainting/img03.png" alt="" height="350px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<h3>Exercise</h3>
+<p>Use the Primal-Dual approach to solve</p>
+<ul>
+<li><p>The total variation denoising problem, for a given noisy image</p>
+</li>
+</ul>
+<p style="text-align:center">
+\[
+	\begin{equation*}
+		\min_{f} \mathrm{TV}(f) + \frac{\lambda}{2}\|f-g\|^2 .
+	\end{equation*}
+	\]
+</p><ul>
+<li><p>\(\ell_1\) regularisation problem, such as</p>
+</li>
+</ul>
+<p style="text-align:center">
+\[
+	\begin{equation*}
+		\min_{\alpha} \|\alpha_1\|_1 + \frac{\lambda}{2}\|FW^{-1}\alpha-y\|^2 ,
+	\end{equation*}
+	\]
+</p><p>where \(F\) is a subsampled Fourier transform and \(W\) is a wavelet transform.    </p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-02-06, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

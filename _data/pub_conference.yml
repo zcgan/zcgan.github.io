@@ -1,0 +1,70 @@
+- authors: K. Wei, A. Aviles-Rivero, J. Liang, Y. Fu, C. Schönlieb and H. Huang 
+  title: Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems 
+  venue: ICML
+  year: 2020
+  url: assets/files/conference/PnP.pdf
+  misc: <a href="https://icml.cc/Conferences/2020/Awards"><span style="font-weight:600;color:#ee3377;">Outstanding paper award</span></a>, <a href="https://github.com/Vandermode/TFPnP"><span style="font-weight:600;color:#1a8cff;">code</span></a>
+            
+- authors: C. Poon, J. Liang
+  title: Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration
+  venue: NeurIPS
+  year: 2019
+  url: assets/files/conference/nips19.pdf
+  misc: <span style="font-weight:600;color:#ee3377;">Oral</span>, <a href="https://github.com/jliang993/A3DMM"><span style="font-weight:600;color:#1a8cff;">code</span></a>
+  
+- authors: J. Liang, C. Schönlieb
+  title: Faster FISTA
+  venue: EUSIPCO
+  year: 2018
+  url: assets/files/conference/eusipco18.pdf
+  misc: <a href="https://github.com/jliang993/Faster-FISTA"><span style="font-weight:600;color:#1a8cff;">code</span></a>
+        
+- authors: C. Poon, J. Liang and C. Schönlieb
+  title: Local Convergence Properties of SAGA/Prox-SVRG and Acceleration
+  venue: ICML
+  year: 2018
+  url: assets/files/conference/icml18.pdf
+  misc: <a href="https://github.com/jliang993/Local-VRSGD"><span style="font-weight:600;color:#1a8cff;">code</span></a>
+  
+- authors: J. Liang, J. Fadili and G. Peyré
+  title: A Multi-step Inertial Forward-Backward Splitting Method for Non-convex Optimization
+  venue: NeurIPS
+  year: 2016
+  url: assets/files/conference/nips16.pdf
+  misc: 
+
+# - authors: J. Liang, J. Fadili and G. Peyré
+#   title: Identification en Temps Fini et Convergence Linéaire Locale de l'Algorithme Proximal Implicite-Explicite Inertiel
+#   venue: Colloque sur le Traitement du Signal et des Images (<span style="font-weight:600;">GRETSI</span>)
+#   year: 2015
+#   url: assets/files/conference/gretsi15.pdf
+#   misc: <span style="font-weight:600;color:#ee3377;">Oral</span>
+
+- authors: J. Liang, J. Fadili, G. Peyré and R. Luke
+  title: Activity Identification and Local Linear Convergence of Douglas-Rachford\/ADMM under Partial Smoothness
+  venue: SSVM
+  year: 2015
+  url: assets/files/conference/ssvm15.pdf
+  misc: <span style="font-weight:600;color:#ee3377;">Oral</span>
+
+- authors: J. Liang, J. Fadili and G. Peyré
+  title: Local Linear Convergence of Forward-Backward under Partial Smoothness
+  venue: NeurIPS
+  year: 2014
+  url: assets/files/conference/nips14.pdf
+  misc: 
+
+- authors: J. Liang, J. Fadili and G. Peyré
+  title: On the Convergence Rates of Proximal Splitting Algorithms
+  venue: ICIP
+  year: 2014
+  url: assets/files/conference/icip14.pdf
+  misc: <span style="font-weight:600;color:#ee3377;">Top 10% Papers</span>
+  
+ 
+ # - authors:
+ #   title:
+ #   conference:
+ #   year:
+ #   url:
+ #   misc:

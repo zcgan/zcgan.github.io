@@ -1,0 +1,138 @@
+toc: 
+    - type: preprint
+      papers:
+          - authors: A. Dutta, J. Liang and X. Li
+            title: A Fast and Adaptive SVD-free Algorithm for General Weighted Low-rank Recovery
+            venue: 
+            year: 2021
+            url: assets/files/journal/programme.pdf
+            misc:
+
+          - authors: C. Poon and J. Liang
+            title: Geometry of First-order Methods and Adaptive Acceleration
+            venue: 
+            year: 2020
+            url: assets/files/journal/a2fom.pdf
+            misc: 
+
+          
+    - type: journal
+      papers:
+          - authors: J. Liang and C. Poon
+            title: Screening for Sparse Online Learning
+            venue: Journal of Computational and Graphical Statistics
+            year: 2022
+            url: assets/files/journal/sgd-screening.pdf
+            misc:
+           
+          - authors: J. Liang, T. Luo and C. Schönlieb
+            title: "Improving “Fast Iterative Shrinkage-Thresholding Algorithm”: Faster, Smarter and Greedier"
+            venue: SIAM Journal on Scientific Computing
+            year: 2022
+            url: assets/files/journal/faster-fista.pdf
+            misc: <a href="https://github.com/jliang993/Faster-FISTA"><span style="font-weight:600;color:#1a8cff;">code</span></a>
+          
+          - authors: A. Lewis, J. Liang and T. Tian
+            title: Partial Smoothness and Constant Rank
+            venue: SIAM Journal on Optimization, 32(1):276-291
+            year: 2022
+            url: https://arxiv.org/pdf/1807.03134
+            misc: 
+          
+          - authors: K. Wei, A. Aviles-Rivero, J. Liang, Y. Fu, H. Huang and C. Schönlieb 
+            title: "TFPnP: Tuning-free Plug-and-Play Proximal Algorithms with Applications to Inverse Imaging Problems" 
+            venue: Journal of Machine Learning and Research, 23:1-48
+            year: 2022
+            url: https://www.jmlr.org/papers/volume23/20-1297/20-1297.pdf
+            misc: 
+
+          - authors: D. Driggs, J. Liang and C. Schönlieb 
+            title: On the Bias-Variance Tradeoff in Stochastic Gradient Methods 
+            venue: Journal of Machine Learning and Research, 23:1-43
+            year: 2022
+            url: https://www.jmlr.org/papers/volume23/20-316/20-316.pdf
+            misc: 
+
+          - authors: R. Tovey and J. Liang
+            title: "The Fun is Finite:  Douglas--Rachford and Sudoku Puzzle --- Finite Termination and Local Linear Convergence"
+            venue:  Journal of Applied and Numerical Optimization, 3(3):435-456
+            year: 2021
+            url: assets/files/journal/Sudoku.pdf
+            misc:
+
+          - authors: D. Driggs, J. Tang, J. Liang, M. Davies and C. Schönlieb 
+            title: "SPRING: A Fast Stochastic Proximal Alternating Method for Non-smooth Non-convex Optimization" 
+            venue: SIAM Journal on Imaging Science, 14(04):1932-1970
+            year: 2021
+            url: assets/files/conference/spring.pdf
+            misc: 
+
+          - authors: F. Bian, J. Liang and X. Zhang
+            title: A Stochastic Alternating Direction Method of Multipliers for Non-smooth and Non-convex Optimization
+            venue: Inverse Problems, 37(7)
+            year: 2021
+            url: https://arxiv.org/abs/2012.07401
+            misc: <a href="https://doi.org/10.1088/1361-6420/ac0966">DOI:&thinsp;https://doi.org/10.1088/1361-6420/ac0966</a> 
+
+          - authors: A. Dutta, F. Hanzely, J. Liang and P. Richtárik
+            title: Best Pair Formulation & Accelerated Scheme for Non-convex Principal Component Pursuit
+            venue: IEEE Trans. on Signal Processing, 68:6128-6141
+            year: 2020
+            url: assets/files/journal/bp-pcp.pdf
+            misc:
+
+          - authors: C. Molinari, J. Liang and J. Fadili
+            title: Convergence Rates of Forward–Douglas–Rachford Splitting Method
+            venue: Journal of Optimization Theory and Applications, 182(2):606-639
+            year: 2019
+            url: assets/files/journal/rate-fdr.pdf
+            misc: <a href="https://github.com/jliang993/Rate-FDR"><span style="font-weight:600;color:#1a8cff;">code</span></a>
+  
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: Local Linear Convergence Analysis of Primal–Dual Splitting Methods
+            venue: Optimization, 67(6):821-853
+            year: 2018
+            url: assets/files/journal/rate-pd.pdf
+            misc: 
+  
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: Activity Identification and Local Linear Convergence of Forward-Backward-type methods
+            venue: SIAM Journal on Optimization, 27(1):408-437
+            year: 2017
+            url: assets/files/journal/rate-ifb.pdf
+            misc: 
+
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: Local Convergence Properties of Douglas–Rachford and Alternating Direction Method of Multipliers
+            venue: Journal of Optimization Theory and Applications, 172(3):874-913
+            year: 2017
+            url: assets/files/journal/rate-dr.pdf
+            misc: More details on ADMM can be found at <a href="http://arxiv.org/pdf/1606.02116.pdf"><span style="font-weight:600;color:#1a8cff;">arXiv</span></a>
+     
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: Convergence Rates with Inexact Nonexpansive Operators
+            venue: Mathematical Programming, 59(1):403-434
+            year: 2016
+            url: assets/files/journal/rate-nonexpansive-opt.pdf
+            misc: 
+
+          - authors: J. Liang, X. Zhang
+            title: Retinex by Higher order Total Variation \(L^1\) Decomposition
+            venue: Journal of Mathematical Imaging and Vision, 52(3):345-355
+            year: 2015
+            url: assets/files/journal/jmiv-retinex.pdf
+            misc: 
+
+          - authors: J. Liang, J. Ma and X. Zhang
+            title: Seismic Data Restoration via Data-driven Framelet
+            venue: Geophysics, 79(3):65-74
+            year: 2014
+            url: assets/files/resources/journal/geophysics-ddtf.pdf
+            misc: 
+
+          - authors: J. Liang, J. Li, Z. Shen and X. Zhang
+            title: Wavelet Frame based Color Image Demosaicing
+            venue: Inverse Problems and Imaging, 7(3):777-794
+            year: 2013
+            url: assets/files/journal/ipi-demosaicing.pdf
+            misc: 

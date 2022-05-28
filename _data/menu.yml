@@ -1,0 +1,28 @@
+toc:
+    - type: Research
+      mitem:
+         # - name: Research
+         #   href: research.html
+         #   current:
+
+         - name: Publications
+           href: publication.html
+           current:
+
+         # - name: Codes
+         #   href: code.html
+         #   current:
+
+         #  - name: Activities
+         #  href: activity.html
+         #  current:
+
+    - type: Teaching
+      mitem:
+         - name: Non-smooth<br />&ensp;Optimization
+           href: nsopt.html
+           current:
+
+         # - name: Reading<br />&ensp;Group
+         #   href: reading.html
+         #   current:

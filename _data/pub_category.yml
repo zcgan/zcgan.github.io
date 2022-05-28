@@ -1,0 +1,146 @@
+toc: 
+    - type: local rate
+      papers:
+          - authors: J. Liang and C. Poon
+            title: Screening for Sparse Online Learning
+            venue:
+            year: 2021
+            url: assets/files/journal/sgd-screening.pdf
+          - authors: R. Tovey and J. Liang
+            title: "The Fun is Finite:  Douglas--Rachford and Sudoku Puzzle --- Finite Termination and Local Linear Convergence"
+            venue: 
+            year: 2020
+            url: assets/files/journal/Sudoku.pdf
+          - authors: C. Molinari, J. Liang and J. Fadili
+            title: Convergence Rates of Forward–Douglas–Rachford Splitting Method
+            venue: Journal of Optimization Theory and Applications, 182(2):606-639
+            year: 2019
+            url: assets/files/journal/rate-fdr.pdf
+          - authors: A. Lewis, J. Liang
+            title: Partial Smoothness and Constant Rank
+            venue: 
+            year: 2019
+            url: https://arxiv.org/pdf/1807.03134
+          - authors: C. Poon, J. Liang and C. Schönlieb
+            title: Local Convergence Properties of SAGA/Prox-SVRG and Acceleration
+            venue: ICML
+            year: 2018
+            url: assets/files/conference/icml18.pdf
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: Local Linear Convergence Analysis of Primal–Dual Splitting Methods
+            venue: Optimization, 67(6):821-853
+            year: 2018
+            url: assets/files/journal/rate-pd.pdf
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: Activity Identification and Local Linear Convergence of Forward-Backward-type methods
+            venue: SIAM Journal on Optimization, 27(1):408-437
+            year: 2017
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: Local Convergence Properties of Douglas–Rachford and Alternating Direction Method of Multipliers
+            venue: Journal of Optimization Theory and Applications, 172(3):874-913
+            year: 2017
+            url: assets/files/journal/rate-dr.pdf
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: Convergence Rates with Inexact Nonexpansive Operators
+            venue: Mathematical Programming, 59(1):403-434
+            year: 2016
+            url: assets/files/journal/rate-nonexpansive-opt.pdf
+          - authors: J. Liang, J. Fadili, G. Peyré and R. Luke
+            title: Activity Identification and Local Linear Convergence of Douglas-Rachford\/ADMM under Partial Smoothness
+            venue: SSVM
+            year: 2015
+            url: assets/files/conference/ssvm15.pdf
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: Local Linear Convergence of Forward-Backward under Partial Smoothness
+            venue: NeurIPS
+            year: 2014
+            url: assets/files/conference/nips14.pdf
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: On the Convergence Rates of Proximal Splitting Algorithms
+            venue: ICIP
+            year: 2014
+            url: assets/files/conference/icip14.pdf
+
+
+
+    - type: acceleration
+      papers:
+          - authors: C. Poon and J. Liang
+            title: Geometry of First-order Methods and Adaptive Acceleration
+            venue: 
+            year: 2020
+            url: assets/files/journal/a2fom.pdf
+          - authors: C. Poon, J. Liang
+            title: Trajectory of Alternating Direction Method of Multipliers and Adaptive Acceleration
+            venue: NeurIPS
+            year: 2019
+            url: assets/files/conference/nips19.pdf
+          - authors: J. Liang, T. Luo and C. Schönlieb
+            title: "Improving “Fast Iterative Shrinkage-Thresholding Algorithm”: Faster, Smarter and Greedier"
+            venue: 
+            year: 2019
+            url: assets/files/journal/faster-fista.pdf
+          - authors: J. Liang, C. Schönlieb
+            title: Faster FISTA
+            venue: EUSIPCO
+            year: 2018
+            url: assets/files/conference/eusipco18.pdf
+          - authors: J. Liang, J. Fadili and G. Peyré
+            title: A Multi-step Inertial Forward-Backward Splitting Method for Non-convex Optimization
+            venue: NeurIPS
+            year: 2016
+            url: assets/files/conference/nips16.pdf
+
+    - type: stochastic optimization                  
+      papers:
+          - authors: F. Bian, J. Liang and X. Zhang
+            title: A Stochastic Alternating Direction Method of Multipliers for Non-smooth and Non-convex Optimization
+            venue: Inverse Problems
+            year: 2021
+            url: https://arxiv.org/abs/2012.07401
+          - authors: D. Driggs, J. Tang, J. Liang, M. Davies and C. Schönlieb 
+            title: "SPRING: A Fast Stochastic Proximal Alternating Method for Non-smooth Non-convex Optimization" 
+            venue: 
+            year: 2020
+            url: assets/files/conference/spring.pdf
+          - authors: D. Driggs, J. Liang and C. Schönlieb 
+            title: On the Bias-Variance Tradeoff in Stochastic Gradient Methods 
+            venue: 
+            year: 2019
+            url: assets/files/conference/bias.pdf
+
+    - type: imaging and data science                    
+      papers:
+        - authors: A. Dutta, J. Liang and X. Li
+          title: A Fast and Adaptive SVD-free Algorithm for General Weighted Low-rank Recovery
+          venue: 
+          year: 2021
+          url: assets/files/journal/programme.pdf
+          misc:
+        - authors: K. Wei, A. Aviles-Rivero, J. Liang, Y. Fu, C. Schönlieb and H. Huang 
+          title: Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems 
+          venue: ICML
+          year: 2020
+          url: assets/files/conference/PnP.pdf
+        - authors: A. Dutta, F. Hanzely, J. Liang and P. Richtárik
+          title: Best Pair Formulation & Accelerated Scheme for Non-convex Principal Component Pursuit
+          venue: IEEE Trans. on Signal Processing
+          volume: 68
+          page: 6128-6141
+          year: 2020
+          url: assets/files/journal/bp-pcp.pdf
+        - authors: J. Liang, X. Zhang
+          title: Retinex by Higher order Total Variation \(L^1\) Decomposition
+          venue: Journal of Mathematical Imaging and Vision, 52(3):345-355
+          year: 2015
+          url: assets/files/journal/jmiv-retinex.pdf
+        - authors: J. Liang, J. Ma and X. Zhang
+          title: Seismic Data Restoration via Data-driven Framelet
+          venue: Geophysics, 79(3):65-74
+          year: 2014
+          url: assets/files/resources/journal/geophysics-ddtf.pdf
+        - authors: J. Liang, J. Li, Z. Shen and X. Zhang
+          title: Wavelet Frame based Color Image Demosaicing
+          venue: Inverse Problems and Imaging, 7(3):777-794
+          year: 2013
+          url: assets/files/journal/ipi-demosaicing.pdf

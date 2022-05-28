@@ -1,0 +1,17 @@
+*.jemdoc
+*.icloud
+*_tablestyle.md
+*_tablestyle.html
+activity.md
+code.md
+index.md
+publication.md
+teaching.md
+act_event.yml
+act_invited.yml
+act_seminar.yml
+act_workshop.yml
+conference.yml
+journal.yml
+.DS_Store
+nsopt/.DS_Store
