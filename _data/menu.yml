@@ -19,7 +19,7 @@ toc:
 
     - type: Teaching
       mitem:
-         - name: Non-smooth<br />&ensp;Optimization
+         - name: Machine Learning<br />&ensp;for Materials Science
            href: nsopt.html
            current:
 
