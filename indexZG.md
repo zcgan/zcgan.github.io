@@ -13,7 +13,7 @@ description: "Welcome to my homepage"
         </td>
             
         <td align="left">
-            <p><h5>Zecheng Gan (干则成)</h5>  <a href="https://ins.sjtu.edu.cn/" >Institute of Natural Sciences</a> and <a href="https://www.math.sjtu.edu.cn" >School of Mathematical Sciences</a>  <br /> <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a> <br /></p>
+            <p><h5>Zecheng Gan (干则成)</h5>  <a href="https://funh.hkust-gz.edu.cn/en" >Advanced Materials Thrust (GZ)</a> and <a href="https://www.math.hkust.edu.hk/" >Department of Mathematics (CWB)</a>  <br /> <a href="https://hkust-gz.edu.cn/">Hong Kong University of Science and Technology</a> <br /></p>
         </td>
 	</tr>
 </table>
