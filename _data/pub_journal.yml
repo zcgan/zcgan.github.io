@@ -1,36 +1,43 @@
 toc: 
     - type: preprint
       papers:
-          - authors: A. Dutta, J. Liang and X. Li
-            title: A Fast and Adaptive SVD-free Algorithm for General Weighted Low-rank Recovery
+          - authors: Z. Wang, Z. Gan, S. Jiang, Z. Xu and E. Luijten
+            title: Anisotropic selfassembly of polarizable colloidal mixtures
             venue: 
-            year: 2021
-            url: assets/files/journal/programme.pdf
+            year: preprint
+            url:
             misc:
 
-          - authors: C. Poon and J. Liang
-            title: Geometry of First-order Methods and Adaptive Acceleration
+          - authors: Z. Gan, W. Geng and R. Krasny
+            title: Boundary element method with extrapolation and singularity subtraction for charged dielectric spheres
             venue: 
-            year: 2020
-            url: assets/files/journal/a2fom.pdf
-            misc: 
+            year: preprint
+            url:
+            misc:
 
-          
+          - authors: X. Gao and Z. Gan
+            title: Broken Symmetries in Quasi-2D Charged Systems via Dielectric Confinement
+            venue:
+            year: preprint
+            url:
+            misc:
+
+
     - type: journal
       papers:
-          - authors: J. Liang and C. Poon
-            title: Screening for Sparse Online Learning
-            venue: Journal of Computational and Graphical Statistics
-            year: 2022
-            url: assets/files/journal/sgd-screening.pdf
+          - authors: J. Fu and Z. Gan
+            title: Harmonic surface mapping algorithm for electrostatic potentials in an atomistic/continuum hybrid model for electrolyte solutions
+            venue: Commun. Comput. Phys.
+            year: 2021
+            url: assets/files/journal/gan-cicp-2021.pdf
             misc:
            
-          - authors: J. Liang, T. Luo and C. Schönlieb
-            title: "Improving “Fast Iterative Shrinkage-Thresholding Algorithm”: Faster, Smarter and Greedier"
-            venue: SIAM Journal on Scientific Computing
-            year: 2022
-            url: assets/files/journal/faster-fista.pdf
-            misc: <a href="https://github.com/jliang993/Faster-FISTA"><span style="font-weight:600;color:#1a8cff;">code</span></a>
+          - authors: Z. Gan, Z. Wang, S. Jiang, Z. Xu and E. Luijten
+            title: Efficient dynamic simulations for charged dielectric spheres through a novel hybrid method
+            venue: J. Chem. Phys.
+            year: 2019
+            url: assets/files/journal/GAN-jcp-2019.pdf
+            misc:<a href="https://icml.cc/Conferences/2020/Awards"><span style="font-weight:600;color:#ee3377;">Editor's Collection 2019</span></a>
           
           - authors: A. Lewis, J. Liang and T. Tian
             title: Partial Smoothness and Constant Rank
