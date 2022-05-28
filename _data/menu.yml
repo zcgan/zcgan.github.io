@@ -23,6 +23,15 @@ toc:
            href: nsopt.html
            current:
 
-         - name: Math Methods<br />&ensp;for Materials Science
+         - name: Mathematical Methods<br />&ensp;for Materials Science
            href: 22fall.html
            current:
+
+         - name: Previous Courses<br />&ensp;@ NYU, 2019-2021
+           href: NYUcourses.html
+           current:
+
+         - name: Previous Courses<br />&ensp;@ UMich, 2016-2019
+           href: UMcourses.html
+           current:
+

@@ -1,20 +1,23 @@
 ---
 layout: maths
 title: Teaching
-description: Machine Learning for Materials Science
+description: Courses at New York University, 2019-2021 
 ---
 
 
-## Description
-Machine learning has received a lot of hype over the last decade, with techniques such as convolutional neural networks and deep learning powering a new generation of data-driven analytics. On the other hand, material science has benefited a lot from large-scale modeling & simulation through Molecular Dynamics, Density Functional Theory, and Differential Equations describing rigorous scientific laws. This course aims to provide students trainings with a convergence of the two disciplines. We will start from machine learning basics, its mathematical foundations, then move on to modern machine learning methods for material science problems and hands-on study with Python. Particularly, students will learn about how to combine the data-driven ML techniques with existing knowledge of material science to give reliable physical predictions. Various case studies will be discussed, with real-world material science applications.
+<!--## Description
+This course will focus on mathematical methods, with specific concern about construction, analysis, and interpretation of mathematical models that shed light on significant problems in materials science and engineering. There are many courses that present collection of math techniques, but this course will be different: typically, we will use a “case-study” approach, i.e., select a series of important scientific problems, whose solution will involve some useful mathematics. We will start with the scientific background, then formulate relevant mathematical problem with care. The formulation step is usually more challenging than just learning the mathematics. Through the case studies, useful math techniques will be introduced naturally. Some typical case studies include: collective motions and aggregations, heat conduction and elasticity of materials, charge transport, plasmonic effects and bio-chemical kinetics, etc.
+-->
 
-## Lectures
-2022 Spring: Tuesday and Thursday, 3:00–4:30pm, remotely via Canvas -> Zoom
-
-
-### Lecture slides (available upon request)
-
+## List of Courses
 <ol style="margin-left:12px;">
+<li>2021: Multivariable Calculus </li>
+<li> 2020: Math for Economy 1 & 2  </li>
+
+
+### Lecture slides: available upon request
+
+<!--<ol style="margin-left:12px;">
     <li> Introduction on Machine Learning </li>
     <li> Mathematical Preliminaries </li>
     <li> TensorFlow, Fourier Analysis and Nyquist Sampling Thm </li>
@@ -31,7 +34,7 @@ Machine learning has received a lot of hype over the last decade, with technique
     <li> Dimension Reduction and Metric Learning for High-dimensional data </li>
     <li> Clustering Techniques and Applications to 2D Ising Model </li>
     <li> Reinforcement Learning </li>
-</ol>
+</ol>-->
 
 <!--<ol style="margin-left:12px;">
     <li> <a href="nsopt/slides/introduction.pdf">Introduction</a></li>
@@ -57,10 +60,7 @@ Machine learning has received a lot of hype over the last decade, with technique
 
 <br>
 
-#### References
-- N. Thuerey, P. Holl, M. Mueller, P. Schnell, F. Trost, K. Um. Physics-based Deep Learning. Freely Available at physicsbaseddeeplearning.org
-- I. Goodfellow, Y. Bengio, A. Courville. Deep Learning. The MIT Press, 2016.
-- Koki Saitoh (translated by Yujie Lu). Deep Learning from Scratch (in Chinese). O’Reilly Japan, Inc.
-- Zhihua Zhou. Machine Learning (in Chinese). The Tsinghua Press, 2016.
-
-
+<!--#### References
+- C. C. Lin, L. A. Segel. Mathematics Applied to Deterministic Problems in the Natural Sciences. SIAM Press, 1988.
+- C. M. Bender, S. A. Orszag. Advanced Mathematical Methods for Scientists and Engineers I: Asymptotic Methods and Perturbation Theory. Springer, 1999.
+-->
