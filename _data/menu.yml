@@ -22,7 +22,7 @@ toc:
          - name: Machine Learning<br />&ensp;for Materials Science
            href: nsopt.html
            current:
-
+      mitem:
          - name: Mathematical Methods<br />&ensp;for Materials Science
            href: 22fall.html
            current:
