@@ -2,7 +2,7 @@ toc:
     - type: preprint
       papers:
           - authors: Z. Wang, Z. Gan, S. Jiang, Z. Xu and E. Luijten
-            title: Anisotropic selfassembly of polarizable colloidal mixtures
+            title: Anisotropic self assembly of polarizable colloidal mixtures
             venue: 
             year: preprint
             url:
@@ -37,7 +37,7 @@ toc:
             venue: J. Chem. Phys.
             year: 2019
             url: assets/files/journal/GAN-jcp-2019.pdf
-            misc: <a href="https://icml.cc/Conferences/2020/Awards"><span style="font-weight:600;color:#ee3377;">Editor's Collection 2019</span></a>
+            misc: <a href="https://icml.cc/Conferences/2020/Awards"><span style="font-weight:600;color:#ee3377;">Selected as JCP Editor's Choice 2019</span></a>
           
           - authors: A. Lewis, J. Liang and T. Tian
             title: Partial Smoothness and Constant Rank
