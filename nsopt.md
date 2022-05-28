@@ -1,7 +1,7 @@
 ---
 layout: maths
 title: Teaching
-description: Introductory course on non-smooth optimization
+description: Machine Learning for Materials Science
 ---
 
 
