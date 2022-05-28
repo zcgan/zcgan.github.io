@@ -12,8 +12,28 @@ Machine learning has received a lot of hype over the last decade, with technique
 Tuesday and Thursday, 3:00–4:30pm, remotely via Canvas -> Zoom
 
 
-### Lecture slides
+### Lecture slides (available upon request)
+
 <ol style="margin-left:12px;">
+    <li> Introduction on Machine Learning </li>
+    <li> Mathematical Preliminaries </li>
+    <li> TensorFlow, Fourier Analysis and Nyquist Sampling Thm </li>
+    <li> PyTorch, Over/Under Fitting </li>
+    <li> Convolutional Neural Network (CNN) </li>
+    <li> Recurrent Neural Network (RNN) </li>
+    <li> Ensemble Learning for Materials Feature Prediction </li>
+    <li> GAN, ResNet and GCN </li>
+    <li> Mathematical Theory and Scientific Applications </li>
+    <li> Deep Learning for Partial Differential Equations </li>
+    <li> Physics-Informed Machine Learning (PINN) and DeepXDE </li>
+    <li> Physics Inspired Machine Learning </li>
+    <li> Support Vector Machine (SVM) and kernel methods </li>
+    <li> Dimension Reduction and Metric Learning for High-dimensional data </li>
+    <li> Clustering Techniques and Applications to 2D Ising Model </li>
+    <li> Reinforcement Learning </li>
+</ol>
+
+<!--<ol style="margin-left:12px;">
     <li> <a href="nsopt/slides/introduction.pdf">Introduction</a></li>
     <li> <a href="nsopt/slides/lecture-01.pdf">Gradient method</a></li>
     <li> <a href="nsopt/slides/lecture-02.pdf">Proximal gradient method</a></li>
@@ -25,35 +45,22 @@ Tuesday and Thursday, 3:00–4:30pm, remotely via Canvas -> Zoom
     <li> <a href="nsopt/slides/lecture-08.pdf">Alternating direction method of multipliers</a></li>
     <li> <a href="nsopt/slides/lecture-09.pdf">Non-convex optimisation</a></li>
     <li> <a href="nsopt/slides/lecture-10.pdf">Stochastic optimisation</a></li>
-</ol>
-<!-- 1. [Introduction](nsopt/slides/introduction.pdf)
-2. [Gradient method](nsopt/slides/lecture-01.pdf)
-3. [Proximal gradient method](nsopt/slides/lecture-02.pdf)
-4. [Krasnosel'skii-Mann iteration](nsopt/slides/lecture-03.pdf)
-5. [Backward--Backward splitting](nsopt/slides/lecture-04.pdf)
-6. [Douglas--Rachford splitting](nsopt/slides/lecture-05.pdf)
-7. [Primal--Dual splitting](nsopt/slides/lecture-06.pdf)
-8. [Other operator splitting methods](nsopt/slides/lecture-07.pdf)
-9. [Alternating direction method of multipliers](nsopt/slides/lecture-08.pdf)
-10. [Non-convex optimisation](nsopt/slides/lecture-09.pdf)
-11. [Stochastic optimisation](nsopt/slides/lecture-10.pdf) -->
+</ol>-->
 
 <!-- **Acknowledgement:** some slides are based on the lecture slides of [Prof. Stephen Boyd](https://web.stanford.edu/~boyd/) and [Prof. Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/).
 -->
-### Projects
+
+<!--### Projects
 - [Project 1](nsopt/projects/project-01.pdf) Comparison of gradient descent, heavy-ball method and Nesterov's acceleration scheme, and their proximal versions. ([Instructions](nsopt/project1), [data](nsopt/projects/data.zip), [MATLAB code](nsopt/projects/src_Project1.zip))    
 - [Project 2](nsopt/projects/project-02.pdf) Principal component pursuit. ([Instructions](nsopt/project2), [MATLAB code](nsopt/projects/src_Project2.zip)) 
-
+-->
 
 <br>
 
 #### References
-- S. Boyd and L. Vandenberghe. Convex optimization. Cambridge university press, 2004.
-- R. T. Rockafellar. Convex analysis. Princeton university press, 2015.
-- A. Beck. First-order methods in optimization. Vol. 25. SIAM, 2017.
-- H. H. Bauschke and P. L. Combettes. Convex analysis and monotone operator theory in Hilbert spaces. Vol. 408. New York: Springer, 2011.
-- B. Polyak. Introduction to optimization. Optimization Software, 1987.
-- Y. Nesterov. Introductory lectures on convex optimization: A basic course. Vol. 87. Springer Science & Business Media, 2013.
-
+- N. Thuerey, P. Holl, M. Mueller, P. Schnell, F. Trost, K. Um. Physics-based Deep Learning. Freely Available at physicsbaseddeeplearning.org
+- I. Goodfellow, Y. Bengio, A. Courville. Deep Learning. The MIT Press, 2016.
+- Koki Saitoh (translated by Yujie Lu). Deep Learning from Scratch (in Chinese). O’Reilly Japan, Inc.
+- Zhihua Zhou. Machine Learning (in Chinese). The Tsinghua Press, 2016.
 
 
