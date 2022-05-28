@@ -13,7 +13,7 @@ This course will focus on mathematical methods, with specific concern about cons
 <ol style="margin-left:12px;">
 <li>2021: Multivariable Calculus </li>
 <li> 2020: Math for Economy 1 & 2  </li>
-
+</ol>
 
 ### Lecture slides: available upon request
 
