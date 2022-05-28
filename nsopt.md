@@ -12,7 +12,7 @@ Machine learning has received a lot of hype over the last decade, with technique
 2022 Spring: Tuesday and Thursday, 3:00–4:30pm, remotely via Canvas -> Zoom
 
 
-### Lecture slides (available upon request)
+### Lecture Notes (available upon request)
 
 <ol style="margin-left:12px;">
     <li> Introduction on Machine Learning </li>

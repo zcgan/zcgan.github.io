@@ -12,7 +12,7 @@ This course will focus on mathematical methods, with specific concern about cons
 2022 Fall: time & location TBA
 
 
-### Lecture slides
+### Lecture Notes
 
 <!--<ol style="margin-left:12px;">
     <li> Introduction on Machine Learning </li>

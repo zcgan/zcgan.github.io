@@ -15,7 +15,7 @@ This course will focus on mathematical methods, with specific concern about cons
 <li> 2020: Math for Economy 1 & 2  </li>
 </ol>
 
-### Lecture slides: available upon request
+### Lecture Notes: available upon request
 
 <!--<ol style="margin-left:12px;">
     <li> Introduction on Machine Learning </li>

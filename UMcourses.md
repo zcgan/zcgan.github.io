@@ -19,7 +19,7 @@ This course will focus on mathematical methods, with specific concern about cons
 <li> 2016 Fall: UMich Math Circle (Invited Lecture on Combinatorics)  </li>
 </ol>
 
-### Lecture slides: available upon request
+### Lecture Notes: available upon request
 
 <!--<ol style="margin-left:12px;">
     <li> Introduction on Machine Learning </li>
