@@ -1,5 +1,5 @@
 ---
-layout: maths
+layout: 22fall
 title: Teaching
 description: Mathematical Methods
 ---
