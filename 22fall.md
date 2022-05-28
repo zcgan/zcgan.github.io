@@ -1,5 +1,5 @@
 ---
-layout: 22fall
+layout: maths
 title: Teaching
 description: Mathematical Methods for Materials Science & Engineering 
 ---
