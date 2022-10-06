@@ -11,9 +11,9 @@ toc:
          #   href: research.html
          #   current:
 
-        - name: Group
-          href: group.html
-          current:
+         - name: Group
+           href: group.html
+           current:
 
          - name: Publications
            href: publicationZG.html

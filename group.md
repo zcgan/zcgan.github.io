@@ -1,6 +1,6 @@
 ---
 layout: maths
-title: Research
+title: Group
 description: Research Group
 ---
 ## Current Members

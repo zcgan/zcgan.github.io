@@ -1,6 +1,6 @@
 ---
 layout: maths
-title: Research
+title: Awards/Grants
 description: Awards & Grants
 ---
 ## Research Grants
