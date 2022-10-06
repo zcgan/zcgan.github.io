@@ -9,12 +9,13 @@ description: Mathematical Methods for Materials Science & Engineering
 This course will focus on mathematical methods, with specific concern about construction, analysis, and interpretation of mathematical models that shed light on significant problems in materials science and engineering. There are many courses that present collection of math techniques, but this course will be different: typically, we will use a “case-study” approach, i.e., select a series of important scientific problems, whose solution will involve some useful mathematics. We will start with the scientific background, then formulate relevant mathematical problem with care. The formulation step is usually more challenging than just learning the mathematics. Through the case studies, useful math techniques will be introduced naturally. Some typical case studies include: collective motions and aggregations, heat conduction and elasticity of materials, charge transport, plasmonic effects and bio-chemical kinetics, etc.
 
 ## Lectures
-2022 Fall: time & location TBA
+2022 Fall: Tuesday and Thursday, 3:00–4:30pm, on-site at room W1-101.
 
+## Course website: Canvas.
 
-### Lecture Notes
+<!--### Lecture Notes
 
-<!--<ol style="margin-left:12px;">
+<ol style="margin-left:12px;">
     <li> Introduction on Machine Learning </li>
     <li> Mathematical Preliminaries </li>
     <li> TensorFlow, Fourier Analysis and Nyquist Sampling Thm </li>
