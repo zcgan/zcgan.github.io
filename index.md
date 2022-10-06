@@ -39,3 +39,10 @@ description: "Welcome to my homepage"
 <!-- - <b>B.S. in Electrical & Information Engineering</b> (2010.06) <br> &ensp; School of Telecommunication and Information Engineering, Nanjing University of Posts and Telecommunications. -->
 
 ### Detailed CV: available upon request.
+
+## News and Events
+###Research
+- 2020.01 Paper "Efficient dynamic simulations of charged dielectric colloids through a novel hybrid
+method" <a href="https://aip.scitation.org/action/doSearch?SeriesKey=jcp&AllField=JCP+Editors%E2%80%99+Choice+2019&ConceptID=208566&startPage=&content=collectionsSearch&target=issue-collections-search"><span style="font-weight:600;color:#ee3377;">selected as JCP Editor's Choice 2019</span></a>.
+###Academic activities
+###Group
