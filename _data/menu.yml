@@ -46,6 +46,6 @@ toc:
          - name: University Internal<br />&ensp;Administration/Serivce
            href: inservice.html
            current:
-         - name: Extramural<br />&ensp;Service
+         - name: Extramural Service
            href: exservice.html
            current:
