@@ -6,9 +6,9 @@ description: University Internal Administration/Serivce
 
 
 ## Administration Committees
-- 2022-now, Z. Gan is serving as a member of the Curriculum Development and Review Committee, AMAT Thrust, HKUST(GZ)
-- 2022-now, Z. Gan is serving as a member of the External Liaison and Promotion Committee, AMAT Thrust, HKUST(GZ)
-- 2021-2022, Z.Gan is serving as a member of the M.Phil. Selection & Interview Committee (University level), HKUST(GZ)
+- 2022-now, member of the Curriculum Development and Review Committee, AMAT Thrust, HKUST(GZ)
+- 2022-now, member of the External Liaison and Promotion Committee, AMAT Thrust, HKUST(GZ)
+- 2021-2022, member of the M.Phil. Selection & Interview Committee (University level), HKUST(GZ)
 
 ## Academic Committees
 ### Doctoral Comittee
