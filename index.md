@@ -43,11 +43,42 @@ description: "Welcome to my homepage"
 ## News and Events
 
 ### Research
+- 2022.09 Z. Gan is awarded National Science Foundation of China as single PI (NSFC 12201146).
+- 2022.07 Z. Gan is awarded Basic and applied basic research project of Guangzhou as single PI.
 - 2021.02 Paper "Harmonic Surface Mapping Algorithm for Electrostatic Potentials in an Atomistic/Continuum
-Hybrid Model for Electrolyte Solutions" published on Commun. Comput. Phys.
+Hybrid Model for Electrolyte Solutions" published on Commun. Comput. Phys..
 - 2020.01 Paper "Efficient dynamic simulations of charged dielectric colloids through a novel hybrid
 method" <a href="https://aip.scitation.org/action/doSearch?SeriesKey=jcp&AllField=JCP+Editors%E2%80%99+Choice+2019&ConceptID=208566&startPage=&content=collectionsSearch&target=issue-collections-search"><span style="font-weight:600;color:#ee3377;">selected as JCP Editor's Choice 2019</span></a>.
 
-### Academic activities
-
 ### Group
+- 2022.09 Yanyu Duan, graduate from HIT-SZ(physics),  joined the group as a PhD candidate. Welcome, Yanyu!
+- 2022.09 Tianhao Hu, undergraduate from Wuhan University (school of mathematical science), joined the group as a PhD candidate. Welcome, Tianhao!  
+- 2022.02 Zheng (Johnson) Yang, graduate from University of Manchester, joined the group as a PhD candidate. Welcome, Johnson!  
+- 2021.09 Xuanzhao Gao, undergraduate from USTC (school of gifted young), joined the group as a PhD candidate. Welcome, Xuanzhao!
+
+### Activities
+- 2022.09 Z. Gan is giving an invited talk on the CSIAM annual meeting (postponed due to COVID)
+- 2022.01 Z. Gan is giving an invited talk on the workshop "Machine Learning and Data-Driven Scientific Computing", BNU-UIC (Cancelled due to COVID)
+- 2021.11 Z. Gan is giving an Applied Mathematics Seminar, Shenzhen International Center for Industrial and Applied
+Mathematics
+- 2021.07 Z. Gan is giving an invited talk on SIAM annual meeting (virtually), minisymposium on "Numerical Methods for Incompressible Fluid Systems"
+- 2021.06 Z. Gan is giving an invited talk on the workshop "Advances in numerical methods, theories and applications", CUHK(SZ)
+- 2021.02 Z. Gan is giving an invited talk on the Engineering Sciences Youth Forum, College of Engineering, PKU
+- 2021.01 Z. Gan is invited to talk on the Mathematical Research Seminar Series, Zu Chongzhi Center for Mathematics and Computational
+Sciences, Duke University (Kunshan)
+- 2020.12 Z. Gan is giving a Computational and Applied Mathematics (CAM) seminar, School of Mathematical Sciences, PKU
+- 2020.10 Z. Gan (with Ondrej Maxian, parter: Aleksandar Donev) is giving a virtual MSG seminar at Courant Institute, NYU 
+- 2019.12 Z. Gan is giving an invited talk on the 2019 Applied Math Youth Forum, Shool of Mathematical Sciences and BICMR, PKU 
+
+### Services
+- 2022-now, Z. Gan is serving as a member of the Curriculum Development and Review Committee, AMAT Thrust, HKUST(GZ)
+- 2022-now, Z. Gan is serving as a member of the External Liaison and Promotion Committee, AMAT Thrust, HKUST(GZ)
+- 2021-2022, Z.Gan is serving as a member of the M.Phil. Selection & Interview Committee (University level), HKUST(GZ)
+
+### Referee for:
+- Physical Review Letters
+- PRX Energy
+- Physical Review A
+- Physical Review E
+- Advances in Applied Mathematics and Mechanics
+- Frontiers in Applied Mathematics and Statistics
