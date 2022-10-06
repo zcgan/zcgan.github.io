@@ -66,6 +66,15 @@
         </div>
         {% endfor %}
 
+        <div class="menu-category">Service</div>
+            {% for item in site.data.menu.toc[3].mitem %}
+            <div class="menu-item">
+              <a href="{{ item.href }}">
+                {{ item.name }}
+              </a>
+            </div>
+            {% endfor %}
+
       </td>
 
       <td id="layout-content">
