@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: math
 title: Zecheng Gan
 description: "Welcome to my homepage"
 ---
