@@ -7,13 +7,19 @@ toc:
 
     - type: Research
       mitem:
-         # - name: Research
+         # - name: Research topics
          #   href: research.html
          #   current:
+
+        - name: Group
+          href: group.html
+          current:
 
          - name: Publications
            href: publicationZG.html
            current:
+
+
 
          # - name: Codes
          #   href: code.html
