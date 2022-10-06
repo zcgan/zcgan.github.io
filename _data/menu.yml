@@ -41,3 +41,8 @@ toc:
            href: UMcourses.html
            current:
 
+    - type: Service
+      mitem:
+         - name: University Internal<br />&ensp;Administration/Serivce
+           href: inservice.html
+           current:

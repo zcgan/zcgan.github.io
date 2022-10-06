@@ -56,7 +56,7 @@ method" <a href="https://aip.scitation.org/action/doSearch?SeriesKey=jcp&AllFiel
 - 2022.02 Zheng (Johnson) Yang, graduate from University of Manchester, joined the group as a PhD candidate. Welcome, Johnson!  
 - 2021.09 Xuanzhao Gao, undergraduate from USTC (school of gifted young), joined the group as a PhD candidate. Welcome, Xuanzhao!
 
-### Activities
+### Activities  
 - 2022.09 Z. Gan is giving an invited talk on the CSIAM annual meeting (postponed due to COVID)
 - 2022.01 Z. Gan is giving an invited talk on the workshop "Machine Learning and Data-Driven Scientific Computing", BNU-UIC (Cancelled due to COVID)
 - 2021.11 Z. Gan is giving an Applied Mathematics Seminar, Shenzhen International Center for Industrial and Applied
@@ -68,12 +68,7 @@ Mathematics
 Sciences, Duke University (Kunshan)
 - 2020.12 Z. Gan is giving a Computational and Applied Mathematics (CAM) seminar, School of Mathematical Sciences, PKU
 - 2020.10 Z. Gan (with Ondrej Maxian, parter: Aleksandar Donev) is giving a virtual MSG seminar at Courant Institute, NYU 
-- 2019.12 Z. Gan is giving an invited talk on the 2019 Applied Math Youth Forum, Shool of Mathematical Sciences and BICMR, PKU 
-
-### Services
-- 2022-now, Z. Gan is serving as a member of the Curriculum Development and Review Committee, AMAT Thrust, HKUST(GZ)
-- 2022-now, Z. Gan is serving as a member of the External Liaison and Promotion Committee, AMAT Thrust, HKUST(GZ)
-- 2021-2022, Z.Gan is serving as a member of the M.Phil. Selection & Interview Committee (University level), HKUST(GZ)
+- 2019.12 Z. Gan is giving an invited talk on the 2019 Applied Math Youth Forum, Shool of Mathematical Sciences and BICMR, PKU
 
 ### Referee for:
 - Physical Review Letters
