@@ -45,7 +45,7 @@ description: "Welcome to my homepage"
 
 ### Research
 - 2023.01 We are funded by Guangdong Basic and Applied Basic Research Foundation (General Program, 2023A1515012197).
-- 2022.09 We are funded by National Science Foundation of China (Youngth Program, NSFC 12201146).
+- 2022.09 We are funded by National Science Foundation of China (Youth Program, NSFC 12201146).
 - 2022.07 We are funded by Guangzhou Basic and applied basic research Foundation (2023A04J0054).
 - 2021.02 Paper "Harmonic Surface Mapping Algorithm for Electrostatic Potentials in an Atomistic/Continuum
 Hybrid Model for Electrolyte Solutions" published on Commun. Comput. Phys..
