@@ -7,13 +7,12 @@ description: Research Group
 ### Ph.D Students
 - Yanyu Duan (2022-present), HKUST
 - Tianhao Hu (2022-present), co-advise with Prof. Yang Xiang (Math), HKUST
-- Wing Chun (Kyle) CHAN (2022-present), co-advise with Prof. Rui Zhang (Physics), HKUST
 - Zheng (Johnson) Yang (2022-present), co-advise with Prof. Rui Zhang (Physics), HKUST
 - Jiayi Wang (2021-present), co-advise with Prof. Ping Gao (CBE), HKUST
 - Xuanzhao Gao (2021-present), co-advise with Prof. Xiao-Ping Wang (Math), HKUST
 
 ### M. Phil. Students
-TBA
+- Wing Chun (Kyle) CHAN (2022-present), co-advise with Prof. Rui Zhang (Physics), HKUST
 
 ### Visiting Students
 - Yue Fang (2022 summer), CBE, HKUST
@@ -30,6 +29,8 @@ TBA
 - Prof. Zhonghan Hu, Jilin University, China
 
 ## Alumni
+Wenjun Li, RA, 2022 summer
+
 ### Former Ph.D students
 
 

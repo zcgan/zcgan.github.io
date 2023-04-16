@@ -10,6 +10,7 @@ Industrial and Applied Mathematics (ICIAM), Tokyo, Japan
 
 ## Referee for:
 - Physical Review Letters
+- Accounts of Chemical Research
 - PRX Energy
 - Physical Review A
 - Physical Review E
@@ -17,6 +18,7 @@ Industrial and Applied Mathematics (ICIAM), Tokyo, Japan
 - Frontiers in Applied Mathematics and Statistics
 
 ## Professional Society Members:
+- 2023-present American Chemical Society (ACS)
 - 2021-present China Society for Industrial and Applied Mathematics (CSIAM)
 - 2020-present American Physical Society (APS)
 - 2017-present Society for Industrial and Applied Mathematics (SIAM)

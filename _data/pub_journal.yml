@@ -16,9 +16,16 @@ toc:
             misc:
 
           - authors: X. Gao and Z. Gan
-            title: Broken Symmetries in Quasi-2D Charged Systems via Dielectric Confinement
+            title: Spontaneous Charge Oscillations in Dielectric Confined Quasi-2D Systems
             venue:
-            year: preprint
+            year: preprint, arXiv:2207.04687
+            url:
+            misc:
+          
+          - authors: Aref Hashemi, Raul P Pelaez, Sachin Natesh, Ondrej Maxian, Brennan Sprinkle, Zecheng Gan, Aleksandar Donev
+            title: Computing hydrodynamic interactions in confined doubly-periodic geometries in linear time
+            venue:
+            year: preprint, arXiv:2210.01837
             url:
             misc:
 

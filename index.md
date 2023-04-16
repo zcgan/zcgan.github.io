@@ -31,7 +31,8 @@ description: "Welcome to my homepage"
 
 ## Short bio
 - <b>Tenure-track Assistant Professor (2021.09-now)</b> <br> &ensp; Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (GZ).
-- <b>Affiliate Assistant Professor (2021.09-now)</b> <br> &ensp; Department of Mathematics, School of Science, The Hong Kong University of Science and Technology (CWB).
+- <b>Assistant Professor (joint appointment) (2022.07-now)</b> <br> &ensp; Department of Mathematics, School of Science, The Hong Kong University of Science and Technology (CWB).
+- <b>Affiliate Assistant Professor (2021.09-2022.06)</b> <br> &ensp; Department of Mathematics, School of Science, The Hong Kong University of Science and Technology (CWB).
 - <b>Postdoc associate</b> (2019.08-2021.08) <br> &ensp; Courant Institute of Mathematical Sciences, New York University.
 - <b>Postdoc assistant professor</b> (2016.09-2019.07) <br> &ensp; Department of Mathematics, University of Michigan, Ann Arbor.
 - <b>Ph.D. in Mathematics</b> (2016.06) <br> &ensp; Department of Mathematics and Institute of Natural Sciences, Shanghai Jiao Tong University. 
@@ -43,8 +44,9 @@ description: "Welcome to my homepage"
 ## News and Events
 
 ### Research
-- 2022.09 Z. Gan is awarded National Science Foundation of China as single PI (NSFC 12201146).
-- 2022.07 Z. Gan is awarded Basic and applied basic research project of Guangzhou as single PI.
+- 2023.01 We are funded by Guangdong Basic and Applied Basic Research Foundation (General Program, 2023A1515012197).
+- 2022.09 We are funded by National Science Foundation of China (Youngth Program, NSFC 12201146).
+- 2022.07 We are funded by Guangzhou Basic and applied basic research Foundation (2023A04J0054).
 - 2021.02 Paper "Harmonic Surface Mapping Algorithm for Electrostatic Potentials in an Atomistic/Continuum
 Hybrid Model for Electrolyte Solutions" published on Commun. Comput. Phys..
 - 2020.01 Paper "Efficient dynamic simulations of charged dielectric colloids through a novel hybrid
@@ -54,10 +56,17 @@ method" <a href="https://aip.scitation.org/action/doSearch?SeriesKey=jcp&AllFiel
 - 2022.09 Yanyu Duan, graduate from HIT-SZ(physics),  joined the group as a PhD candidate. Welcome, Yanyu!
 - 2022.09 Tianhao Hu, undergraduate from Wuhan University (school of mathematical science), joined the group as a PhD candidate. Welcome, Tianhao!  
 - 2022.02 Zheng (Johnson) Yang, graduate from University of Manchester, joined the group as a PhD candidate. Welcome, Johnson!  
+- 2021.10 I am co-advising MPhil student Wing Chun (Kyle) Chan with Prof. Rui Zhang. Welcome, Kyle! 
+- 2021.10 I am co-advising PhD candidate Jiayi Wang (Chemical Engineering) with Prof. Ping Gao. Welcome, Jiayi! 
 - 2021.09 Xuanzhao Gao, undergraduate from USTC (school of gifted young), joined the group as a PhD candidate. Welcome, Xuanzhao!
 
-### Activities  
-- 2022.09 Z. Gan is giving an invited talk on the CSIAM annual meeting (postponed due to COVID)
+### Events and Activities  
+- 2023.08 Z. Gan is co-organizing a minisymposium on "Simulations and Algorithm Development in Materials Science" at the ICIAM 2023 conference in Tokyo, Japan.
+- 2023.03 PhD candidates Y. Duan, Johnson Yang and Xuanzhao Gao are giving a talk at APS march meeting (virtual sessions)
+- 2022.12 X. Gao is giving a poster at the "Math Day in the Great Bay Area" event
+- 2022.10 Z. Gan is giving a talk at the Materials informatics seminar series, Guangzhou key lab of materials informatics
+- 2022.10 Z. Gan is giving an invited talk at the Scientific computing workshop, CUHK(SZ) and Shenzhen research institute of big data
+- 2022.09 Z. Gan is giving an invited talk on the CSIAM annual meeting, at the symposium on "Optimization algorithms for data science"
 - 2022.01 Z. Gan is giving an invited talk on the workshop "Machine Learning and Data-Driven Scientific Computing", BNU-UIC (Cancelled due to COVID)
 - 2021.11 Z. Gan is giving an Applied Mathematics Seminar, Shenzhen International Center for Industrial and Applied
 Mathematics
