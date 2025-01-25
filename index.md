@@ -9,7 +9,7 @@ description: "Welcome to my homepage!"
 <table class="imgtable">
     <tr>
         <td style="width:256px">
-            <img src="assets/img/ZGlogo.jpg" alt="" height="200px" /> 
+            <img src="assets/img/ZGlogo.jpg" alt="" height="240px" /> 
         </td>
             
         <td align="left">
