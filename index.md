@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zecheng Gan
-description: "Welcome to my homepage"
+description: "Welcome to my homepage!"
 ---
 
 
@@ -9,7 +9,7 @@ description: "Welcome to my homepage"
 <table class="imgtable">
     <tr>
         <td style="width:256px">
-            <img src="assets/img/GZC.jpg" alt="" height="200px" /> 
+            <img src="assets/img/ZGlogo.jpg" alt="" height="200px" /> 
         </td>
             
         <td align="left">
@@ -23,7 +23,7 @@ description: "Welcome to my homepage"
 
 ## Contact
 - E-mail: zechenggan@ust.hk
-- Office: FYTRI/CWB
+- Office: W1-505
 
 ## Research interests
 &emsp; Scientific Computing, Applied Mathematics, Electromagnetics, Hydrodynamics, Data-driven and Machine Learning methods for Science & Engineering.
