@@ -84,7 +84,7 @@ method" <a href="https://aip.scitation.org/action/doSearch?SeriesKey=jcp&AllFiel
 - 2024.10 Z. Gan is co-organizing the outreach activity "math source tour at UIC" together with UG student Guofu Tang and Prof. Yi-lung Kuo.
 - 2024.10 Z. Gan is giving an invited talk at the CSIAM annual conference, Nanjing.
 - 2024.10 Organizer, Public talk on “Successful publishing with ACS and Nano Letters”; Speaker: Prof. Elena Besley (Head of Materials Chemistry, University of Nottingham; and Associate editor at Nano Letters).
-- 2024.10 Z. Gan is organizing a miniworkshop on "Electrostatics in Advanced Materials (2024)" together with Profs. Ho-Kei Chan. Invited speakers: Profs. Elena Besley (University of Nottingham), Rene Messina (University of Lorraine), Decai Huang (NJUST), etc. <a>The workshop was on the newsletter of Institute of Physics (IOP)</a>.
+- 2024.10 Z. Gan is organizing a miniworkshop on "Electrostatics in Advanced Materials (2024)" together with Profs. Ho-Kei Chan. Invited speakers: Profs. Elena Besley (University of Nottingham), Rene Messina (University of Lorraine), Decai Huang (NJUST), etc. <b><span style="font-weight:600;color:#ee3377;">on the newsletter of Institute of Physics (IOP), 2024 winter</span></b>.
 - 2024.08 Z. Gan is giving an invited talk at the Conference of Scientific Machine Learning (CSML2024), Shanghai.
 - 2024.08 Z. Gan is giving an invited talk at the Joint Annual Conference of Physical Societies in Guangdong-Hong Kong-Macao Greater Bay Area, Macao
 - 2024.07 Z. Gan is giving an invited talk at the International Conference on Scientific Computation and Differential Equations (SciCADE2024), National University of Singapore
