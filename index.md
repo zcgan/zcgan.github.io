@@ -29,7 +29,7 @@ description: "Welcome to my homepage!"
 &emsp; Scientific Computing, Applied Mathematics, Electromagnetics, Hydrodynamics, Data-driven and Machine Learning methods for Science & Engineering.
 
 ## Openings
-&emsp; I am currently looking for <b>students and postdocs</b> interested in scientific computing, applied & computational math, data-driven and machine learning methods, with applications science & engineering. Please email a CV to apply.
+&emsp; I am currently looking for <b>students and postdocs</b> interested in scientific computing, applied & computational math, data-driven and machine learning methods, with applications in science & engineering. Please email a CV to apply.
 
 
 ## Short bio
