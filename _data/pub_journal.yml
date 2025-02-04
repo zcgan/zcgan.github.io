@@ -1,6 +1,20 @@
 toc: 
     - type: preprint
       papers:
+          - authors: Y. Duan and Z. Gan
+            title: Quantitative theory for critical conditions of like-Charge attraction between polarizable spheres
+            venue: 
+            year: preprint
+            url:
+            misc:
+
+          - authors: Z. Gan, X. Gao, J. Liang and Z. Xu
+            title: Random Batch Ewald Method for Dielectrically Confined Coulomb Systems
+            venue: 
+            year: preprint
+            url:
+            misc:
+
           - authors: Z. Wang, Z. Gan, S. Jiang, Z. Xu and E. Luijten
             title: Anisotropic self assembly of polarizable colloidal mixtures
             venue: 
@@ -14,24 +28,47 @@ toc:
             year: preprint
             url:
             misc:
-
-          - authors: X. Gao and Z. Gan
-            title: Spontaneous Charge Oscillations in Dielectric Confined Quasi-2D Systems
-            venue:
-            year: preprint, arXiv:2207.04687
-            url:
-            misc:
           
-          - authors: Aref Hashemi, Raul P Pelaez, Sachin Natesh, Ondrej Maxian, Brennan Sprinkle, Zecheng Gan, Aleksandar Donev
-            title: Computing hydrodynamic interactions in confined doubly-periodic geometries in linear time
-            venue:
-            year: preprint, arXiv:2210.01837
-            url:
-            misc:
+      
 
 
     - type: journal
       papers:
+          - authors: Y. Duan, Z. Gan and H-K Chan
+            title: Mechanisms of electrostatic interactions between two charged dielectric spheres inside a polarizable medium - An effective-dipole analysis
+            venue: Soft Matter
+            year: 2025
+            url: assets/files/journal/LCA_SoftMatter_DuanGanChan_2025.pdf
+            misc:
+
+          - authors: Z. Gan, X. Gao, J. Liang and Z. Xu
+            title: Fast algorithm for quasi-2D Coulomb systems.
+            venue: J. Comput. Phys.
+            year: 2025
+            url: assets/files/journal/JCompPhys_GanGaoLiangXu_2025.pdf
+            misc:
+
+          - authors: X. Gao and Z. Gan
+            title: Broken symmetries in quasi-2D charged systems via negative dielectric confinemen
+            venue: J. Chem. Phys.
+            year: 2024
+            url: assets/files/journal/BrokenSymmetries_GaoGan_JCP_2024.pdf
+            misc:
+      
+          - authors: C. W. Chan, Z. Yang, Z. Gan and R. Zhang
+            title: Interplay of chemotactic force, Peclet number, and dimensionality dictates the dynamics of auto-chemotactic chiral active droplets
+            venue: J. Chem. Phys.
+            year: 2024
+            url: assets/files/journal/Chemotaxis_KyleJohnsonGanZhang_JCP_2024.pdf
+            misc:
+
+          - authors: A. Hashemi, R. P. Pelaez, S. Natesh, B. Sprinkle, O. Maxian, Z. Gan and Aleksandar Donev
+            title: Computing hydrodynamic interactions in confined doubly periodic geometries in linear time
+            venue: J. Chem. Phys.
+            year: 2023
+            url: assets/files/journal/JCP_Aref_2023.pdf
+            misc:
+
           - authors: J. Fu and Z. Gan
             title: Harmonic surface mapping algorithm for electrostatic potentials in an atomistic/continuum hybrid model for electrolyte solutions
             venue: Commun. Comput. Phys.
