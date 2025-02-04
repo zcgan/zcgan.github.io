@@ -5,7 +5,7 @@ description: Research Group
 ---
 ## Current Members
 ### Ph.D Students
-- Kaiwen Jin (2024-present), research area: numerical methods for analytical continuation; automatic differentiation; and quantum simulations for Ryderberg atom arrays.
+- Kaiwen Jin (2024-present), research area: analytical continuation; automatic differentiation; quantum simulations for Ryderberg atom arrays.
 - Xuanyan Chen (2024-present), research area: materials modeing and simulation; density functional theory; field-based models
 - Qian (Serena) Hou (2024-present), research area: machine learning, operator learning for PDEs
 - Weitao Lan (2023-present), research area: TBD
