@@ -28,6 +28,7 @@ description: Research Group
 ## External Collaborators
 - Dr. Jiuyang Liang (since 2021), Flatrion Institute, Simons foundation, New York
 - Prof. Ho-Kei CHAN (since 2021), HIT, Shenzhen
+- Prof. Rui Zhang (since 2021), HKUST
 - Prof. Leslie Greengard (since 2019), Courant Institute, NYU
 - Prof. Aleksandar Donev (since 2019), Courant Institute, NYU
 - Prof. Weihua Geng (since 2016), South Methodist University, Texas
