@@ -26,15 +26,15 @@ description: Research Group
 - Wenjun Li (2022 summer), now: Red Bird M. Phil. student
 
 ## External Collaborators
-- Prof. Aleksandar Donev, Courant Institute, NYU
-- Prof. Leslie Greengard, Courant Institute, NYU
-- Prof. Shidong Jiang, Flatrion Institute, Simons foundation, New York
-- Dr. Jiuyang Liang, Flatrion Institute, Simons foundation, New York
-- Prof. Erik Luijten, Northwestern University, Evanston, Illinois
-- Prof. Robert Krasny, University of Michigan, Ann Arbor
-- Prof. Weihua Geng, South Methodist University, Texas
-- Prof. Ho-Kei CHAN, HIT, Shenzhen
-- Prof. Zhenli Xu, SJTU, Shanghai
+- Dr. Jiuyang Liang (since 2021), Flatrion Institute, Simons foundation, New York
+- Prof. Ho-Kei CHAN (since 2021), HIT, Shenzhen
+- Prof. Leslie Greengard (since 2019), Courant Institute, NYU
+- Prof. Aleksandar Donev (since 2019), Courant Institute, NYU
+- Prof. Weihua Geng (since 2016), South Methodist University, Texas
+- Prof. Robert Krasny (since 2016), University of Michigan, Ann Arbor
+- Prof. Shidong Jiang (since 2015), Flatrion Institute, Simons foundation, New York
+- Prof. Erik Luijten (since 2014), Northwestern University, Evanston, Illinois
+- Prof. Zhenli Xu (since 2010), SJTU, Shanghai
 
 ## Alumni
 
