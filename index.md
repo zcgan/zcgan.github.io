@@ -22,14 +22,14 @@ description: "Welcome to my homepage!"
 
 
 ## Contact
-- E-mail: zechenggan@ust.hk; and zechenggan@hkust-gz.edu.cn
+- E-mail(s): zechenggan@ust.hk; and zechenggan@hkust-gz.edu.cn
 - Office: W1-505
 
 ## Research interests
 &emsp; Scientific Computing, Applied Mathematics, Electromagnetics, Hydrodynamics, Data-driven and Machine Learning methods for Science & Engineering.
 
 ## Openings
-&emsp; I am currently looking for <b>students and postdocs</b> interested in scientific computing, applied & computational math, data-driven and machine learning methods, with applications in science & engineering. Please email a CV to apply.
+&emsp; I am currently looking for <b>highly self-motivated students and postdocs</b> interested in scientific computing, applied & computational math, data-driven and machine learning methods, with applications in science & engineering. Please email a CV to apply.
 
 
 ## Short bio
@@ -46,6 +46,8 @@ description: "Welcome to my homepage!"
 ## News and Events
 
 ### Research
+- 2025.02 Paper "Mechanisms of electrostatic interactions between two charged dielectric spheres inside a polarizable medium: An effective-dipole analysis" published on Soft Matter, 
+and <a href="https://pubs.rsc.org/en/content/articlelanding/2025/sm/d4sm01155d"><span style="font-weight:600;color:#ee3377;">selected as Journal Cover</span></a>.
 - 2025.01 Paper "Fast algorithm for quasi-2D Coulomb systems" published on J. Comput. Phys.
 - 2024.07 Paper "Broken symmetries in quasi-2D charged systems via negative dielectric confinement" published on J. Chem. Phys.
 - 2024.01 We are funded by Guangzhou-HKUST(GZ) Joint research fund.
