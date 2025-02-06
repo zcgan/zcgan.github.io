@@ -34,12 +34,12 @@ toc:
 
     - type: journal
       papers:
-          - authors: Y. Duan, Z. Gan and H-K Chan
+          - authors: Y. Duan, Z. Gan and H.-K. Chan
             title: Mechanisms of electrostatic interactions between two charged dielectric spheres inside a polarizable medium - An effective-dipole analysis
             venue: Soft Matter
             year: 2025
             url: assets/files/journal/LCA_SoftMatter_DuanGanChan_2025.pdf
-            misc:
+            misc: <a href="https://pubs.rsc.org/en/content/articlelanding/2025/sm/d4sm01155d"><span style="font-weight:600;color:#ee3377;">Selected as Journal Cover</span></a>
 
           - authors: Z. Gan, X. Gao, J. Liang and Z. Xu
             title: Fast algorithm for quasi-2D Coulomb systems.
@@ -49,7 +49,7 @@ toc:
             misc:
 
           - authors: X. Gao and Z. Gan
-            title: Broken symmetries in quasi-2D charged systems via negative dielectric confinemen
+            title: Broken symmetries in quasi-2D charged systems via negative dielectric confinement
             venue: J. Chem. Phys.
             year: 2024
             url: assets/files/journal/BrokenSymmetries_GaoGan_JCP_2024.pdf
