@@ -1,7 +1,7 @@
 toc: 
     - type: preprint
       papers:
-           - authors: with H. Song, et al.
+          - authors: with H. Song, et al.
             title: Improving Neural Operator by Kernel Decomposition in d+1 Dimensions.
             venue: 
             year: preprint
