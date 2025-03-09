@@ -47,7 +47,7 @@ description: "Welcome to my homepage!"
 
 ### Research
 - 2025.02 Paper "Mechanisms of electrostatic interactions between two charged dielectric spheres inside a polarizable medium: An effective-dipole analysis" published on Soft Matter, 
-and <a href="https://pubs.rsc.org/en/content/articlelanding/2025/sm/d4sm01155d"><span style="font-weight:600;color:#ee3377;">selected as Journal Cover</span></a>.
+and <a href="https://pubs.rsc.org/en/content/articlepdf/2025/sm/d4sm01155d"><span style="font-weight:600;color:#ee3377;">selected as Journal Cover (Featured article)</span></a>.
 - 2025.01 Paper "Fast algorithm for quasi-2D Coulomb systems" published on J. Comput. Phys.
 - 2024.07 Paper "Broken symmetries in quasi-2D charged systems via negative dielectric confinement" published on J. Chem. Phys.
 - 2024.01 We are funded by Guangzhou-HKUST(GZ) Joint research fund.
