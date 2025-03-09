@@ -52,7 +52,7 @@ and <a href="https://pubs.rsc.org/en/content/articlepdf/2025/sm/d4sm01155d"><spa
 - 2024.07 Paper "Broken symmetries in quasi-2D charged systems via negative dielectric confinement" published on J. Chem. Phys.
 - 2024.07 Collaborative paper with Prof. Rui Zhang's group (physics, HKUST) "Interplay of chemotactic force, Peclet number, and dimensionality dictates the dynamics of auto-chemotactic chiral active droplets" published on J. Chem. Phys.
 - 2024.01 We are funded by Guangzhou-HKUST(GZ) Joint research fund.
-- 2023.07 Collaborative paper with Prof. Aleks Donev's group (Courant insittute, NYU) "Computing hydrodynamic interactions in confined doubly periodic geometries in linear time" published on J. Chem. Phys.
+- 2023.07 Collaborative paper with Prof. Aleks Donev's group (Courant institute, NYU) "Computing hydrodynamic interactions in confined doubly periodic geometries in linear time" published on J. Chem. Phys.
 - 2023.01 We are funded by Guangdong Basic and Applied Basic Research Foundation.
 - 2022.09 We are funded by National Science Foundation of China.
 - 2022.07 We are funded by Guangzhou Basic and applied basic research Foundation.
