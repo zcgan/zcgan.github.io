@@ -46,6 +46,8 @@ description: "Welcome to my homepage!"
 ## News and Events
 
 ### Research
+- 2025.03 Paper "Random batch Ewald method for dielectrically confined Coulomb systems" currently in press at SIAM J. Sci. Comput.
+- 2025.03 Paper "Quantitative theory for critical conditions of like-charge attraction between polarizable spheres" published on J. Chem. Theory Comput.
 - 2025.02 Collaborative paper with Prof. Ho-Kei Chan's group (physics, HIT-SZ) "Mechanisms of electrostatic interactions between two charged dielectric spheres inside a polarizable medium: An effective-dipole analysis" published on Soft Matter, 
 and <a href="https://pubs.rsc.org/en/content/articlepdf/2025/sm/d4sm01155d"><span style="font-weight:600;color:#ee3377;">selected as Journal Cover (Featured article)</span></a>.
 - 2025.01 Collaborative paper with Prof. Zhenli Xu's group (math, SJTU) "Fast algorithm for quasi-2D Coulomb systems" published on J. Comput. Phys.
