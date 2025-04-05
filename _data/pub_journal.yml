@@ -35,7 +35,7 @@ toc:
     - type: journal
       papers:
           - authors: Z. Gan, X. Gao, J. Liang and Z. Xu
-            title: Random Batch Ewald Method for Dielectrically Confined Coulomb Systems
+            title: Random batch Ewald method for dielectrically confined coulomb systems
             venue: SIAM J. Sci. Comput.
             year: 2025
             url:
