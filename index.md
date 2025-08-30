@@ -22,7 +22,7 @@ description: "Welcome to my homepage!"
 
 
 ## Contact
-- E-mail(s): zechenggan@ust.hk; and zechenggan@hkust-gz.edu.cn
+- E-mail(s): zechenggan@ust.hk; zechenggan@hkust-gz.edu.cn
 - Office: W1-505
 
 ## Research interests
