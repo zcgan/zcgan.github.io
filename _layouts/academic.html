@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#174f78">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+    {% if page.url contains '/nsopt/' %}
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    {% endif %}
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="site-identity" href="{{ '/index.html' | relative_url }}" aria-label="Zecheng Gan home">
+          <span class="site-name">Zecheng Gan</span>
+          <span class="site-role">Computational Mathematics and Materials Science</span>
+        </a>
+
+        <details class="site-navigation" open>
+          <summary>Menu</summary>
+          <nav aria-label="Primary navigation">
+            {% for section in site.data.menu.toc %}
+            <section class="nav-section" aria-labelledby="nav-{{ section.type | slugify }}">
+              <h2 id="nav-{{ section.type | slugify }}">{{ section.type }}</h2>
+              <ul>
+                {% for item in section.mitem %}
+                {% assign is_home = item.href == 'index.html' and page.url == '/' %}
+                {% assign is_current = page.url contains item.href %}
+                <li>
+                  <a href="{{ item.href | relative_url }}"{% if is_home or is_current %} aria-current="page"{% endif %}>{{ item.name }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </section>
+            {% endfor %}
+          </nav>
+        </details>
+
+        <div class="header-contact">
+          <a href="mailto:zechenggan@ust.hk">zechenggan@ust.hk</a>
+          <span>HKUST(GZ) and HKUST</span>
+        </div>
+      </header>
+
+      <main id="main-content" class="site-main">
+        {% unless page.url == '/' %}
+        <header class="page-heading">
+          <p class="page-kicker">{{ page.title }}</p>
+          <h1>{{ page.description | default: page.title }}</h1>
+        </header>
+        {% endunless %}
+
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <span>© Zecheng Gan</span>
+        <span>Built with Jekyll and GitHub Pages</span>
+      </footer>
+    </div>
+  </body>
+</html>

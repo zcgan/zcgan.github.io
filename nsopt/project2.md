@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Pricipal Component Pursuit"
+title: "Principal Component Pursuit"
 description: "Model and algorithms" 
 data_title: 
 data_url: 
@@ -238,4 +238,3 @@ Example for which $2$-step inertial DR is much faster under the same parameter c
 Numerical comparison of *Forward--Backward and FISTA*. 
 
 ![Comparison](projects/PCP_inexact.png)
-

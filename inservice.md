@@ -1,7 +1,7 @@
 ---
 layout: maths
 title: Service
-description: University Internal Administration/Serivce
+description: University Internal Administration/Service
 ---
 
 
@@ -14,7 +14,7 @@ description: University Internal Administration/Serivce
 - 2021-2022, Member of the M.Phil. Selection & Interview Committee (University level), HKUST(GZ)
 
 ## Academic Committees
-### Doctoral Comittee
+### Doctoral Committee
 - 2023.03 Suizi Huang, Supervisor: Wenjia Wang, DSA, HKUST(GZ)
 - 2023.03 Chengyu Tao, Supervisors: Juan Du and Kai Tang, SMMG, HKUST(GZ)
 - 2022.07 Sebastian Gebhardt, Supervisors: Yun Hou and Masaru Yarime, Society Hub,
@@ -32,7 +32,6 @@ HKUST
 - 2023.03, Yangsong Ye, Supervisors: Xiaoxiao Wu and Bei Zeng, AMAT, HKUST(GZ)
 - 2022.12 Yue Fang, Supervisor: Hanyu Gao, CBE, HKUST
 - 2022.08 Jiayi Wang, Supervisor: Ping Gao, CBE, HKUST
-
 
 
 

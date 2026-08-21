@@ -7,9 +7,9 @@ toc:
 
     - type: Research
       mitem:
-         # - name: Research topics
-         #   href: research.html
-         #   current:
+         - name: Research
+           href: research.html
+           current:
 
          - name: Group
            href: group.html
@@ -52,7 +52,7 @@ toc:
 
     - type: Service
       mitem:
-         - name: University Internal<br />&ensp;Administration/Serivce
+         - name: University Internal<br />&ensp;Administration/Service
            href: inservice.html
            current:
          - name: Extramural Service

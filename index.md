@@ -1,49 +1,101 @@
 ---
 layout: default
 title: Zecheng Gan
-description: "Welcome to my homepage!"
+description: "Assistant Professor of Computational Mathematics and Materials Science"
 ---
 
+<section class="home-hero" aria-labelledby="home-title">
+  <img class="portrait" src="{{ '/assets/img/ZGlogo.jpg' | relative_url }}" alt="Portrait of Zecheng Gan">
+  <div>
+    <p class="eyebrow">Assistant Professor</p>
+    <h1 id="home-title">Zecheng Gan <span class="name-chinese">干则成</span></h1>
+    <p class="lede">I develop mathematical models and scalable numerical methods for electrostatics, soft matter, hydrodynamics, and data-driven scientific computing.</p>
+    <p class="affiliations"><a href="https://funh.hkust-gz.edu.cn/en">Advanced Materials Thrust, HKUST(GZ)</a><br><a href="https://www.math.hkust.edu.hk/">Department of Mathematics, HKUST</a></p>
+    <ul class="contact-list" aria-label="Contact and external profiles">
+      <li><a href="mailto:zechenggan@ust.hk">zechenggan@ust.hk</a></li>
+      <li><a href="https://scholar.google.com/citations?user=KHLEMGYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></li>
+      <li><a href="https://github.com/zcgan">GitHub</a></li>
+      <li>Office W1-505</li>
+    </ul>
+  </div>
+</section>
 
-<div>
-<table class="imgtable">
-    <tr>
-        <td style="width:256px">
-            <img src="assets/img/ZGlogo.jpg" alt="" height="240px" /> 
-        </td>
-            
-        <td align="left">
-            <p><h5>Zecheng Gan (干则成)</h5>  <a href="https://funh.hkust-gz.edu.cn/en" >Advanced Materials Thrust (GZ)</a> and <a href="https://www.math.hkust.edu.hk/" >Department of Mathematics (CWB)</a>  <br /> <a href="https://hkust-gz.edu.cn/">The Hong Kong University of Science and Technology</a> <br /></p>
-        </td>
-	</tr>
-</table>
+## Research
+
+<p class="section-intro">My work connects scientific computing, applied mathematics, and materials science. It focuses on physically grounded models and reliable numerical methods for multiscale systems.</p>
+
+<div class="research-themes">
+  <section class="research-theme">
+    <h3>Electrostatics and soft matter</h3>
+    <p>Dielectric interfaces, electrolyte systems, charged colloids, and active-matter phenomena.</p>
+  </section>
+  <section class="research-theme">
+    <h3>Algorithms for scientific simulation</h3>
+    <p>Fast methods for Coulomb and hydrodynamic interactions, multiscale modeling, and high-performance computation.</p>
+  </section>
+  <section class="research-theme">
+    <h3>Data-driven scientific computing</h3>
+    <p>Data-driven and machine-learning methods for numerical PDEs and scientific and engineering applications.</p>
+  </section>
 </div>
 
+<p class="archive-link"><a href="{{ '/research.html' | relative_url }}">Research themes and representative work</a></p>
 
+## Selected recent work
 
-## Contact
-- E-mail(s): zechenggan@ust.hk; zechenggan@hkust-gz.edu.cn
-- Office: W1-505
+<ul class="selected-publications">
+  <li>
+    <span class="publication-meta">2025<br>SIAM SISC</span>
+    <div><strong>Random batch Ewald method for dielectrically confined Coulomb systems</strong><p>Z. Gan, X. Gao, J. Liang and Z. Xu. In press.</p></div>
+  </li>
+  <li>
+    <span class="publication-meta">2025<br>JCP</span>
+    <div><a href="{{ '/assets/files/journal/JCompPhys_GanGaoLiangXu_2025.pdf' | relative_url }}">Fast algorithm for quasi-2D Coulomb systems</a><p>Z. Gan, X. Gao, J. Liang and Z. Xu.</p></div>
+  </li>
+  <li>
+    <span class="publication-meta">2025<br>Soft Matter</span>
+    <div><a href="{{ '/assets/files/journal/LCA_SoftMatter_DuanGanChan_2025.pdf' | relative_url }}">Mechanisms of electrostatic interactions between two charged dielectric spheres inside a polarizable medium</a><p>Y. Duan, Z. Gan and H.-K. Chan. Featured journal cover article.</p></div>
+  </li>
+  <li>
+    <span class="publication-meta">2025<br>JCTC</span>
+    <div><a href="{{ '/assets/files/journal/LCAtheory_JCTC_DuanGan_2025.pdf' | relative_url }}">Quantitative theory for critical conditions of like-charge attraction between polarizable spheres</a><p>Y. Duan and Z. Gan.</p></div>
+  </li>
+</ul>
 
-## Research interests
-&emsp; Scientific Computing, Applied Mathematics, Electromagnetics, Hydrodynamics, Data-driven and Machine Learning methods for Science & Engineering.
+<p class="archive-link"><a href="{{ '/publicationZG.html' | relative_url }}">Complete publication list</a></p>
 
-## Openings
-&emsp; I am currently looking for <b>highly self-motivated students and postdocs</b> interested in scientific computing, applied & computational math, data-driven and machine learning methods, with applications in science & engineering. Please email a CV to apply.
+<div class="home-split">
+  <section>
+    <h2>Academic appointments</h2>
+    <ul>
+      <li><strong>Tenure-track Assistant Professor</strong>, Advanced Materials Thrust, Function Hub, HKUST(GZ), 2021-present.</li>
+      <li><strong>Assistant Professor, joint appointment</strong>, Department of Mathematics, School of Science, HKUST, 2022-present.</li>
+      <li><strong>Postdoctoral Associate</strong>, Courant Institute of Mathematical Sciences, NYU, 2019-2021.</li>
+      <li><strong>Postdoctoral Assistant Professor</strong>, Department of Mathematics, University of Michigan, 2016-2019.</li>
+    </ul>
+  </section>
 
+  <aside class="opportunities" aria-labelledby="opportunities-title">
+    <h2 id="opportunities-title">Opportunities</h2>
+    <p>I welcome inquiries from highly self-motivated students and postdoctoral researchers interested in scientific computing, applied and computational mathematics, and data-driven methods for science and engineering.</p>
+    <p>Please email a CV and a brief statement of research interests.</p>
+  </aside>
+</div>
 
-## Short bio
-- <b>Tenure-track Assistant Professor (2021.09-now)</b> <br> &ensp; Advanced Materials Thrust, Function Hub, The Hong Kong University of Science and Technology (GZ).
-- <b>Assistant Professor (joint appointment) (2022.07-now)</b> <br> &ensp; Department of Mathematics, School of Science, The Hong Kong University of Science and Technology (CWB).
-- <b>Affiliate Assistant Professor (2021.09-2022.06)</b> <br> &ensp; Department of Mathematics, School of Science, The Hong Kong University of Science and Technology (CWB).
-- <b>Postdoc associate</b> (2019.08-2021.08) <br> &ensp; Advisor: Prof. Aleksandar Donev <br> &ensp; Courant Institute of Mathematical Sciences, New York University.
-- <b>Postdoc assistant professor</b> (2016.09-2019.07) <br> &ensp; Advisors: Profs. Robert Krasny and Weihua Geng  <br> &ensp; Department of Mathematics, University of Michigan, Ann Arbor.
-- <b>Ph.D. in Mathematics</b> (2016.06) <br> &ensp; Advisor: Prof. Zhenli Xu <br> &ensp; Department of Mathematics and Institute of Natural Sciences, Shanghai Jiao Tong University. 
-- <b>B.S. in Mechanical Engineering</b> (2010.06) <br> &ensp; School of Mechanical Engineering, Shanghai Jiao Tong University.
+## Recent news
 
-### Detailed CV: available upon request.
+<ul class="news-list">
+  <li><span class="news-date">Mar 2025</span><div>Paper on the random batch Ewald method for dielectrically confined Coulomb systems is in press at <em>SIAM Journal on Scientific Computing</em>.</div></li>
+  <li><span class="news-date">Mar 2025</span><div>Paper on critical conditions of like-charge attraction between polarizable spheres was published in <em>Journal of Chemical Theory and Computation</em>.</div></li>
+  <li><span class="news-date">Feb 2025</span><div>Collaborative work on electrostatic interactions between charged dielectric spheres was published in <em>Soft Matter</em> and selected as a journal cover article.</div></li>
+  <li><span class="news-date">Jan 2025</span><div>Collaborative work on quasi-2D Coulomb systems was published in <em>Journal of Computational Physics</em>.</div></li>
+  <li><span class="news-date">Feb 2025</span><div>Yilin Li joined the group as a research intern.</div></li>
+</ul>
 
-## News and Events
+<p class="archive-link"><a href="#news-archive">Earlier news and activities</a></p>
+
+<details class="archive" id="news-archive" markdown="1">
+  <summary>Earlier news and activities</summary>
 
 ### Research
 - 2025.03 Paper "Random batch Ewald method for dielectrically confined Coulomb systems" currently in press at SIAM J. Sci. Comput.
@@ -124,3 +176,5 @@ Sciences, Duke University (Kunshan)
 - 2020.12 Z. Gan is giving a Computational and Applied Mathematics (CAM) seminar, School of Mathematical Sciences, PKU
 - 2020.10 Z. Gan (with Ondrej Maxian, parter: Aleksandar Donev) is giving a virtual MSG seminar at Courant Institute, NYU 
 - 2019.12 Z. Gan is giving an invited talk on the 2019 Applied Math Youth Forum, Shool of Mathematical Sciences and BICMR, PKU
+
+</details>
