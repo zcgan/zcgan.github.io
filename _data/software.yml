@@ -1,0 +1,16 @@
+- name: StochasticHydroTools
+  role: Co-developer and maintainer
+  purpose: Toolbox for stochastic electro-hydrodynamic problems.
+  status: Public package; see the project repository for current availability and documentation.
+- name: TABI-P
+  role: Co-developer and maintainer
+  purpose: Treecode-accelerated boundary-integral Poisson solver for biomolecules.
+  status: Public package; see the project repository for current availability and documentation.
+- name: HybridMD
+  role: Co-developer and maintainer
+  purpose: Molecular-dynamics package for colloidal spheres accelerated by hybrid methods.
+  status: Public package; see the project repository for current availability and documentation.
+- name: LAMMPS electrostatics contribution
+  role: External adoption
+  purpose: Quasi-2D electrostatic error analysis adopted in LAMMPS pull request #4939 for automatic slab-size selection in Ewald/PPPM simulations.
+  url: "https://github.com/lammps/lammps/pull/4939"

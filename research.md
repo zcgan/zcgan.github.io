@@ -1,27 +1,25 @@
 ---
 layout: default
 title: Research
-description: Research themes and representative work
+description: Mathematical models and methods for soft and active materials
 ---
 
-My research develops mathematical models and computational methods for scientific and engineering systems. A recurring objective is to obtain algorithms that retain physical structure while making simulations of long-range and multiscale interactions computationally practical.
+My research links numerical analysis to models of electrostatic, hydrodynamic, and active-matter systems. The common problem is to compute long-range interactions without losing the physical features that make those systems interesting.
 
-## Electrostatics, dielectric interfaces, and soft matter
+## Scalable simulation of long-range interactions
 
-I study electrostatic interactions in electrolyte and dielectric systems, including charged colloids, confinement effects, and polarizable media. These settings require careful treatment of long-range interactions and of the coupling between material contrast, geometry, and many-body dynamics.
+Particle simulations with Coulomb or hydrodynamic interactions become difficult when geometry, periodicity, and dielectric contrast matter at the same time. I work on Ewald-type decompositions, random-batch methods, boundary-integral formulations, and hybrid approaches for these regimes. The resulting questions are concrete: what is the approximation error, how does the cost grow with system size, and which physical constraints remain represented?
 
-Representative work includes fast algorithms for quasi-two-dimensional Coulomb systems, dielectric confinement, and effective descriptions of interactions between polarizable spheres.
+Representative papers include the 2025 <em>SIAM Journal on Scientific Computing</em> study of random-batch Ewald methods, the 2025 <em>Journal of Computational Physics</em> algorithm for quasi-2D Coulomb systems, and the accepted SIAM MMS paper on quasi-Ewald splitting for nanoconfined electrostatics.
 
-## Fast algorithms and multiscale simulation
+## Mechanisms in polarizable and active soft matter
 
-My work develops numerical methods for charged and hydrodynamic particle systems. Topics include Ewald-type methods, boundary-integral formulations, random-batch methods, and algorithms for confined doubly periodic geometries.
+Long-range interactions also determine material behavior. I study how dielectric contrast, confinement, and activity influence attraction, packing, broken symmetry, and collective motion. These studies use theory and simulation together, so that numerical observations are tied to a stated physical model rather than treated as universal mechanisms.
 
-The central numerical questions are accuracy, computational complexity, and the preservation of the governing physical model under approximation. Relevant publications are listed on the <a href="{{ '/publicationZG.html' | relative_url }}">publications page</a>.
+Representative work includes quantitative conditions for like-charge attraction, the featured-cover <em>Soft Matter</em> paper on charged dielectric spheres, the 2026 <em>Journal of Chemical Physics</em> work on confined dipolar columns, and studies of auto-chemotactic droplets.
 
-## Data-driven scientific computing
+## Emerging work in data-driven PDE computation
 
-I am also interested in data-driven and machine-learning methods for scientific computing, particularly methods that interact meaningfully with PDE models and domain knowledge. Current group interests include operator learning for PDEs, automatic differentiation, and computational models for materials systems.
+This program asks when operator-learning and reduced-order models can help predict PDE dynamics from limited data. Current work includes long-short-range neural networks, neural-operator formulations, and POD-Galerkin methods. The program is emerging: its public record is mainly accepted conference work, preprints, and manuscripts under review.
 
-## Collaborations and student projects
-
-The group works across applied mathematics, physics, materials science, and scientific computing. Current students and collaborators are listed on the <a href="{{ '/group.html' | relative_url }}">group page</a>. Prospective students and postdoctoral researchers are encouraged to contact me by email with a CV and a brief statement of interests.
+<p class="archive-link"><a href="{{ '/publicationZG.html' | relative_url }}">See papers and public preprints</a></p>

@@ -1,44 +1,37 @@
 ---
-layout: maths
-title: Group
-description: Research Group
+layout: default
+title: People
+description: Research group and mentoring
 ---
-## Current Members
-### Ph.D Students
-- Kaiwen Jin (2024-present), research area: analytical continuation; automatic differentiation; quantum simulations for Ryderberg atom arrays.
-- Xuanyan Chen (2024-present), research area: materials modeling and simulation; density functional theory; field-based models
-- Qian (Serena) Hou (2024-present), research area: machine learning, operator learning for PDEs
-- Weitao Lan (2023-present), research area: TBD
-- Yanyu Duan (2022-present), research area: theories and simulations for soft matter, electrostatics, packing
-- Tianhao Hu (2022-present), research area: data-driven methods for numerical PDEs
-- Zheng (Johnson) Yang (2022-present), research area: modeling & simulations for active matter
-- Xuanzhao Gao (2021-present), research area: fast algorithms in molecular dynamics, high-performance computing
 
-### M. Phil. Students
-- Shiyi Bai (2024-present), research area: molecular dynamics, battery simulations
-- Wing Chun (Kyle) CHAN (2022-present), research area: modeling & simulations for active matter
+The group includes researchers working on long-range interactions, soft matter, active matter, materials modeling, and data-driven PDEs. Supervision roles are stated explicitly.
 
-### Visiting Students, research interns/assistants
-- Yilin Li, undergraduate from math department at Nankai University
-- Yanqiao (Marvel) Li, undergraduate from CUHK-SZ (Nobel class), now: M. Phil. student at HKUST
-- Zhuoma Wang (2023 summer), MAE, HKUST
-- Yue Fang (2022 summer), CBE, HKUST
-- Wenjun Li (2022 summer), now: Red Bird M. Phil. student
+## Postdoctoral researcher
+{% for item in site.data.people.postdocs %}
+### {{ item.name }}
+{{ item.relationship }} since {{ item.since }}. {{ item.topic }}.
+{% endfor %}
 
-## External Collaborators
-- Dr. Jiuyang Liang (since 2021), Flatiron Institute, Simons Foundation, New York
-- Prof. Ho-Kei CHAN (since 2021), HIT, Shenzhen
-- Prof. Rui Zhang (since 2021), HKUST
-- Prof. Leslie Greengard (since 2019), Courant Institute, NYU
-- Prof. Aleksandar Donev (since 2019), Courant Institute, NYU
-- Prof. Weihua Geng (since 2016), Southern Methodist University, Texas
-- Prof. Robert Krasny (since 2016), University of Michigan, Ann Arbor
-- Prof. Shidong Jiang (since 2015), Flatiron Institute, Simons Foundation, New York
-- Prof. Erik Luijten (since 2014), Northwestern University, Evanston, Illinois
-- Prof. Zhenli Xu (since 2010), SJTU, Shanghai
+## Doctoral students
+{% for item in site.data.people.doctoral %}
+### {{ item.name }}
+{{ item.relationship }} since {{ item.since }}. {{ item.topic }}.
+{% endfor %}
+
+## MPhil student
+{% for item in site.data.people.mphil %}
+### {{ item.name }}
+{{ item.relationship }} since {{ item.since }}. {{ item.topic }}.
+{% endfor %}
+
+## Undergraduate researchers
+{% for item in site.data.people.undergraduate %}
+### {{ item.name }}
+{{ item.relationship }} since {{ item.since }}. {{ item.topic }}.
+{% endfor %}
 
 ## Alumni
-
-### Former Ph.D students
-Jiayi Wang (co-supervise with Prof. Ping Gao), now at Huawei.
-
+{% for item in site.data.people.alumni %}
+### {{ item.name }}
+{{ item.relationship }}, {{ item.period }}. {{ item.outcome }}.
+{% endfor %}

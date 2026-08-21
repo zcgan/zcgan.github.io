@@ -1,62 +1,33 @@
 ---
-layout: maths
+layout: default
 title: Publications
-description: Preprints, Journal papers
+description: Published papers, accepted work, and public preprints
 ---
 
-<p><a href="https://scholar.google.com/citations?user=KHLEMGYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a> &nbsp; <a href="https://github.com/zcgan?tab=repositories">GitHub repositories</a></p>
+<p>Bibliography is maintained from one site data file. Links lead to publisher DOI pages when verified and to the public PDF stored on this site.</p>
 
+<p class="section-intro">Author-role marks are used only where verified in the paper or CV. Some papers state alphabetical author order, equal contribution, or corresponding authorship in their published version.</p>
 
-## Preprints 
+## Peer-reviewed and published
 
-<ol reversed="reversed">  <!-- start="26"> -->
-  {% for item in site.data.pub_journal.toc[0].papers %}
-      <li>
-		{{ item.authors }} <br>
-        {% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}  &emsp; {% if item.venue %} , {{ item.venue }}. {% endif %} {% if item.misc %} ({{ item.misc }}) {% endif %}
-      </li>
-  {% endfor %}
-</ol>
-
-
-
-## Journal papers 
-
-<ol reversed="reversed">  <!-- start="19"> -->
-{% for item in site.data.pub_journal.toc[1].papers %}
-    <li>
-      {% if item.url and item.url != "" %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %} <br> &emsp; {{ item.authors }}, <br>&emsp; <i>{{ item.venue }}</i>, {{ item.year }}. {% if item.misc %} ({{ item.misc }}) {% endif %}
-    </li>
+<ol class="publication-list">
+{% for item in site.data.publications.published %}
+  <li><strong>{{ item.title }}</strong><br>{{ item.authors }}<br><em>{{ item.venue }}</em>, {{ item.year }}.{% if item.note %} {{ item.note }}{% endif %}<br>{% if item.doi %}<a href="https://doi.org/{{ item.doi }}">DOI</a>{% endif %}{% if item.doi and item.pdf %} · {% endif %}{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">PDF</a>{% endif %}</li>
 {% endfor %}
 </ol>
 
-<!--
-## Conference proceedings
+## Accepted
 
-<ol reversed>
-{% for item in site.data.pub_conference %}
-    <li>
-      <a href="{{ item.url }}">{{ item.title }}</a> <br> &emsp;{{ item.authors }}, <b><i>{{ item.venue }}</i></b>, {{ item.year }}. {% if item.misc %} ({{ item.misc }}) {% endif %}
-    </li>
+<ol class="publication-list">
+{% for item in site.data.publications.accepted %}
+  <li><strong>{{ item.title }}</strong><br>{{ item.authors }}<br><em>{{ item.venue }}</em>, {{ item.year }}. {{ item.status }}. <a href="{{ item.pdf | relative_url }}">PDF</a></li>
 {% endfor %}
 </ol>
--->
 
+## Preprints and manuscripts under review
 
-
-## PhD Thesis 
-<!-- <div id="thesis" class="tabcontent"> -->
-<ul>
-    <li>
-      <b>Title:</b> <a href="assets/files/ZechengGan_Thesis.pdf">Dielectric Effect in Charged Soft Matter Systems: Fast Algorithms and Computer Simulations</a>
-    </li>
-    <!-- <li>
-      <b>Chapter 4</b> contains unpublished result on a general multi-step inertial operator splitting scheme for monotone inclusion problem, which can be used to derive multi-step inertial versions of
-          <ul>
-              <li>Forward--Backward splitting, Generalized Forward--Backward, Forward--Douglas--Rachford splitting</li>
-              <li>A class of Primal--Dual splitting methods</li>
-              <li>Proximal Point Algorithm, Douglas--Rachford splitting and Alternating Direction Method of Multipliers (ADMM)</li>
-          </ul>
-    </li> -->
-</ul>
-<!-- </div> -->
+<ol class="publication-list">
+{% for item in site.data.publications.preprints %}
+  <li><strong>{{ item.title }}</strong><br>{{ item.authors }}<br>{{ item.status }}. <a href="{{ item.pdf | relative_url }}">PDF</a></li>
+{% endfor %}
+</ol>

@@ -366,6 +366,20 @@ summary:focus-visible {
   list-style: none;
 }
 
+.publication-list {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.publication-list li {
+  margin: 0;
+  padding: 1rem 0 1.1rem 0.25rem;
+}
+
+.publication-list li + li {
+  border-top: 1px solid var(--line);
+}
+
 .selected-publications li,
 .news-list li {
   display: grid;
