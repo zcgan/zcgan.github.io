@@ -1,16 +1,30 @@
 - name: StochasticHydroTools
   role: Co-developer and maintainer
-  purpose: Toolbox for stochastic electro-hydrodynamic problems.
-  status: Public package; see the project repository for current availability and documentation.
+  purpose: Shared research software for stochastic hydrodynamics and confined-flow calculations.
+  url: "https://github.com/stochasticHydroTools"
+  link_label: GitHub organization
+  status: Active public organization; individual repositories provide their own licences and documentation.
 - name: TABI-P
-  role: Co-developer and maintainer
-  purpose: Treecode-accelerated boundary-integral Poisson solver for biomolecules.
-  status: Public package; see the project repository for current availability and documentation.
+  role: Co-developer
+  purpose: Boundary-integral Poisson solver for dielectric bodies, with treecode acceleration in the original method.
+  url: "https://github.com/zcgan/TABI-P-nd"
+  link_label: GitHub repository
+  status: Public research code; consult the repository for setup and maintenance details.
 - name: HybridMD
-  role: Co-developer and maintainer
-  purpose: Molecular-dynamics package for colloidal spheres accelerated by hybrid methods.
-  status: Public package; see the project repository for current availability and documentation.
+  role: Co-developer
+  purpose: Molecular-dynamics code for closely packed dielectric spheres using a hybrid electrostatic solver.
+  url: "https://github.com/zcgan/HybridMD"
+  link_label: GitHub repository
+  status: Public legacy code under GPL-3.0; the repository documentation is limited.
+- name: LSR-Net data repository
+  role: Group research artifact
+  purpose: Data and supporting material for long-short-range operator-learning studies.
+  url: "https://github.com/zcgan/LSR-Net-DataRepo"
+  link_label: GitHub repository
+  status: Public research data repository.
 - name: LAMMPS electrostatics contribution
-  role: External adoption
-  purpose: Quasi-2D electrostatic error analysis adopted in LAMMPS pull request #4939 for automatic slab-size selection in Ewald/PPPM simulations.
+  role: Documented external adoption
+  purpose: Quasi-2D electrostatic error analysis used for automatic slab-size selection in Ewald and PPPM simulations.
   url: "https://github.com/lammps/lammps/pull/4939"
+  link_label: LAMMPS PR #4939
+  status: Merged into the LAMMPS development record through pull request #4939.

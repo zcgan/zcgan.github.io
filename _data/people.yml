@@ -23,7 +23,6 @@ doctoral:
   - name: Weitao Lan
     since: 2023
     relationship: Primary supervisor, co-supervised with Ruiting Zuo
-    topic: Research topic in development
   - name: Yanyu Duan
     since: 2022
     relationship: Primary supervisor, co-supervised with Xiaoxiao Wu
@@ -40,20 +39,16 @@ mphil:
   - name: Lingchuan Tan
     since: 2024
     relationship: Co-supervised MPhil student with Huachen Cui
-    topic: Research topic in development
 undergraduate:
   - name: Guofu Tang
     since: 2024
     relationship: Undergraduate researcher
-    topic: Undergraduate research project
   - name: Yan Yang
     since: 2024
     relationship: Undergraduate researcher
-    topic: Undergraduate research project
   - name: Wei Yang
     since: 2024
     relationship: Undergraduate researcher
-    topic: Undergraduate research project
 alumni:
   - name: Xuanzhao Gao
     period: 2021-2025

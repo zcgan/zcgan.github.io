@@ -23,24 +23,23 @@
           <span class="site-role">Computational Mathematics and Materials Science</span>
         </a>
 
-        <details class="site-navigation" open>
-          <summary>Menu</summary>
-          <nav aria-label="Primary navigation">
-            {% for section in site.data.menu.toc %}
-            <section class="nav-section" aria-labelledby="nav-{{ section.type | slugify }}">
-              <h2 id="nav-{{ section.type | slugify }}">{{ section.type }}</h2>
-              <ul>
-                {% for item in section.mitem %}
-                {% assign current_path = page.url | remove_first: '/' %}
-                <li>
-                  <a href="{{ item.href | relative_url }}"{% if current_path == item.href or page.url == '/' and item.href == 'index.html' %} aria-current="page"{% endif %}>{{ item.name }}</a>
-                </li>
-                {% endfor %}
-              </ul>
-            </section>
-            {% endfor %}
-          </nav>
-        </details>
+        <nav class="site-navigation" aria-label="Primary navigation">
+          {% for section in site.data.menu.toc %}
+          <section class="nav-section"{% unless section.type == 'Main' %} aria-labelledby="nav-{{ section.type | slugify }}"{% endunless %}>
+            {% unless section.type == 'Main' %}
+            <h2 id="nav-{{ section.type | slugify }}">{{ section.type | escape }}</h2>
+            {% endunless %}
+            <ul>
+              {% for item in section.mitem %}
+              {% assign current_path = page.url | remove_first: '/' %}
+              <li>
+                <a href="{{ item.href | relative_url }}"{% if current_path == item.href or page.url == '/' and item.href == 'index.html' %} aria-current="page"{% endif %}>{{ item.name | escape }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </section>
+          {% endfor %}
+        </nav>
 
         <div class="header-contact">
           <a href="mailto:zechenggan@ust.hk">zechenggan@ust.hk</a>
@@ -51,8 +50,8 @@
       <main id="main-content" class="site-main">
         {% unless page.url == '/' %}
         <header class="page-heading">
-          <p class="page-kicker">{{ page.title }}</p>
-          <h1>{{ page.description | default: page.title }}</h1>
+          <h1>{{ page.title | escape }}</h1>
+          {% if page.description %}<p>{{ page.description | escape }}</p>{% endif %}
         </header>
         {% endunless %}
 
@@ -61,7 +60,7 @@
 
       <footer class="site-footer">
         <span>© Zecheng Gan</span>
-        <span>Built with Jekyll and GitHub Pages</span>
+        <span>Assistant Professor, HKUST(GZ) and HKUST</span>
       </footer>
     </div>
   </body>
