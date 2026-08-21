@@ -19,6 +19,22 @@
   box-sizing: border-box;
 }
 
+/* Reset structural rules inherited from the vendored Minimal theme. */
+.site-header,
+.site-main header,
+.site-main section,
+.site-footer {
+  float: none;
+  position: static;
+  width: auto;
+}
+
+.site-main section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }

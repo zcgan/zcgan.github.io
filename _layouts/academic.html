@@ -31,10 +31,9 @@
               <h2 id="nav-{{ section.type | slugify }}">{{ section.type }}</h2>
               <ul>
                 {% for item in section.mitem %}
-                {% assign is_home = item.href == 'index.html' and page.url == '/' %}
-                {% assign is_current = page.url contains item.href %}
+                {% assign current_path = page.url | remove_first: '/' %}
                 <li>
-                  <a href="{{ item.href | relative_url }}"{% if is_home or is_current %} aria-current="page"{% endif %}>{{ item.name }}</a>
+                  <a href="{{ item.href | relative_url }}"{% if current_path == item.href or page.url == '/' and item.href == 'index.html' %} aria-current="page"{% endif %}>{{ item.name }}</a>
                 </li>
                 {% endfor %}
               </ul>
