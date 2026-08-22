@@ -12,6 +12,7 @@
   --line: #d1d5db;
   --accent: #194f90;
   --accent-hover: #123a6a;
+  --highlight: #5c2d91;
   --focus: #2563eb;
   --max-width: 72rem;
 }
@@ -25,6 +26,7 @@
   --line: #3b4554;
   --accent: #8db8f8;
   --accent-hover: #b8d3ff;
+  --highlight: #c4a7f2;
   --focus: #93c5fd;
 }
 
@@ -38,6 +40,7 @@
     --line: #3b4554;
     --accent: #8db8f8;
     --accent-hover: #b8d3ff;
+    --highlight: #c4a7f2;
     --focus: #93c5fd;
   }
 }
@@ -405,6 +408,11 @@ summary:focus-visible {
   font-size: 0.82rem;
   font-weight: 700;
   line-height: 1.45;
+}
+
+.news-highlight {
+  color: var(--highlight);
+  font-weight: 700;
 }
 
 .section-intro,
