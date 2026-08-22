@@ -36,7 +36,7 @@ description: "Assistant Professor of Computational Mathematics and Materials Sci
   <li><span class="profile-status">2022-present</span><div><strong>Joint appointment</strong>, Department of Mathematics, HKUST.</div></li>
   <li><span class="profile-status">2021-2022</span><div><strong>Affiliate Assistant Professor</strong>, Department of Mathematics, HKUST.</div></li>
   <li><span class="profile-status">2019-2021</span><div><strong>Postdoctoral Associate</strong>, Courant Institute of Mathematical Sciences, New York University. Advisor: Aleksandar Donev.</div></li>
-  <li><span class="profile-status">2016-2019</span><div><strong>Postdoctoral Assistant Professor</strong>, Department of Mathematics, University of Michigan. Advisors: Robert Krasny and Weihua Geng.</div></li>
+  <li><span class="profile-status">2016-2019</span><div><strong>Postdoc Assistant Professor</strong>, Department of Mathematics, University of Michigan. Advisors: Robert Krasny and Weihua Geng.</div></li>
   <li><span class="profile-status">2016</span><div><strong>Ph.D. in Mathematics</strong>, Shanghai Jiao Tong University. Advisor: Zhenli Xu.</div></li>
   <li><span class="profile-status">2010</span><div><strong>B.S. in Mechanical Engineering</strong>, Shanghai Jiao Tong University.</div></li>
 </ul>
