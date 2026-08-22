@@ -9,7 +9,7 @@ description: "Assistant Professor of Computational Mathematics and Materials Sci
   <div class="hero-copy">
     <p class="hero-role">Assistant Professor</p>
     <h1 id="home-title">Zecheng Gan <span class="name-chinese">干则成</span></h1>
-    <p class="lede">I develop mathematical models and scalable algorithms for long-range interactions in soft and active materials, including data-driven PDE computation.</p>
+    <p class="lede">I develop mathematical models and scalable computational methods for soft and active materials, with a focus on long-range interactions and data-driven PDE modeling.</p>
     <p class="affiliations"><a href="https://funh.hkust-gz.edu.cn/en">Advanced Materials Thrust, HKUST(GZ)</a><br><a href="https://www.math.hkust.edu.hk/">Department of Mathematics, HKUST</a></p>
     <ul class="contact-list" aria-label="Contact and external profiles">
       <li><a href="mailto:zechenggan@ust.hk">Email</a></li>
