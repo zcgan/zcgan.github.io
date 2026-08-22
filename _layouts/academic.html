@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#174f78">
+    <meta name="theme-color" content="#fcfcfd">
+    <script>
+      (function () {
+        try {
+          var savedTheme = localStorage.getItem('zcgan-theme');
+          var theme = savedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          document.documentElement.dataset.theme = theme;
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'dark' ? '#0b0d10' : '#fcfcfd');
+        } catch (error) {}
+      }());
+    </script>
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
@@ -20,31 +30,23 @@
       <header class="site-header">
         <a class="site-identity" href="{{ '/index.html' | relative_url }}" aria-label="Zecheng Gan home">
           <span class="site-name">Zecheng Gan</span>
-          <span class="site-role">Computational Mathematics and Materials Science</span>
+          <span class="site-role">Computational Mathematics &amp; Materials&nbsp;Science</span>
         </a>
 
         <nav class="site-navigation" aria-label="Primary navigation">
-          {% for section in site.data.menu.toc %}
-          <section class="nav-section"{% unless section.type == 'Main' %} aria-labelledby="nav-{{ section.type | slugify }}"{% endunless %}>
-            {% unless section.type == 'Main' %}
-            <h2 id="nav-{{ section.type | slugify }}">{{ section.type | escape }}</h2>
-            {% endunless %}
-            <ul>
+          <ul>
+            {% for section in site.data.menu.toc %}
               {% for item in section.mitem %}
               {% assign current_path = page.url | remove_first: '/' %}
               <li>
                 <a href="{{ item.href | relative_url }}"{% if current_path == item.href or page.url == '/' and item.href == 'index.html' %} aria-current="page"{% endif %}>{{ item.name | escape }}</a>
               </li>
               {% endfor %}
-            </ul>
-          </section>
-          {% endfor %}
+            {% endfor %}
+          </ul>
         </nav>
 
-        <div class="header-contact">
-          <a href="mailto:zechenggan@ust.hk">zechenggan@ust.hk</a>
-          <span>HKUST(GZ) and HKUST</span>
-        </div>
+        <button class="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false">Dark</button>
       </header>
 
       <main id="main-content" class="site-main">
@@ -63,5 +65,46 @@
         <span>Assistant Professor, HKUST(GZ) and HKUST</span>
       </footer>
     </div>
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var button = document.querySelector('.theme-toggle');
+        var themeColor = document.querySelector('meta[name="theme-color"]');
+        var media = window.matchMedia('(prefers-color-scheme: dark)');
+
+        function getSavedTheme() {
+          try {
+            return localStorage.getItem('zcgan-theme');
+          } catch (error) {
+            return null;
+          }
+        }
+
+        function update(theme, save) {
+          root.dataset.theme = theme;
+          button.textContent = theme === 'dark' ? 'Light' : 'Dark';
+          button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+          button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+          themeColor.setAttribute('content', theme === 'dark' ? '#0b0d10' : '#fcfcfd');
+          if (save) {
+            try {
+              localStorage.setItem('zcgan-theme', theme);
+            } catch (error) {}
+          }
+        }
+
+        update(root.dataset.theme || (media.matches ? 'dark' : 'light'), false);
+        button.addEventListener('click', function () {
+          update(root.dataset.theme === 'dark' ? 'light' : 'dark', true);
+        });
+
+        function followSystem(event) {
+          if (!getSavedTheme()) update(event.matches ? 'dark' : 'light', false);
+        }
+
+        if (media.addEventListener) media.addEventListener('change', followSystem);
+        else if (media.addListener) media.addListener(followSystem);
+      }());
+    </script>
   </body>
 </html>

@@ -6,6 +6,8 @@ description: Research group and mentoring relationships
 
 The group works across scientific computing, electrostatics, soft and active matter, materials modeling, and data-driven PDEs. Each entry states the supervision relationship rather than implying sole supervision.
 
+Prospective students and postdoctoral researchers interested in these areas are welcome to <a href="mailto:zechenggan@ust.hk">get in touch by email</a>.
+
 ## Principal investigator
 
 <div class="people-list people-list-single">

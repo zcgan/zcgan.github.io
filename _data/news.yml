@@ -1,10 +1,8 @@
-- date: "2026-08"
-  text: "A preprint on wake-memory dynamics of patterned autochemotactic particles is available."
 - date: "2026-06"
-  text: "LSR-Net for nonlinear fluid dynamics was accepted by the 15th Asian Control Conference."
+  text: '"LSR-Net: Learning the forward evolution operator for nonlinear fluid dynamics" was accepted by the 15th Asian Control Conference.'
 - date: "2026-02"
-  text: "Dipolar cohesion in densely packed confined columns was published in Journal of Chemical Physics."
+  text: '"Dipolar cohesion in densely packed confined columns" was published in the Journal of Chemical Physics.'
 - date: "2025-07"
-  text: "Random batch Ewald method for dielectrically confined Coulomb systems was published in SIAM Journal on Scientific Computing."
+  text: '"Random batch Ewald method for dielectrically confined Coulomb systems" was published in the SIAM Journal on Scientific Computing.'
 - date: "2025-02"
-  text: "The effective-dipole study of charged dielectric spheres appeared in Soft Matter as a featured cover article."
+  text: '"Mechanisms of electrostatic interactions between two charged dielectric spheres inside a polarizable medium: an effective-dipole analysis" was published in Soft Matter and selected as a featured journal cover article.'
