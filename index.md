@@ -22,9 +22,9 @@ description: "Assistant Professor of Computational Mathematics and Materials Sci
 ## Research interests
 
 <ul class="home-directions">
-  <li><a href="{{ '/research.html' | relative_url }}">Scalable simulation of long-range interactions</a><span>Electrostatic and hydrodynamic algorithms for confined and heterogeneous systems.</span></li>
-  <li><a href="{{ '/research.html' | relative_url }}">Mechanisms in polarizable and active soft matter</a><span>Interaction models for collective structure and dynamics.</span></li>
-  <li><a href="{{ '/research.html' | relative_url }}">Data-driven PDE computation</a><span>Operator learning and reduced-order modeling for PDE dynamics.</span></li>
+  <li><a href="{{ '/research.html' | relative_url }}">Scalable algorithms for long-range interactions</a><span>Fast and accurate methods for electrostatic and hydrodynamic interactions in confined and heterogeneous systems.</span></li>
+  <li><a href="{{ '/research.html' | relative_url }}">Physical mechanisms in polarizable and active soft matter</a><span>Modeling interaction-driven collective organization and dynamics.</span></li>
+  <li><a href="{{ '/research.html' | relative_url }}">Scientific machine learning for PDEs</a><span>Operator learning, physics-informed methods, and reduced-order modeling for complex PDE systems.</span></li>
 </ul>
 
 <p class="home-opportunity">Prospective students and postdoctoral researchers interested in scientific computing, applied mathematics, soft matter, or data-driven PDEs are welcome to <a href="mailto:zechenggan@ust.hk">get in touch by email</a>.</p>
