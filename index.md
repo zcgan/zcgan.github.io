@@ -44,5 +44,5 @@ description: "Assistant Professor of Computational Mathematics and Materials Sci
 ## Recent news
 
 <ul class="news-list">
-  {% for item in site.data.news limit: 8 %}<li><span class="news-date">{{ item.date }}</span><div>{{ item.text }}</div></li>{% endfor %}
+  {% for item in site.data.news limit: 9 %}<li><span class="news-date">{{ item.date }}</span><div>{{ item.text }}</div></li>{% endfor %}
 </ul>
