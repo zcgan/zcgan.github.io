@@ -150,6 +150,12 @@ published:
     theme: algorithms
 
 accepted:
+  - authors: "Y. Duan and Z. Gan"
+    title: "Designing Coulombic contact interactions between polarizable particles through asymmetry"
+    venue: "Journal of Chemical Theory and Computation"
+    year: 2026
+    status: "Accepted"
+    pdf: "科研论文成果汇总/accepted/designRule-preprint-JCTC-minorRevision.pdf"
   - authors: "Z. Gan, X. Gao, and Y. Li"
     title: "An O(N) quasi-Ewald splitting method for nanoconfined electrostatics"
     venue: "SIAM Multiscale Modeling and Simulation"
@@ -188,10 +194,6 @@ preprints:
     title: "Inferring pattern formation from early-stage snapshots via long-short-range neural network"
     status: "Under review"
     pdf: "科研论文成果汇总/accepted/LSR-Net-Revised-PRE-preprint.pdf"
-  - authors: "Y. Duan and Z. Gan"
-    title: "Designing Coulombic contact interactions between polarizable particles through asymmetry"
-    status: "Under review"
-    pdf: "科研论文成果汇总/accepted/designRule-preprint-JCTC-minorRevision.pdf"
   - authors: "H. Song, Z. Li, X. Zhang, Z. Gan, Z. Lai, and W. Wang"
     title: "Reformulating neural operators in d+1 dimensions for embedding evolution"
     status: "Under review"
