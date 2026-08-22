@@ -1,18 +1,27 @@
 - date: "2026-08"
+  publication_id: coulombic-contact-asymmetry
   text: '"Designing Coulombic contact interactions between polarizable particles through asymmetry" was accepted by <em>Journal of Chemical Theory and Computation</em>.'
 - date: "2026-06"
+  publication_id: lsr-net-fluid
   text: '"LSR-Net: Learning the forward evolution operator for nonlinear fluid dynamics" was accepted by <em>the 15th Asian Control Conference (ASCC 2026)</em>.'
 - date: "2026-04"
+  publication_id: quasi-ewald-splitting
   text: '"An O(N) quasi-Ewald splitting method for nanoconfined electrostatics" was accepted by <em>SIAM Multiscale Modeling and Simulation</em>.'
 - date: "2026-02"
+  publication_id: dipolar-cohesion-columns
   text: '"Dipolar cohesion in densely packed confined columns" was published in the <em>Journal of Chemical Physics</em>.'
 - date: "2025-07"
+  publication_id: random-batch-ewald
   text: '"Random batch Ewald method for dielectrically confined Coulomb systems" was published in the <em>SIAM Journal on Scientific Computing</em>.'
 - date: "2025-06"
+  publication_id: ewald-error-estimates
   text: '"Accurate error estimates and optimal parameter selection in Ewald summation for dielectrically confined Coulomb systems" was published in the <em>Journal of Chemical Theory and Computation</em>.'
 - date: "2025-03"
+  publication_id: like-charge-attraction
   text: '"Quantitative theory for critical conditions of like-charge attraction between polarizable spheres" was published in the <em>Journal of Chemical Theory and Computation</em>.'
 - date: "2025-02"
+  publication_id: effective-dipole-analysis
   text: '"Mechanisms of electrostatic interactions between two charged dielectric spheres inside a polarizable medium: an effective-dipole analysis" was published in <em>Soft Matter</em> and selected as a <span class="news-highlight">featured journal cover article</span>.'
 - date: "2025-01"
+  publication_id: fast-quasi-2d
   text: '"Fast algorithm for quasi-2D Coulomb systems" was published in the <em>Journal of Computational Physics</em>.'

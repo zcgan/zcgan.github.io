@@ -450,6 +450,11 @@ summary:focus-visible {
   margin-top: 0;
 }
 
+.research-detail h3 {
+  margin-top: 1.45rem;
+  font-size: 0.96rem;
+}
+
 .evidence-links {
   margin-top: 1.15rem;
 }
@@ -464,6 +469,7 @@ summary:focus-visible {
 
 .publication-list {
   margin: 0;
+  max-width: none !important;
   padding-left: 1.7rem !important;
   border-top: 1px solid var(--line);
 }
@@ -480,6 +486,13 @@ summary:focus-visible {
   line-height: 1.45;
 }
 
+.publication-entry h4 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
 .publication-entry p {
   margin: 0.2rem 0 0;
   max-width: none;
@@ -487,7 +500,42 @@ summary:focus-visible {
 }
 
 .publication-note {
+  color: var(--highlight);
+  font-weight: 700;
+}
+
+.publication-self {
   color: var(--ink);
+  font-weight: 700;
+}
+
+.publication-status {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.publication-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+  margin: 0;
+  max-width: none;
+  font-size: 0.92rem;
+}
+
+.publication-year {
+  margin-top: 2.15rem !important;
+}
+
+.publication-year h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.14rem;
+}
+
+.publication-year h3 span {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 400;
 }
 
 .publication-links {
@@ -509,6 +557,10 @@ summary:focus-visible {
   gap: 0.75rem 2rem;
   padding: 0.9rem 0 !important;
   border-bottom: 1px solid var(--line) !important;
+}
+
+.person-row-single {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .person-row h3 {
@@ -533,6 +585,10 @@ summary:focus-visible {
   grid-row: 1 / span 2;
   margin: 0;
   font-size: 1.08rem;
+}
+
+.software-section + .software-section {
+  margin-top: 3rem !important;
 }
 
 .software-entry dl {
@@ -570,6 +626,14 @@ summary:focus-visible {
   margin: 0;
   padding: 0.85rem 0;
   border-bottom: 1px solid var(--line);
+}
+
+.site-main .people-list,
+.site-main .software-list,
+.site-main .course-list,
+.site-main .profile-list,
+.site-main .link-list {
+  max-width: none;
 }
 
 .course-list li {

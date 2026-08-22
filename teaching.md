@@ -4,7 +4,7 @@ title: Teaching
 description: Courses, curriculum development, and research mentoring
 ---
 
-I teach mathematical and computational methods through scientific examples. Students are asked to connect a model and its assumptions to the numerical tools used to study it.
+I teach mathematical and computational methods through scientific examples, with attention to modeling assumptions and numerical methods.
 
 ## Current and recent courses at HKUST(GZ)
 
@@ -18,15 +18,15 @@ I teach mathematical and computational methods through scientific examples. Stud
   <li><div><strong>AMAT5200</strong> Machine Learning for Material Science</div><span>Instructor and course owner, Spring 2022 and Fall 2023</span></li>
 </ul>
 
-## Curriculum development
+## Teaching contributions
 
-Course-development work includes Honors Calculus I and Research Method, together with ownership of courses in mathematical modeling, mathematical methods, and machine learning for materials science. Institutional teaching service is summarized on the <a href="{{ '/profile.html' | relative_url }}">Professional Profile</a> page.
+Teaching contributions include curriculum work for Honors Calculus I and Research Method, together with course ownership for mathematical modeling, mathematical methods, and machine learning for materials science. Related institutional service appears on the <a href="{{ '/profile.html' | relative_url }}">Professional Profile</a> page.
 
 ## Research mentoring
 
-Research mentoring spans postdoctoral, doctoral, MPhil, and undergraduate projects. Topics include electrostatics, active matter, materials simulation, scientific computing, and data-driven PDEs. The <a href="{{ '/group.html' | relative_url }}">People page</a> states each supervision relationship and lists verified alumni outcomes.
+Research mentoring spans postdoctoral, doctoral, MPhil, and undergraduate projects in electrostatics, active matter, materials simulation, scientific computing, and machine learning for PDEs and materials science. The <a href="{{ '/group.html' | relative_url }}">People page</a> lists supervision roles and verified alumni outcomes.
 
-## Legacy course pages
+## Archived course pages
 
 <ul class="link-list">
   <li><a href="{{ '/nsopt.html' | relative_url }}">Machine Learning for Materials Science</a></li>

@@ -1,0 +1,9 @@
+{% assign publication = nil %}
+{% for group in site.data.publications %}
+  {% for item in group[1] %}
+    {% if item.id == include.id %}
+      {% assign publication = item %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% if publication %}<a href="{{ publication.pdf | relative_url }}">{{ publication.title }}</a>{% endif %}

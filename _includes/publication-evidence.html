@@ -1,0 +1,13 @@
+{% assign publication = nil %}
+{% for group in site.data.publications %}
+  {% for item in group[1] %}
+    {% if item.id == include.id %}
+      {% assign publication = item %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% if publication %}
+<li>
+  <a href="{{ publication.pdf | relative_url }}">{{ publication.title }}</a>{% if publication.venue %}, <em>{{ publication.venue }}</em>{% if publication.year %}, {{ publication.year }}{% endif %}{% endif %}{% if publication.status %}, <span class="publication-status">{{ publication.status }}</span>{% else %}, <span class="publication-status">Published</span>{% endif %}
+</li>
+{% endif %}

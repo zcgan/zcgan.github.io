@@ -1,28 +1,33 @@
 - name: StochasticHydroTools
+  category: research
   role: Co-developer and maintainer
   purpose: Shared research software for stochastic hydrodynamics and confined-flow calculations.
   url: "https://github.com/stochasticHydroTools"
   link_label: GitHub organization
   status: Active public organization; individual repositories provide their own licences and documentation.
 - name: TABI-P
+  category: research
   role: Co-developer
   purpose: Boundary-integral Poisson solver for dielectric bodies, with treecode acceleration in the original method.
   url: "https://github.com/zcgan/TABI-P-nd"
   link_label: GitHub repository
   status: Public research code; consult the repository for setup and maintenance details.
 - name: HybridMD
+  category: research
   role: Co-developer
   purpose: Molecular-dynamics code for closely packed dielectric spheres using a hybrid electrostatic solver.
   url: "https://github.com/zcgan/HybridMD"
   link_label: GitHub repository
   status: Public legacy code under GPL-3.0; the repository documentation is limited.
 - name: LSR-Net data repository
+  category: research
   role: Group research artifact
   purpose: Data and supporting material for long-short-range operator-learning studies.
   url: "https://github.com/zcgan/LSR-Net-DataRepo"
   link_label: GitHub repository
   status: Public research data repository.
 - name: LAMMPS electrostatics contribution
+  category: adoption
   role: Documented external adoption
   purpose: Quasi-2D electrostatic error analysis used for automatic slab-size selection in Ewald and PPPM simulations.
   url: "https://github.com/lammps/lammps/pull/4939"
