@@ -24,7 +24,7 @@ description: "Assistant Professor of Computational Mathematics and Materials Sci
 <ul class="home-directions">
   <li><a href="{{ '/research.html' | relative_url }}">Scalable algorithms for long-range interactions</a><span>Fast and accurate methods for electrostatic and hydrodynamic interactions in confined and heterogeneous systems.</span></li>
   <li><a href="{{ '/research.html' | relative_url }}">Physical mechanisms in soft and active matter systems</a><span>Modeling interaction-driven collective organization and dynamics.</span></li>
-  <li><a href="{{ '/research.html' | relative_url }}">Scientific machine learning for PDEs and materials science</a><span>Operator learning, physics-informed methods, machine-learning potentials, and AI-assisted materials discovery.</span></li>
+  <li><a href="{{ '/research.html' | relative_url }}">Machine learning for PDEs and materials science</a><span>Operator learning, physics-informed methods, machine-learning potentials, and AI-assisted materials discovery.</span></li>
 </ul>
 
 <p class="home-opportunity">Prospective students and postdoctoral researchers interested in scientific computing, applied mathematics, soft matter, or scientific machine learning are welcome to <a href="mailto:zechenggan@ust.hk">get in touch by email</a>. I particularly welcome highly self-motivated, hardworking, and intellectually curious candidates who enjoy independent thinking and exploring new research problems.</p>
