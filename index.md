@@ -19,15 +19,30 @@ description: "Assistant Professor of Computational Mathematics and Materials Sci
   </div>
 </section>
 
-## Research interests
+<div class="home-overview">
+  <section aria-labelledby="research-interests">
+    <h2 id="research-interests">Research interests</h2>
+    <ul class="home-directions">
+      <li><a href="{{ '/research.html' | relative_url }}">Scalable algorithms for long-range interactions</a><span>Fast and accurate methods for electrostatic and hydrodynamic interactions in confined and heterogeneous systems.</span></li>
+      <li><a href="{{ '/research.html' | relative_url }}">Physical mechanisms in soft and active matter systems</a><span>Modeling interaction-driven collective organization and dynamics.</span></li>
+      <li><a href="{{ '/research.html' | relative_url }}">Scientific machine learning for PDEs and materials science</a><span>Operator learning, physics-informed methods, machine-learning potentials, and AI-assisted materials discovery.</span></li>
+    </ul>
+    <p class="home-opportunity">Prospective students and postdoctoral researchers interested in scientific computing, applied mathematics, soft matter, or scientific machine learning are welcome to <a href="mailto:zechenggan@ust.hk">get in touch by email</a>. I particularly welcome highly self-motivated, hardworking, and intellectually curious candidates who enjoy independent thinking and exploring new research problems.</p>
+  </section>
 
-<ul class="home-directions">
-  <li><a href="{{ '/research.html' | relative_url }}">Scalable algorithms for long-range interactions</a><span>Fast and accurate methods for electrostatic and hydrodynamic interactions in confined and heterogeneous systems.</span></li>
-  <li><a href="{{ '/research.html' | relative_url }}">Physical mechanisms in soft and active matter systems</a><span>Modeling interaction-driven collective organization and dynamics.</span></li>
-  <li><a href="{{ '/research.html' | relative_url }}">Scientific machine learning for PDEs and materials science</a><span>Operator learning, physics-informed methods, machine-learning potentials, and AI-assisted materials discovery.</span></li>
-</ul>
-
-<p class="home-opportunity">Prospective students and postdoctoral researchers interested in scientific computing, applied mathematics, soft matter, or scientific machine learning are welcome to <a href="mailto:zechenggan@ust.hk">get in touch by email</a>. I particularly welcome highly self-motivated, hardworking, and intellectually curious candidates who enjoy independent thinking and exploring new research problems.</p>
+  <section aria-labelledby="short-bio">
+    <h2 id="short-bio">Short bio</h2>
+    <ul class="profile-list">
+      <li><span class="profile-status">2021-present</span><div><strong>Assistant Professor</strong>, Advanced Materials Thrust, HKUST(GZ).</div></li>
+      <li><span class="profile-status">2022-present</span><div><strong>Joint appointment</strong>, Department of Mathematics, HKUST.</div></li>
+      <li><span class="profile-status">2021-2022</span><div><strong>Affiliate Assistant Professor</strong>, Department of Mathematics, HKUST.</div></li>
+      <li><span class="profile-status">2019-2021</span><div><strong>Postdoctoral Associate</strong>, Courant Institute of Mathematical Sciences, New York University. Advisor: Aleksandar Donev.</div></li>
+      <li><span class="profile-status">2016-2019</span><div><strong>Postdoctoral Assistant Professor</strong>, Department of Mathematics, University of Michigan. Advisors: Robert Krasny and Weihua Geng.</div></li>
+      <li><span class="profile-status">2016</span><div><strong>Ph.D. in Mathematics</strong>, Shanghai Jiao Tong University. Advisor: Zhenli Xu.</div></li>
+      <li><span class="profile-status">2010</span><div><strong>B.S. in Mechanical Engineering</strong>, Shanghai Jiao Tong University.</div></li>
+    </ul>
+  </section>
+</div>
 
 ## Recent news
 
