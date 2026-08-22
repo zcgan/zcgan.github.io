@@ -284,7 +284,8 @@ summary:focus-visible {
 .home-hero {
   display: grid;
   grid-template-columns: minmax(9rem, 11rem) minmax(0, 1fr);
-  gap: clamp(1.5rem, 4vw, 3rem);
+  column-gap: clamp(1.5rem, 4vw, 3rem);
+  row-gap: 1.15rem;
   align-items: start;
   padding-bottom: 2.35rem;
   border-bottom: 1px solid var(--line);
@@ -320,7 +321,8 @@ summary:focus-visible {
 }
 
 .lede {
-  margin: 1rem 0 0;
+  grid-column: 1 / -1;
+  margin: 0;
   max-width: none;
   font-size: 1.08rem;
   line-height: 1.55;
