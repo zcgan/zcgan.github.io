@@ -387,20 +387,8 @@ summary:focus-visible {
   color: var(--muted);
 }
 
-.home-overview {
-  display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(20rem, 0.9fr);
-  gap: 2rem clamp(2rem, 5vw, 4.5rem);
-  align-items: start;
-  margin-top: 2.4rem;
-}
-
-.home-overview h2 {
-  margin-top: 0;
-}
-
-.home-overview .home-directions,
-.home-overview .profile-list {
+.site-main .home-directions,
+.site-main .home-bio {
   max-width: none;
 }
 
@@ -714,7 +702,6 @@ details.archive summary {
   }
 
   .home-directions li,
-  .home-overview,
   .person-row,
   .software-entry,
   .course-list li,
