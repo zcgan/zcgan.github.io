@@ -44,6 +44,23 @@ abort "Duplicate publication titles: #{duplicates.join(' | ')}" unless duplicate
 
 by_id = records.values.flatten.each_with_object({}) { |record, index| index[record.fetch("id")] = record }
 
+records.values.flatten.each do |record|
+  author_order = record["author_order"]
+  unless author_order.nil? || author_order == "alphabetical"
+    abort "Unknown author order '#{author_order}' for #{record.fetch('id')}"
+  end
+
+  %w[corresponding_authors equal_contributors].each do |field|
+    next unless record.key?(field)
+
+    authors = record.fetch(field)
+    abort "#{field} must be an array for #{record.fetch('id')}" unless authors.is_a?(Array)
+    authors.each do |author|
+      abort "#{field} contains an unknown author '#{author}' for #{record.fetch('id')}" unless record.fetch("authors").include?(author)
+    end
+  end
+end
+
 research = File.read(File.expand_path("../research.md", __dir__), encoding: "UTF-8")
 research_ids = research.scan(/publication-evidence\.html id="([^"]+)"/).flatten
 missing_research_ids = research_ids.reject { |id| by_id.key?(id) }

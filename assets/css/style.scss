@@ -509,6 +509,28 @@ summary:focus-visible {
   font-weight: 700;
 }
 
+.publication-legend {
+  margin: 1rem 0 1.35rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.publication-order-mark {
+  color: var(--ink);
+  font-size: 0.88em;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.publication-role-mark {
+  color: var(--highlight);
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 0;
+  margin-left: 0.08em;
+  vertical-align: super;
+}
+
 .publication-status {
   color: var(--muted);
   font-weight: 700;

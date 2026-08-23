@@ -1,0 +1,11 @@
+{% assign author_text = include.item.authors %}
+{% for author in include.item.equal_contributors %}
+  {% capture marked_author %}{{ author }}<sup class="publication-role-mark" aria-label="equal contribution">&amp;</sup>{% endcapture %}
+  {% assign author_text = author_text | replace: author, marked_author %}
+{% endfor %}
+{% for author in include.item.corresponding_authors %}
+  {% capture marked_author %}{{ author }}<sup class="publication-role-mark" aria-label="corresponding author">*</sup>{% endcapture %}
+  {% assign author_text = author_text | replace: author, marked_author %}
+{% endfor %}
+{% assign author_text = author_text | replace: 'Z. Gan', '<strong class="publication-self">Z. Gan</strong>' %}
+{% if include.item.author_order == "alphabetical" %}<span class="publication-order-mark" aria-label="authors listed alphabetically">(&alpha;-&beta;)</span> {% endif %}{{ author_text }}

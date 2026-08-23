@@ -1,6 +1,7 @@
 published:
   - id: dipolar-cohesion-columns
     authors: "Y. Duan, Z. Gan, H. Mohrbach, H.-K. Chan, and R. Messina"
+    corresponding_authors: ["H.-K. Chan", "R. Messina"]
     title: "Dipolar cohesion in densely packed confined columns"
     venue: "Journal of Chemical Physics 164, 064905"
     year: 2026
@@ -9,6 +10,8 @@ published:
     theme: soft-matter
   - id: ewald-error-estimates
     authors: "X. Gao, Q. Zhou, Z. Gan, and J. Liang"
+    corresponding_authors: ["Z. Gan", "J. Liang"]
+    equal_contributors: ["X. Gao", "Q. Zhou"]
     title: "Accurate error estimates and optimal parameter selection in Ewald summation for dielectrically confined Coulomb systems"
     venue: "Journal of Chemical Theory and Computation 21, 5890-5904"
     year: 2025
@@ -18,6 +21,7 @@ published:
     theme: algorithms
   - id: random-batch-ewald
     authors: "Z. Gan, X. Gao, J. Liang, and Z. Xu"
+    author_order: alphabetical
     title: "Random batch Ewald method for dielectrically confined Coulomb systems"
     venue: "SIAM Journal on Scientific Computing 47, B846-B874"
     year: 2025
@@ -27,6 +31,7 @@ published:
     theme: algorithms
   - id: like-charge-attraction
     authors: "Y. Duan and Z. Gan"
+    corresponding_authors: ["Z. Gan"]
     title: "Quantitative theory for critical conditions of like-charge attraction between polarizable spheres"
     venue: "Journal of Chemical Theory and Computation 21, 2822-2828"
     year: 2025
@@ -35,6 +40,7 @@ published:
     theme: soft-matter
   - id: effective-dipole-analysis
     authors: "Y. Duan, Z. Gan, and H.-K. Chan"
+    corresponding_authors: ["Z. Gan", "H.-K. Chan"]
     title: "Mechanisms of electrostatic interactions between two charged dielectric spheres inside a polarizable medium: an effective-dipole analysis"
     venue: "Soft Matter 21, 1860-1872"
     year: 2025
@@ -44,6 +50,7 @@ published:
     theme: soft-matter
   - id: fast-quasi-2d
     authors: "Z. Gan, X. Gao, J. Liang, and Z. Xu"
+    author_order: alphabetical
     title: "Fast algorithm for quasi-2D Coulomb systems"
     venue: "Journal of Computational Physics 524, 113733"
     year: 2025
@@ -53,6 +60,7 @@ published:
     theme: algorithms
   - id: microwave-polyolefin-upcycling
     authors: "Y. Qiao, X. Chen, Z. Wang, W. Xu, Z. Gan, and J. Wang"
+    corresponding_authors: ["J. Wang"]
     title: "Microwave-assisted catalytic upcycling of polyolefin wastes into hydrogen and carbon nanotubes over Pt-promoted Fe/Ni bimetallic catalysts"
     venue: "Applied Catalysis B: Environment and Energy 384, 126214"
     year: 2025
@@ -61,6 +69,7 @@ published:
     theme: materials
   - id: battery-heat-generation
     authors: "Y. Xie, X. Lu, P. Bao, Y. Li, Z. Gan, D. Xiao, T.-Y. Zhang, and J. Huang"
+    corresponding_authors: ["T.-Y. Zhang", "J. Huang"]
     title: "Estimating heat generation rate of cylindrical lithium-ion batteries by a transfer function"
     venue: "Journal of The Electrochemical Society 172, 080505"
     year: 2025
@@ -69,6 +78,7 @@ published:
     theme: materials
   - id: ag-alloying-defects
     authors: "X.-Y. Chen, Z. Huang, Z. Gan, B. Dou, Y. Wang, X. Zhang, and C. Yan"
+    corresponding_authors: ["C. Yan"]
     title: "Passivating deep-level defects with Ag alloying to enhance the efficiency of Cu(In,Ga)(S,Se)2 solar cells"
     venue: "Journal of Physical Chemistry C 129, 8537-8544"
     year: 2025
@@ -77,6 +87,7 @@ published:
     theme: materials
   - id: negative-dielectric-confinement
     authors: "X. Gao and Z. Gan"
+    corresponding_authors: ["Z. Gan"]
     title: "Broken symmetries in quasi-2D charged systems via negative dielectric confinement"
     venue: "Journal of Chemical Physics 161, 011102"
     year: 2024
@@ -85,6 +96,7 @@ published:
     theme: soft-matter
   - id: autochemotactic-droplets
     authors: "C. W. Chan, Z. Yang, Z. Gan, and R. Zhang"
+    corresponding_authors: ["R. Zhang"]
     title: "Interplay of chemotactic force, Péclet number, and dimensionality dictates the dynamics of auto-chemotactic chiral active droplets"
     venue: "Journal of Chemical Physics 161, 014904"
     year: 2024
@@ -93,6 +105,7 @@ published:
     theme: soft-matter
   - id: confined-hydrodynamic-interactions
     authors: "A. Hashemi, R. P. Peláez, S. Natesh, B. Sprinkle, O. Maxian, Z. Gan, and A. Donev"
+    corresponding_authors: ["A. Hashemi"]
     title: "Computing hydrodynamic interactions in confined doubly periodic geometries in linear time"
     venue: "Journal of Chemical Physics 158, 154101"
     year: 2023
@@ -101,6 +114,7 @@ published:
     theme: algorithms
   - id: harmonic-surface-mapping
     authors: "J. Fu and Z. Gan"
+    corresponding_authors: ["Z. Gan"]
     title: "Harmonic surface mapping algorithm for electrostatic potentials in an atomistic/continuum hybrid model for electrolyte solutions"
     venue: "Communications in Computational Physics"
     year: 2021
@@ -108,6 +122,7 @@ published:
     theme: algorithms
   - id: dielectric-spheres-hybrid
     authors: "Z. Gan, Z. Wang, S. Jiang, Z. Xu, and E. Luijten"
+    corresponding_authors: ["E. Luijten"]
     title: "Efficient dynamic simulations for charged dielectric spheres through a novel hybrid method"
     venue: "Journal of Chemical Physics 151, 024112"
     year: 2019
@@ -116,6 +131,7 @@ published:
     theme: algorithms
   - id: on-node-lattices
     authors: "H. Ye, Z. Gan, J. W. Shim, B. Kuang, and Y. Yang"
+    corresponding_authors: ["Y. Yang"]
     title: "On-node lattices construction using partial Gauss-Hermite quadrature for the lattice Boltzmann method"
     venue: "Chinese Physics B 28, 054702"
     year: 2019
@@ -123,6 +139,7 @@ published:
     theme: algorithms
   - id: core-shell-nanoparticle
     authors: "M. Ma, Z. Gan, and Z. Xu"
+    corresponding_authors: ["Z. Xu"]
     title: "Ion structure near core-shell dielectric nanoparticle"
     venue: "Physical Review Letters 118, 076102"
     year: 2017
@@ -130,6 +147,7 @@ published:
     theme: soft-matter
   - id: hybrid-monte-carlo-electrolyte
     authors: "X. Guan, M. Ma, Z. Gan, Z. Xu, and B. Li"
+    corresponding_authors: ["Z. Xu"]
     title: "Hybrid Monte Carlo and continuum modeling of electrolyte with concentration-induced dielectric variations"
     venue: "Physical Review E 94, 053312"
     year: 2016
@@ -137,6 +155,7 @@ published:
     theme: algorithms
   - id: closely-spaced-dielectric-spheres
     authors: "Z. Gan, S. Jiang, E. Luijten, and Z. Xu"
+    corresponding_authors: ["Z. Xu"]
     title: "A hybrid method for systems of closely spaced dielectric spheres and ions"
     venue: "SIAM Journal on Scientific Computing 38, B375-B395"
     year: 2016
@@ -144,6 +163,7 @@ published:
     theme: algorithms
   - id: simulation-dielectric-objects
     authors: "Z. Gan, H. Wu, K. Barros, Z. Xu, and E. Luijten"
+    corresponding_authors: ["E. Luijten"]
     title: "Comparison of efficient techniques for the simulation of dielectric objects in electrolytes"
     venue: "Journal of Computational Physics 291, 317-333"
     year: 2015
@@ -151,6 +171,7 @@ published:
     theme: algorithms
   - id: barnes-hut-octree
     authors: "Z. Gan and Z. Xu"
+    corresponding_authors: ["Z. Xu"]
     title: "Efficient implementation of the Barnes-Hut octree algorithm for Monte Carlo simulations of charged systems"
     venue: "Science China Mathematics 57, 1331-1340"
     year: 2014
@@ -158,6 +179,7 @@ published:
     theme: algorithms
   - id: zeta-potential-dielectric-layers
     authors: "Z. Gan, X. Xing, and Z. Xu"
+    corresponding_authors: ["Z. Xu"]
     title: "Effects of image charges, interfacial charge discreteness, and surface roughness on the zeta potential of spherical electric double layers"
     venue: "Journal of Chemical Physics 137, 034708"
     year: 2012
@@ -165,6 +187,7 @@ published:
     theme: soft-matter
   - id: multiple-image-treatment
     authors: "Z. Gan and Z. Xu"
+    corresponding_authors: ["Z. Xu"]
     title: "Multiple-image treatment of induced charges in Monte Carlo simulations of electrolytes near a spherical dielectric interface"
     venue: "Physical Review E 84, 016705"
     year: 2011
@@ -181,6 +204,7 @@ accepted:
     pdf: "科研论文成果汇总/accepted/designRule-preprint-JCTC-minorRevision.pdf"
   - id: quasi-ewald-splitting
     authors: "Z. Gan, X. Gao, and Y. Li"
+    author_order: alphabetical
     title: "An O(N) quasi-Ewald splitting method for nanoconfined electrostatics"
     venue: "SIAM Multiscale Modeling and Simulation"
     year: 2026
