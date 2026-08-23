@@ -12,8 +12,6 @@ description: Research Group & Mentoring
   </article>
 </div>
 
-<p class="people-scope">In addition to the group members listed below, I co-supervise numerous PhD candidates through collaborative projects, who are not individually listed here.</p>
-
 ## Postdoctoral researchers
 
 <div class="people-list">
@@ -26,6 +24,8 @@ description: Research Group & Mentoring
 </div>
 
 ## Doctoral students
+
+<p class="people-scope">In addition to the group members listed below, I co-supervise numerous PhD candidates through collaborative projects, who are not individually listed here.</p>
 
 <div class="people-list">
 {% for item in site.data.people.doctoral %}
