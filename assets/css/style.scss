@@ -427,6 +427,14 @@ summary:focus-visible {
   font-weight: 700;
 }
 
+.news-list code {
+  padding: 0.08em 0.28em;
+  border: 1px solid var(--line);
+  background: var(--soft);
+  color: var(--ink);
+  font-size: 0.86em;
+}
+
 .section-intro,
 .research-next,
 .publication-authors,
