@@ -4,20 +4,18 @@ title: Publications
 description: Publications, Accepted Manuscripts & Preprints
 ---
 
-<p class="publication-scholar"><a href="https://scholar.google.com/citations?user=KHLEMGYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></p>
-
-<p class="publication-legend"><span class="publication-order-mark" aria-hidden="true">(&alpha;-&beta;)</span> authors listed alphabetically; <sup class="publication-role-mark" aria-hidden="true">*</sup> corresponding author; <sup class="publication-role-mark" aria-hidden="true">&amp;</sup> equal contribution.</p>
-
 <nav class="publication-jumps" aria-label="Publication sections">
   {% assign publication_count = site.data.publications.published.size | plus: site.data.publications.accepted.size %}
   {% assign preprints = site.data.publications.preprints | where: "status", "Preprint" %}
   {% assign under_review = site.data.publications.preprints | where: "status", "Under review" %}
   <a href="#publications">Publications and accepted manuscripts ({{ publication_count }})</a>
-  <a href="#preprints">Preprints ({{ preprints.size }})</a>
   <a href="#under-review">Under review ({{ under_review.size }})</a>
+  <a href="#preprints">Preprints ({{ preprints.size }})</a>
 </nav>
 
 <h2 id="publications">Publications and accepted manuscripts</h2>
+
+<p class="publication-legend"><span class="publication-order-mark" aria-hidden="true">(&alpha;-&beta;)</span> authors listed alphabetically; <sup class="publication-role-mark" aria-hidden="true">*</sup> corresponding author; <sup class="publication-role-mark" aria-hidden="true">&amp;</sup> equal contribution.</p>
 
 {% assign publication_records = site.data.publications.published | concat: site.data.publications.accepted %}
 {% assign published_by_year = publication_records | group_by: "year" %}
@@ -49,20 +47,6 @@ description: Publications, Accepted Manuscripts & Preprints
 {% assign publication_number = publication_number | plus: year_group.items.size %}
 {% endfor %}
 
-<h2 id="preprints">Preprints</h2>
-
-<ol class="publication-list publication-list-short">
-{% for item in preprints %}
-  <li>
-    <article class="publication-entry">
-      <h3>{{ item.title }}</h3>
-      <p class="publication-authors">{% include publication-authors.html item=item %}</p>
-      <p class="publication-venue"><strong>{{ item.status }}.</strong></p>
-    </article>
-  </li>
-{% endfor %}
-</ol>
-
 <h2 id="under-review">Under review</h2>
 
 <ol class="publication-list publication-list-short">
@@ -73,6 +57,20 @@ description: Publications, Accepted Manuscripts & Preprints
       <p class="publication-authors">{% include publication-authors.html item=item %}</p>
       <p class="publication-venue"><strong>{{ item.status }}.</strong></p>
       <p class="publication-links"><a href="{{ item.pdf | relative_url }}">PDF</a></p>
+    </article>
+  </li>
+{% endfor %}
+</ol>
+
+<h2 id="preprints">Preprints</h2>
+
+<ol class="publication-list publication-list-short">
+{% for item in preprints %}
+  <li>
+    <article class="publication-entry">
+      <h3>{{ item.title }}</h3>
+      <p class="publication-authors">{% include publication-authors.html item=item %}</p>
+      <p class="publication-venue"><strong>{{ item.status }}.</strong></p>
     </article>
   </li>
 {% endfor %}
