@@ -43,9 +43,9 @@
   url: "https://github.com/zcgan/HybridMD"
   link_label: GitHub repository
   status: Publicly available research code released under GPL-3.0.
-- name: LAMMPS official adoption of quasi-2D error estimates
+- name: LAMMPS official adoption of our quasi-2D error estimates
   category: adoption
-  purpose: LAMMPS incorporates quasi-2D electrostatic error estimates for automatically selecting the extended z dimension used by the slab correction in Ewald and PPPM simulations.
+  purpose: Our quasi-2D electrostatic error estimates have been integrated into LAMMPS, enabling automatic selection of the extended z dimension for slab-corrected Ewald and PPPM simulations.
   links:
     - label: LAMMPS documentation
       url: "https://docs.lammps.org/kspace_modify.html"
