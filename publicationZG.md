@@ -9,6 +9,7 @@ description: Publications, Accepted Manuscripts & Preprints
   {% assign preprints = site.data.publications.preprints | where: "status", "Preprint" %}
   {% assign under_review = site.data.publications.preprints | where: "status", "Under review" %}
   <a href="#publications">Publications and accepted manuscripts ({{ publication_count }})</a>
+  <a href="#book-chapters">Book chapters in press ({{ site.data.publications.book_chapters.size }})</a>
   <a href="#under-review">Under review ({{ under_review.size }})</a>
   <a href="#preprints">Preprints ({{ preprints.size }})</a>
 </nav>
@@ -46,6 +47,21 @@ description: Publications, Accepted Manuscripts & Preprints
 </section>
 {% assign publication_number = publication_number | plus: year_group.items.size %}
 {% endfor %}
+
+<h2 id="book-chapters">Book chapters in press</h2>
+
+<ol class="publication-list publication-list-short">
+{% for item in site.data.publications.book_chapters %}
+  <li>
+    <article class="publication-entry">
+      <h3>{{ item.title }}</h3>
+      <p class="publication-authors">{% include publication-authors.html item=item %}</p>
+      <p class="publication-venue"><em>Book chapter</em>{% if item.editors %}, edited by {{ item.editors }}{% endif %}. <strong>{{ item.status }}.</strong>{% if item.context %} <span class="publication-context">{{ item.context }}</span>{% endif %}</p>
+      <p class="publication-links"><a href="{{ item.pdf | relative_url }}">PDF</a></p>
+    </article>
+  </li>
+{% endfor %}
+</ol>
 
 <h2 id="under-review">Under review</h2>
 

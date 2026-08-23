@@ -224,6 +224,15 @@ accepted:
     status: "Accepted"
     pdf: "科研论文成果汇总/accepted/ASCC26_Duality_Observability_and_Controllability_finalversion.pdf"
 
+book_chapters:
+  - id: ai-materials-science
+    authors: "Z. Gan, J. Wu, J.-G. Liu, G.-Y. Zhu, and P. Gao"
+    title: "AI and Materials Science"
+    editors: "Lei Chen and Li Liu"
+    status: "In press"
+    context: "Chapter in an interdisciplinary AI+X general-education course textbook."
+    pdf: "科研论文成果汇总/book_chapter/BookChapter13_AI4Mat.pdf"
+
 preprints:
   - id: lsr-net-manifolds
     authors: "Q. S. Hou and Z. Gan"
