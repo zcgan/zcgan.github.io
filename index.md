@@ -16,6 +16,13 @@ description: "Assistant Professor of Computational Mathematics and Materials Sci
       <li><a href="https://github.com/zcgan">GitHub</a></li>
     </ul>
   </div>
+  <aside class="home-epigraph" aria-label="Research epigraph">
+    <blockquote>
+      <p>“What I cannot create, I do not understand.”</p>
+      <cite>Richard P. Feynman</cite>
+    </blockquote>
+    <p class="home-tagline">Understanding complex physical systems through mathematics, computation, and learning.</p>
+  </aside>
   <p class="lede">I develop mathematical models and scalable computational methods for soft and active materials, with a focus on long-range interactions and scientific machine learning methods.</p>
 </section>
 
