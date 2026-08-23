@@ -1,54 +1,52 @@
 ---
 layout: default
 title: Research
-description: Scientific computing for long-range interactions, soft matter, and machine learning
+description: Mathematical modeling, scientific computing, and machine learning for physical and materials systems.
 ---
 
-I develop mathematical models and scalable computational methods for soft and active materials. My work connects numerical analysis with physically specific models of long-range interactions, collective dynamics, and scientific machine learning.
+I develop mathematical models and scalable computational methods for soft and active materials. My work bridges numerical analysis, physics-based modeling, and scientific machine learning, with a focus on long-range interactions and collective dynamics.
 
 <section class="research-detail">
   <h2>Scalable algorithms for long-range interactions</h2>
 
-  <p>Electrostatic and hydrodynamic calculations become more difficult in confined, partly periodic, and heterogeneous systems. We develop Ewald-type decompositions, random-batch methods, boundary-integral formulations, and hybrid solvers for these settings.</p>
+  <p>Electrostatic and hydrodynamic computations pose significant challenges in confined, partially periodic, and heterogeneous systems. We develop Ewald-type decompositions, random-batch algorithms, boundary-integral formulations, and hybrid solvers tailored to these complex settings.</p>
 
-  <p>We study parameter-dependent error, computational cost, and the treatment of boundary and interface effects.</p>
+  <p>Our work emphasizes rigorous error analysis, computational efficiency, and the accurate treatment of boundary and interface effects.</p>
 
   <h3>Selected publications</h3>
   <ul class="evidence-links">
+    {% include publication-evidence.html id="quasi-ewald-splitting" %}
     {% include publication-evidence.html id="ewald-error-estimates" %}
     {% include publication-evidence.html id="random-batch-ewald" %}
     {% include publication-evidence.html id="fast-quasi-2d" %}
-    {% include publication-evidence.html id="quasi-ewald-splitting" %}
   </ul>
 
   <h3>Current questions</h3>
-  <p class="research-next">Error control under stronger dielectric contrast, scalable solvers for confined geometries, and links between electrostatic and hydrodynamic algorithms.</p>
+  <p class="research-next">Robust error control in high-contrast dielectric environments, scalable algorithms for strongly confined and heterogeneous geometries, and unified computational frameworks for electrostatic and hydrodynamic interactions.</p>
 </section>
 
 <section class="research-detail">
   <h2>Physical mechanisms in soft and active matter systems</h2>
 
-  <p>We model how dielectric contrast, confinement, activity, and memory shape attraction, packing, broken symmetry, and collective motion.</p>
-
-  <p>We test numerical observations against electrostatic theory and reduced physical models, and specify the regime for each explanation.</p>
+  <p>We model how dielectric contrast, confinement, activity, and memory govern attraction, packing, symmetry breaking, and collective motion. We combine continuum and statistical-mechanical theories with reduced models to interpret numerical observations and identify the regimes in which different mechanisms dominate.</p>
 
   <h3>Selected publications</h3>
   <ul class="evidence-links">
+    {% include publication-evidence.html id="dipolar-cohesion-columns" %}
     {% include publication-evidence.html id="effective-dipole-analysis" %}
     {% include publication-evidence.html id="like-charge-attraction" %}
     {% include publication-evidence.html id="negative-dielectric-confinement" %}
-    {% include publication-evidence.html id="dipolar-cohesion-columns" %}
     {% include publication-evidence.html id="autochemotactic-droplets" %}
   </ul>
 
   <h3>Current questions</h3>
-  <p class="research-next">Contact interactions between asymmetric polarizable particles, memory in chemotactic motion, and the relation between confinement, cohesion, and helicity.</p>
+  <p class="research-next">Emergent interactions and competing mechanisms in asymmetric polarizable systems, the roles of memory and hydrodynamic coupling in collective active dynamics, and how confinement and cohesion drive symmetry breaking and chiral or helical organization.</p>
 </section>
 
 <section class="research-detail">
   <h2>Machine learning for PDEs and materials science</h2>
 
-  <p>We study operator learning, physics-informed methods, and reduced-order models for complex PDE systems. Current work covers pattern dynamics, nonlinear fluid evolution, parametrized PDEs, and nearly touching plasmonic structures. Machine-learning methods for materials science form part of this research direction.</p>
+  <p>We develop scientific machine-learning and reduced-order methods for complex physical systems, with a focus on operator learning, physics-informed computation, and model reduction for PDEs. Current applications span pattern formation, nonlinear fluid dynamics, parametrized PDEs, and strongly coupled plasmonic systems. We also extend these approaches to materials science through machine-learning potentials and AI-assisted materials modeling and discovery.</p>
 
   <h3>Selected publications</h3>
   <ul class="evidence-links">
@@ -59,7 +57,7 @@ I develop mathematical models and scalable computational methods for soft and ac
   </ul>
 
   <h3>Current questions</h3>
-  <p class="research-next">Generalization outside the training regime, error growth over time, and comparisons with standard numerical baselines.</p>
+  <p class="research-next">Out-of-distribution generalization, long-time stability and error accumulation, and the accuracy–efficiency tradeoffs between learning-based and classical numerical methods.</p>
 </section>
 
 <p class="archive-link"><a href="{{ '/publicationZG.html' | relative_url }}">Complete publication record</a></p>

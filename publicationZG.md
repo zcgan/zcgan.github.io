@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Publications
-description: Published papers, accepted work, and public preprints
+description: Published papers, accepted work, and current manuscripts
 ---
 
-This record separates published, accepted, and under-review work. Publisher links appear where a DOI is available, and public manuscripts are provided as PDFs. Citation data are available on <a href="https://scholar.google.com/citations?user=KHLEMGYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>.
+This record separates published, accepted, preprint, and under-review work. Publisher links appear where a DOI is available. PDFs are provided for published, accepted, and under-review manuscripts; other preprints are listed without PDF links. Citation data are available on <a href="https://scholar.google.com/citations?user=KHLEMGYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>.
 
 <nav class="publication-jumps" aria-label="Publication sections">
   <a href="#published">Published ({{ site.data.publications.published.size }})</a>
@@ -59,7 +59,9 @@ This record separates published, accepted, and under-review work. Publisher link
       <h3>{{ item.title }}</h3>
       <p class="publication-authors">{{ item.authors | replace: 'Z. Gan', '<strong class="publication-self">Z. Gan</strong>' }}</p>
       <p class="publication-venue"><strong>{{ item.status }}.</strong></p>
+      {% unless item.status == "Preprint" %}
       <p class="publication-links"><a href="{{ item.pdf | relative_url }}">PDF</a></p>
+      {% endunless %}
     </article>
   </li>
 {% endfor %}

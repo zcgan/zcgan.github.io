@@ -8,6 +8,6 @@
 {% endfor %}
 {% if publication %}
 <li>
-  <a href="{{ publication.pdf | relative_url }}">{{ publication.title }}</a>{% if publication.venue %}, <em>{{ publication.venue }}</em>{% if publication.year %}, {{ publication.year }}{% endif %}{% endif %}{% if publication.status %}, <span class="publication-status">{{ publication.status }}</span>{% else %}, <span class="publication-status">Published</span>{% endif %}
+  {% if publication.status == "Preprint" %}{{ publication.title }}{% else %}<a href="{{ publication.pdf | relative_url }}">{{ publication.title }}</a>{% endif %}{% if publication.venue %}, <em>{{ publication.venue }}</em>{% if publication.year %}, {{ publication.year }}{% endif %}{% endif %}{% if publication.status %}, <span class="publication-status">{{ publication.status }}</span>{% else %}, <span class="publication-status">Published</span>{% endif %}
 </li>
 {% endif %}
