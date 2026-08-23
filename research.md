@@ -17,6 +17,7 @@ I develop mathematical models and scalable computational methods for soft and ac
     {% include publication-evidence.html id="ewald-error-estimates" %}
     {% include publication-evidence.html id="random-batch-ewald" %}
     {% include publication-evidence.html id="fast-quasi-2d" %}
+    {% include publication-evidence.html id="confined-hydrodynamic-interactions" %}
   </ul>
 
   <h3>Current questions</h3>
@@ -51,6 +52,7 @@ I develop mathematical models and scalable computational methods for soft and ac
   <ul class="evidence-links">
     {% include publication-evidence.html id="lsr-net-fluid" %}
     {% include publication-evidence.html id="lsr-net-manifolds" %}
+    {% include publication-evidence.html id="lsr-net-early-snapshots" %}
     {% include publication-evidence.html id="spectral-subspace-pod" %}
     {% include publication-evidence.html id="rcip-reduced-basis" %}
   </ul>
