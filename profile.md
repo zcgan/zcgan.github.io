@@ -25,25 +25,25 @@ Additional industrial and internal research grants are not listed here.
 
 ### Selected recognition {#recognition}
 
-- 2026 Early Career Physicist nomination by the Institute of Physics Dielectrics and Electrostatics Group Committee.
+- 2026 Early Career Physicist, Institute of Physics, UK.
 - 2025 featured journal cover article in <em>Soft Matter</em> for {% include publication-title.html id="effective-dipole-analysis" %}.
 - 2019 <em>Journal of Chemical Physics</em> Editors’ Choice for {% include publication-title.html id="dielectric-spheres-hybrid" %}.
 
-## Leadership and service {#academic-service}
+## Selected leadership and service {#academic-service}
 
-### Field-building and professional service
+### Academic Leadership and Professional Service
 
 - Organizer, [Mini-workshop on “Electrostatics in Advanced Materials”](https://calendar.hkust.edu.hk/events/miniworkshop-electrostatics-advanced-materials-2024), 2024. [Reported in the Institute of Physics newsletter](https://iop-london.msgfocus.com/files/amf_iop_london/workspace_164/Event_Bulletin_and_GNB_Newsletter/PDFs/2024.12.12DEG-NewsletterVF.pdf).
 - Organizer, Minisymposium on “Modeling and Simulation for Materials Science and Deep Learning,” EASIAM 2024.
 - Organizer, AMAT Seminar Series on Computational Sciences, HKUST(GZ), 2023-present.
 - Organizer, [Minisymposium on “Simulations and Algorithms for Materials Sciences”](https://iciam2023.org/accepted_ms), ICIAM 2023, Tokyo.
 
-### Institutional leadership {#institutional-service}
+### Institutional Service and Leadership {#institutional-service}
 
-- Undergraduate Coordinator, Materials Science and Engineering major, HKUST(GZ), 2025-present.
-- Member, Senate Committee on Teaching and Learning Quality, HKUST(GZ), 2023-present.
 - Member, AI-Academic Committee for the “Major + AI” extended major program, HKUST(GZ), 2026-present.
+- Undergraduate Coordinator, Materials Science and Engineering major, HKUST(GZ), 2025-present.
 - Sub-committee Leader, Red Bird MPhil Selection and Interview Committee (University Level), HKUST(GZ), 2025-2026.
+- Member, Senate Committee on Teaching and Learning Quality, HKUST(GZ), 2023-present.
 
 ### Editorial and refereeing {#editorial-service}
 
