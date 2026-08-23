@@ -17,14 +17,14 @@ I teach mathematical and computational methods through scientific applications, 
 ### Recent offerings
 
 <ul class="course-list">
-  <li><div><strong>AMAT2010</strong> Transport Phenomena in MSE</div><span>Co-instructor, Spring 2026</span></li>
-  <li><div><strong>AMAT1010</strong> Academic Orientation in MSE</div><span>Co-instructor, Spring 2026</span></li>
-  <li><div><strong>AMAT6000A</strong> Advanced Materials Informatics</div><span>Co-instructor, Spring 2025</span></li>
+  <li><div><strong>AMAT2010</strong> Transport Phenomena in MSE</div><span>Instructor, Spring 2026 (co-teaching with Prof. Ping Gao)</span></li>
+  <li><div><strong>AMAT1010</strong> Academic Orientation in MSE</div><span>Co-instructor, Spring 2026 (co-teaching with Prof. Ping Gao and AMAT colleagues)</span></li>
+  <li><div><strong>AMAT6000A</strong> Advanced Materials Informatics</div><span>Co-instructor, Spring 2025 (co-teaching with Prof. Tong-Yi Zhang)</span></li>
   <li><div><strong>UCMP6010</strong> Research Method</div><span>Co-instructor, Spring 2023, 2024, and 2025; Fall 2023 and 2024</span></li>
   <li><div><strong>AMAT5250</strong> Mathematical Methods for Material Science</div><span>Instructor and course owner, Fall 2022 and Fall 2024</span></li>
   <li><div><strong>AMAT5215</strong> Mathematical Models for Interdisciplinary Sciences</div><span>Instructor and course owner, Spring 2024</span></li>
   <li><div><strong>FUNH5000</strong> Introduction to Function Hub for Sustainable Future</div><span>Co-instructor, Spring 2024</span></li>
-  <li><div><strong>FUNH5200</strong> Introduction to Materials Informatics II</div><span>Co-instructor, Fall 2023</span></li>
+  <li><div><strong>FUNH5200</strong> Introduction to Materials Informatics II</div><span>Co-instructor, Fall 2023 (co-teaching with Prof. Tong-Yi Zhang)</span></li>
   <li><div><strong>AMAT5200</strong> Machine Learning for Material Science</div><span>Instructor and course owner, Spring 2022 and Fall 2023</span></li>
 </ul>
 
