@@ -49,6 +49,8 @@ description: Research Group & Mentoring
 
 ## Undergraduate researchers
 
+<p class="people-scope">The undergraduate researchers listed below are supported through the X-program at HKUST(GZ).</p>
+
 <div class="people-list people-list-compact">
 {% for item in site.data.people.undergraduate %}
   <article class="person-row{% unless item.topic %} person-row-single{% endunless %}">
