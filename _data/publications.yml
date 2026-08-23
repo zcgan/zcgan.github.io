@@ -194,6 +194,7 @@ published:
 accepted:
   - id: coulombic-contact-asymmetry
     authors: "Y. Duan and Z. Gan"
+    corresponding_authors: ["Z. Gan"]
     title: "Designing Coulombic contact interactions between polarizable particles through asymmetry"
     venue: "Journal of Chemical Theory and Computation"
     year: 2026
@@ -209,6 +210,7 @@ accepted:
     pdf: "科研论文成果汇总/accepted/siam-mms-accepted.pdf"
   - id: lsr-net-fluid
     authors: "Q. Hou, S. Sutrisno, Y. Li, and Z. Gan"
+    corresponding_authors: ["Z. Gan"]
     title: "LSR-Net: Learning the forward evolution operator for nonlinear fluid dynamics"
     venue: "15th Asian Control Conference"
     year: 2026
