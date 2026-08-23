@@ -8,6 +8,7 @@ doctoral:
   - name: Shiyi Bai
     since: 2025
     relationship: Primary supervisor, co-supervised with Jiaxing Yuan
+    note: MPhil completed at HKUST(GZ); current PhD student.
     topic: "Research direction: DFT, MD and continuum models for electrolytes and their material applications."
   - name: Kaiwen Jin
     since: 2024
@@ -25,10 +26,6 @@ doctoral:
     since: 2023
     relationship: Primary supervisor, co-supervised with Ruiting Zuo
     topic: "Research direction: high-dimensional kernel computations, enhanced sampling."
-mphil:
-  - name: Lingchuan Tan
-    since: 2024
-    relationship: Co-supervised MPhil student with Huachen Cui
 undergraduate:
   - name: Chencheng Long
     since: 2026
@@ -43,6 +40,14 @@ undergraduate:
     relationship: X Program undergraduate researcher
     topic: "Research direction: Efficient kernel approximation: algorithms and scientific applications."
 alumni:
+  - name: Lingchuan Tan
+    period: 2024-2026
+    relationship: Co-supervised MPhil student with Huachen Cui
+    outcome: MPhil completed (Now a PhD student at HKUST(GZ))
+  - name: Gexin Wang
+    period: 2026
+    relationship: Co-supervised MPhil student with Jun Wang
+    outcome: MPhil completed
   - name: Yanyu Duan
     period: 2022-2026
     relationship: Primary supervisor, co-supervised with Xiaoxiao Wu
@@ -59,6 +64,10 @@ alumni:
     period: 2021-2025
     relationship: Primary supervisor, co-supervised with Jin-Guo Liu and Yang Xiang
     outcome: PhD completed (Now postdoc at CCM, Flatiron Institute, New York)
+  - name: Pengxiao Bao
+    period: 2025
+    relationship: Co-supervised MPhil student with Tong-Yi Zhang
+    outcome: MPhil completed (Founder of a startup company)
   - name: Jiayi Wang
     period: 2020-2024
     relationship: Co-supervisor with Ping Gao

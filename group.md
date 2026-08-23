@@ -30,18 +30,7 @@ description: Research Group & Mentoring
 <div class="people-list">
 {% for item in site.data.people.doctoral %}
   <article class="person-row{% unless item.topic %} person-row-single{% endunless %}">
-    <div><h3>{{ item.name }}</h3><p>{{ item.relationship }}, since {{ item.since }}.</p></div>
-    {% if item.topic %}<p class="person-topic">{{ item.topic }}</p>{% endif %}
-  </article>
-{% endfor %}
-</div>
-
-## MPhil students
-
-<div class="people-list">
-{% for item in site.data.people.mphil %}
-  <article class="person-row{% unless item.topic %} person-row-single{% endunless %}">
-    <div><h3>{{ item.name }}</h3><p>{{ item.relationship }}, since {{ item.since }}.</p></div>
+    <div><h3>{{ item.name }}</h3><p>{{ item.relationship }}, since {{ item.since }}.{% if item.note %} {{ item.note }}{% endif %}</p></div>
     {% if item.topic %}<p class="person-topic">{{ item.topic }}</p>{% endif %}
   </article>
 {% endfor %}
