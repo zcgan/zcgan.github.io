@@ -32,6 +32,7 @@ I develop mathematical models and scalable computational methods for soft and ac
 
   <h3>Selected publications</h3>
   <ul class="evidence-links">
+    {% include publication-evidence.html id="coulombic-contact-asymmetry" %}
     {% include publication-evidence.html id="dipolar-cohesion-columns" %}
     {% include publication-evidence.html id="effective-dipole-analysis" %}
     {% include publication-evidence.html id="like-charge-attraction" %}
