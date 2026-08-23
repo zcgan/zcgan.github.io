@@ -22,6 +22,7 @@ records = YAML.safe_load(raw, aliases: false)
 required = {
   "published" => %w[id authors title venue year pdf],
   "accepted" => %w[id authors title venue year status pdf],
+  "book_chapters" => %w[id authors title status pdf],
   "preprints" => %w[id authors title status pdf]
 }
 
