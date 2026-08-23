@@ -1,19 +1,14 @@
 ---
 layout: default
 title: People
-description: Research group and mentoring relationships
+description: Research Group & Mentoring
 ---
-
-The group works on scientific computing, long-range interactions, soft and active matter, and machine learning for PDEs and materials science. Supervision roles are listed explicitly.
-
-Prospective students and postdoctoral researchers interested in these areas are welcome to <a href="mailto:zechenggan@ust.hk">get in touch by email</a>.
 
 ## Principal investigator
 
 <div class="people-list people-list-single">
-  <article class="person-row">
+  <article class="person-row person-row-single">
     <div><h3>Zecheng Gan</h3><p>Assistant Professor, Advanced Materials Thrust at HKUST(GZ), with a joint affiliation in the Department of Mathematics at HKUST.</p></div>
-    <p class="person-topic">Computational mathematics, long-range interactions, and soft and active materials</p>
   </article>
 </div>
 
