@@ -214,6 +214,13 @@ accepted:
     year: 2026
     status: "Accepted"
     pdf: "科研论文成果汇总/accepted/ASCC26_LSR_finalVersion.pdf"
+  - id: dual-systems-singular-switched
+    authors: "Sutrisno, R. H. S. Utomo, M. Z. Almuzakki, A. M. Burohman, and Z. Gan"
+    title: "Observable and Reachable Dual Systems for Discrete-Time Surrogate Singular Linear Switched Systems"
+    venue: "15th Asian Control Conference"
+    year: 2026
+    status: "Accepted"
+    pdf: "科研论文成果汇总/accepted/ASCC26_Duality_Observability_and_Controllability_finalversion.pdf"
 
 preprints:
   - id: lsr-net-manifolds
