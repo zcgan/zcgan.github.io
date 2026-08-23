@@ -21,28 +21,31 @@ description: Funding, recognition, leadership, and professional service
 
 ### Other support
 
-Additional industrial and internal research grants are noted in the CV but are not itemized here.
+Additional industrial and internal research grants are not listed here.
 
 ### Selected recognition {#recognition}
 
-- 2019 <em>Journal of Chemical Physics</em> Editors’ Choice for {% include publication-title.html id="dielectric-spheres-hybrid" %}.
-- 2025 featured journal cover article in <em>Soft Matter</em> for {% include publication-title.html id="effective-dipole-analysis" %}.
 - 2026 Early Career Physicist nomination by the Institute of Physics Dielectrics and Electrostatics Group Committee.
+- 2025 featured journal cover article in <em>Soft Matter</em> for {% include publication-title.html id="effective-dipole-analysis" %}.
+- 2019 <em>Journal of Chemical Physics</em> Editors’ Choice for {% include publication-title.html id="dielectric-spheres-hybrid" %}.
 
 ## Leadership and service {#academic-service}
 
 ### Field-building and professional service
 
-- Co-organizer, Minisymposium on “Simulations and Algorithms for Materials Sciences,” ICIAM 2023, Tokyo.
-- Co-organizer, JuliaCN Meet Up 2022.
-- Professional memberships: American Chemical Society, China Society for Industrial and Applied Mathematics, American Physical Society, and Society for Industrial and Applied Mathematics.
+- Organizer, [Mini-workshop on “Electrostatics in Advanced Materials”](https://calendar.hkust.edu.hk/events/miniworkshop-electrostatics-advanced-materials-2024), 2024. [Reported in the Institute of Physics newsletter](https://iop-london.msgfocus.com/files/amf_iop_london/workspace_164/Event_Bulletin_and_GNB_Newsletter/PDFs/2024.12.12DEG-NewsletterVF.pdf).
+- Organizer, Minisymposium on “Modeling and Simulation for Materials Science and Deep Learning,” EASIAM 2024.
+- Organizer, AMAT Seminar Series on Computational Sciences, HKUST(GZ), 2023-present.
+- Organizer, [Minisymposium on “Simulations and Algorithms for Materials Sciences”](https://iciam2023.org/accepted_ms), ICIAM 2023, Tokyo.
 
 ### Institutional leadership {#institutional-service}
 
-- Undergraduate coordinator for the Materials Science and Engineering major.
-- Member, Senate Committee on Teaching and Learning Quality.
-- Curriculum development and review in the Advanced Materials Thrust.
+- Undergraduate Coordinator, Materials Science and Engineering major, HKUST(GZ), 2025-present.
+- Member, Senate Committee on Teaching and Learning Quality, HKUST(GZ), 2023-present.
+- Member, AI-Academic Committee for the “Major + AI” extended major program, HKUST(GZ), 2026-present.
+- Sub-committee Leader, Red Bird MPhil Selection and Interview Committee (University Level), HKUST(GZ), 2025-2026.
 
 ### Editorial and refereeing {#editorial-service}
 
-Youth Editorial Board member, <em>Journal of Materials Informatics</em>. Referee for <em>Physical Review Letters</em>, <em>Accounts of Chemical Research</em>, <em>PRX Energy</em>, <em>Physical Review A</em>, <em>Physical Review E</em>, <em>Advances in Applied Mathematics and Mechanics</em>, and <em>Frontiers in Applied Mathematics and Statistics</em>.
+- Youth Editorial Board member, <em>Journal of Materials Informatics</em>, 2024-present.
+- Referee for selected journals spanning computational mathematics, computational physics, and chemical sciences, including <em>Mathematics of Computation</em>, <em>SIAM Journal on Scientific Computing</em>, <em>Journal of Computational Physics</em>, <em>Accounts of Chemical Research</em>, <em>Physical Review Letters</em>, <em>Nano Letters</em>, <em>The Journal of Physical Chemistry Letters</em>, and <em>PRX Energy</em>.
