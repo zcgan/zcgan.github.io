@@ -1,6 +1,27 @@
+- name: SolarLab
+  category: research
+  purpose: Thin-film solar-cell simulator for one-dimensional drift–diffusion, Poisson, mobile-ion transport, and transfer-matrix optical modeling, with an experimental two-dimensional extension.
+  url: "https://github.com/ShaneLogic/SolarLab"
+  link_label: GitHub repository
+  status: Public repository with installation, numerical-method, validation, and model-scope documentation.
+- name: LSR-Net code and data repository
+  category: research
+  purpose: Code, data, and supporting material for long-short-range operator-learning studies.
+  url: "https://github.com/zcgan/LSR-Net-DataRepo"
+  link_label: GitHub repository
+  status: Public research code and data repository.
+- name: ExTinyMD
+  category: research
+  purpose: Compact Julia package for molecular-dynamics simulations within HPMolSim, which also hosts group-developed fast algorithms for force-field and electrostatic calculations.
+  links:
+    - label: GitHub repository
+      url: "https://github.com/HPMolSim/ExTinyMD.jl"
+    - label: HPMolSim GitHub organization
+      url: "https://github.com/HPMolSim"
+  status: Public Julia package under the MIT License; the README includes installation instructions and an example workflow.
 - name: StochasticHydroTools
   category: research
-  purpose: Shared research software for stochastic hydrodynamics and confined-flow calculations, including a branch that solves a surface PDE for a surface flow field imposed as a slip boundary condition.
+  purpose: Shared research software for stochastic hydrodynamics and confined-flow simulations, including surface PDE solvers for computing slip velocity fields on confining interfaces.
   links:
     - label: GitHub organization
       url: "https://github.com/stochasticHydroTools"
@@ -9,7 +30,7 @@
   status: Active public organization; individual repositories provide their own licences and documentation.
 - name: TABI-P
   category: research
-  purpose: Boundary-integral Poisson solver for dielectric bodies, with treecode acceleration in the original method.
+  purpose: Boundary-integral Poisson solver for dielectric bodies with treecode acceleration.
   links:
     - label: GitHub repository
       url: "https://github.com/zcgan/TABI-P-nd"
@@ -21,28 +42,7 @@
   purpose: Molecular-dynamics code for closely packed dielectric spheres using a hybrid electrostatic solver.
   url: "https://github.com/zcgan/HybridMD"
   link_label: GitHub repository
-  status: Public legacy code under GPL-3.0; the repository documentation is limited.
-- name: ExTinyMD
-  category: research
-  purpose: Compact Julia package for molecular-dynamics simulations, with an example workflow for a three-dimensional Lennard-Jones fluid.
-  links:
-    - label: GitHub repository
-      url: "https://github.com/HPMolSim/ExTinyMD.jl"
-    - label: HPMolSim GitHub organization
-      url: "https://github.com/HPMolSim"
-  status: Public Julia package under the MIT License; the README includes installation instructions and an example workflow.
-- name: SolarLab
-  category: research
-  purpose: Thin-film solar-cell simulator for one-dimensional drift-diffusion, Poisson, mobile-ion, and transfer-matrix-optics calculations, with an experimental two-dimensional extension.
-  url: "https://github.com/ShaneLogic/SolarLab"
-  link_label: GitHub repository
-  status: Public repository with installation, numerical-method, validation, and model-scope documentation.
-- name: LSR-Net data repository
-  category: research
-  purpose: Data and supporting material for long-short-range operator-learning studies.
-  url: "https://github.com/zcgan/LSR-Net-DataRepo"
-  link_label: GitHub repository
-  status: Public research data repository.
+  status: Publicly available research code released under GPL-3.0.
 - name: LAMMPS electrostatics contribution
   category: adoption
   purpose: Quasi-2D electrostatic error analysis used for automatic slab-size selection in Ewald and PPPM simulations.
