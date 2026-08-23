@@ -4,7 +4,7 @@ title: Teaching
 description: Courses, curriculum development, and research mentoring
 ---
 
-I teach mathematical and computational methods through scientific examples, emphasizing modeling assumptions and numerical methods.
+I teach mathematical and computational methods through scientific applications, emphasizing modeling assumptions and numerical analysis.
 
 ## Courses at HKUST(GZ)
 
@@ -34,13 +34,13 @@ I teach mathematical and computational methods through scientific examples, emph
   <li><div><strong>FUNH6800</strong> Function Hub Graduate Student Seminar</div><span>Coordinator, Fall 2021</span></li>
 </ul>
 
-## Curriculum and course development
+## Curriculum and Course Development
 
-I contributed to the course development teams for Honors Calculus I and Research Method, and have served as course owner for mathematical modeling, mathematical methods, and machine learning for materials science. Related institutional service appears on the <a href="{{ '/profile.html' | relative_url }}">Professional Profile</a> page.
+I have contributed to the development of Honors Calculus I, Research Method, AMAT 1010, and AMAT 2010, and I am the course owner for Mathematical Modeling, Mathematical Methods, and Machine Learning for Materials Science. Other related institutional service is listed on the [Professional Profile](https://zcgan.github.io/profile.html) page.
 
-## Research mentoring
+## Research Mentoring
 
-I mentor postdoctoral, doctoral, MPhil, and undergraduate projects in electrostatics, active matter, materials simulation, scientific computing, and machine learning for PDEs and materials science. The <a href="{{ '/group.html' | relative_url }}">People page</a> lists supervision roles and verified alumni outcomes.
+I mentor postdoctoral researchers and students at the doctoral, MPhil, and undergraduate levels across electrostatics, active matter, materials simulation, scientific computing, and machine learning for PDEs and materials. Current and former group members and their research are listed on the [People page](https://zcgan.github.io/group.html).
 
 ## Course archives
 
