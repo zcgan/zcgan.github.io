@@ -17,7 +17,6 @@ published:
     year: 2025
     doi: "10.1021/acs.jctc.5c00438"
     pdf: "科研论文成果汇总/published/2025_JCTC_ErrorEstimate_GaoZhouGanLiang.pdf"
-    note: "Equal contribution by the first two authors; corresponding authors marked in the paper."
     theme: algorithms
   - id: random-batch-ewald
     authors: "Z. Gan, X. Gao, J. Liang, and Z. Xu"
@@ -27,7 +26,6 @@ published:
     year: 2025
     doi: "10.1137/24M1655809"
     pdf: "科研论文成果汇总/published/2025_SISC_RBE2D_GanGaoLiangXu.pdf"
-    note: "Authors are listed alphabetically."
     theme: algorithms
   - id: like-charge-attraction
     authors: "Y. Duan and Z. Gan"
@@ -56,7 +54,6 @@ published:
     year: 2025
     doi: "10.1016/j.jcp.2025.113733"
     pdf: "科研论文成果汇总/published/2025_JCompPhys_Q2D_GanGaoLiangXu.pdf"
-    note: "Authors are listed alphabetically."
     theme: algorithms
   - id: microwave-polyolefin-upcycling
     authors: "Y. Qiao, X. Chen, Z. Wang, W. Xu, Z. Gan, and J. Wang"

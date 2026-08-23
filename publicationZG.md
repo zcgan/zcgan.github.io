@@ -4,7 +4,7 @@ title: Publications
 description: Publications, Accepted Manuscripts & Preprints
 ---
 
-This record separates published, accepted, preprint, and under-review work. Publisher links appear where a DOI is available. PDFs are provided for published, accepted, and under-review manuscripts; other preprints are listed without PDF links. Citation data are available on <a href="https://scholar.google.com/citations?user=KHLEMGYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>.
+<p class="publication-scholar"><a href="https://scholar.google.com/citations?user=KHLEMGYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></p>
 
 <p class="publication-legend"><span class="publication-order-mark" aria-hidden="true">(&alpha;-&beta;)</span> authors listed alphabetically; <sup class="publication-role-mark" aria-hidden="true">*</sup> corresponding author; <sup class="publication-role-mark" aria-hidden="true">&amp;</sup> equal contribution.</p>
 
@@ -22,14 +22,22 @@ This record separates published, accepted, preprint, and under-review work. Publ
 {% assign publication_records = site.data.publications.published | concat: site.data.publications.accepted %}
 {% assign published_by_year = publication_records | group_by: "year" %}
 {% assign publication_number = 1 %}
+{% assign before_joining = false %}
 {% for year_group in published_by_year %}
+{% if forloop.first %}
+<h3 class="publication-period-heading">Since joining HKUST(GZ)</h3>
+{% endif %}
+{% if year_group.name <= "2021" and before_joining == false %}
+<h3 class="publication-period-heading">Before joining HKUST(GZ)</h3>
+{% assign before_joining = true %}
+{% endif %}
 <section class="publication-year" aria-labelledby="publications-{{ year_group.name }}">
-  <h3 id="publications-{{ year_group.name }}">{{ year_group.name }} <span>({{ year_group.items.size }})</span></h3>
+  <h4 id="publications-{{ year_group.name }}">{{ year_group.name }} <span>({{ year_group.items.size }})</span></h4>
   <ol class="publication-list" start="{{ publication_number }}">
   {% for item in year_group.items %}
     <li>
       <article class="publication-entry">
-        <h4>{{ item.title }}</h4>
+        <h5>{{ item.title }}</h5>
         <p class="publication-authors">{% include publication-authors.html item=item %}</p>
         <p class="publication-venue"><em>{{ item.venue }}</em>, {{ item.year }}.{% if item.status %} <strong class="publication-note">{{ item.status }}.</strong>{% endif %}{% if item.note %} <span class="publication-note">{{ item.note }}</span>{% endif %}</p>
         <p class="publication-links">{% if item.doi %}<a href="https://doi.org/{{ item.doi }}">DOI</a>{% endif %}{% if item.doi and item.pdf %}<span aria-hidden="true">|</span>{% endif %}{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">PDF</a>{% endif %}</p>
