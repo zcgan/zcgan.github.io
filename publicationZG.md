@@ -9,7 +9,7 @@ description: Publications, Accepted Manuscripts & Preprints
   {% assign preprints = site.data.publications.preprints | where: "status", "Preprint" %}
   {% assign under_review = site.data.publications.preprints | where: "status", "Under review" %}
   <a href="#publications">Publications and accepted manuscripts ({{ publication_count }})</a>
-  <a href="#book-chapters">Book chapters in press ({{ site.data.publications.book_chapters.size }})</a>
+  <a href="#book-chapters">Book chapters ({{ site.data.publications.book_chapters.size }})</a>
   <a href="#under-review">Under review ({{ under_review.size }})</a>
   <a href="#preprints">Preprints ({{ preprints.size }})</a>
 </nav>
@@ -48,7 +48,7 @@ description: Publications, Accepted Manuscripts & Preprints
 {% assign publication_number = publication_number | plus: year_group.items.size %}
 {% endfor %}
 
-<h2 id="book-chapters">Book chapters in press</h2>
+<h2 id="book-chapters">Book chapters</h2>
 
 <ol class="publication-list publication-list-short">
 {% for item in site.data.publications.book_chapters %}
