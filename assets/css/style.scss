@@ -486,7 +486,8 @@ summary:focus-visible {
   line-height: 1.45;
 }
 
-.publication-entry h4 {
+.publication-entry h4,
+.publication-entry h5 {
   margin: 0;
   color: var(--ink);
   font-size: 1rem;
@@ -512,7 +513,12 @@ summary:focus-visible {
 .publication-legend {
   margin: 1rem 0 1.35rem;
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: 0.92rem;
+}
+
+.publication-scholar {
+  margin: 1rem 0 0;
+  font-size: 0.92rem;
 }
 
 .publication-order-mark {
@@ -549,12 +555,18 @@ summary:focus-visible {
   margin-top: 2.15rem !important;
 }
 
-.publication-year h3 {
+.publication-period-heading {
+  margin: 2.6rem 0 0.85rem;
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.publication-year h4 {
   margin: 0 0 0.75rem;
   font-size: 1.14rem;
 }
 
-.publication-year h3 span {
+.publication-year h4 span {
   color: var(--muted);
   font-size: 0.84rem;
   font-weight: 400;
