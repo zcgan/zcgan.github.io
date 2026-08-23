@@ -1,8 +1,9 @@
 postdocs:
   - name: Yue Fang
     since: 2026
-    relationship: Co-supervised postdoctoral researcher
-    topic: Soft matter and computational materials science
+    relationship: Jointly supervised postdoctoral researcher
+    description: Jointly supervised postdoctoral researcher. PhD in Chemical & Biological Engineering from HKUST, joined since 2026.
+    topic: "Research direction: modeling and simulations for phase separation in polymer networks."
 doctoral:
   - name: Shiyi Bai
     since: 2025

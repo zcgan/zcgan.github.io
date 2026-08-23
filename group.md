@@ -12,12 +12,14 @@ description: Research Group & Mentoring
   </article>
 </div>
 
+<p class="people-scope">In addition to the group members listed below, I co-supervise numerous PhD candidates through collaborative projects, who are not individually listed here.</p>
+
 ## Postdoctoral researchers
 
 <div class="people-list">
 {% for item in site.data.people.postdocs %}
   <article class="person-row{% unless item.topic %} person-row-single{% endunless %}">
-    <div><h3>{{ item.name }}</h3><p>{{ item.relationship }}, since {{ item.since }}.</p></div>
+    <div><h3>{{ item.name }}</h3><p>{% if item.description %}{{ item.description }}{% else %}{{ item.relationship }}, since {{ item.since }}.{% endif %}</p></div>
     {% if item.topic %}<p class="person-topic">{{ item.topic }}</p>{% endif %}
   </article>
 {% endfor %}
