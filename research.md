@@ -9,9 +9,7 @@ I develop mathematical models and scalable computational methods for soft and ac
 <section class="research-detail">
   <h2>Scalable algorithms for long-range interactions</h2>
 
-  <p>Electrostatic and hydrodynamic computations pose significant challenges in confined, partially periodic, and heterogeneous systems. We develop Ewald-type decompositions, random-batch algorithms, boundary-integral formulations, and hybrid solvers tailored to these complex settings.</p>
-
-  <p>Our work emphasizes rigorous error analysis, computational efficiency, and the accurate treatment of boundary and interface effects.</p>
+  <p>Electrostatic and hydrodynamic computations pose significant challenges in confined, partially periodic, and heterogeneous systems. We develop Ewald-type decompositions, random-batch algorithms, boundary-integral formulations, and hybrid solvers tailored to these complex settings. Our work emphasizes rigorous error analysis, computational efficiency, and the accurate treatment of boundary and interface effects.</p>
 
   <h3>Selected publications</h3>
   <ul class="evidence-links">
