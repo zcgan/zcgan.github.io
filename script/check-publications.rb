@@ -75,7 +75,18 @@ abort "Inline references unknown publication IDs: #{missing_inline_ids.join(', '
 
 news = YAML.safe_load(File.read(File.expand_path("../_data/news.yml", __dir__), encoding: "UTF-8"), aliases: false)
 news.each do |item|
+  abort "News item is missing a date" if item["date"].to_s.empty?
+  abort "News item is missing text" if item["text"].to_s.empty?
+
   id = item["publication_id"]
+  if id.to_s.empty?
+    allowed_types = %w[external_adoption]
+    type = item["type"]
+    abort "News item without a publication ID must declare an allowed type" unless allowed_types.include?(type)
+    abort "External-adoption news must include a supporting link" unless item.fetch("text").include?("href=")
+    next
+  end
+
   record = by_id[id]
   abort "News item references unknown publication ID: #{id}" unless record
   abort "News item references a preprint: #{id}" if records.fetch("preprints").include?(record)
