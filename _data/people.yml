@@ -8,34 +8,23 @@ doctoral:
   - name: Shiyi Bai
     since: 2025
     relationship: Primary supervisor, co-supervised with Jiaxing Yuan
-    topic: Molecular dynamics and battery simulation
+    topic: "Research direction: DFT, MD and continuum models for electrolytes and their material applications."
   - name: Kaiwen Jin
     since: 2024
     relationship: Primary supervisor, co-supervised with Jin-Guo Liu
-    topic: Analytical continuation, automatic differentiation, and quantum simulation
+    topic: "Research direction: scientific computing, numerical analysis, with applications in water waves and quantum computing."
   - name: Xuanyan Chen
     since: 2024
     relationship: Primary supervisor, co-supervised with Chang Yan
-    topic: Materials modeling, density functional theory, and field-based models
+    topic: "Research direction: AI, DFT and field-based models with applications in solar cells."
   - name: Qian Serena Hou
     since: 2024
     relationship: Primary supervisor, co-supervised with Jun Wang
-    topic: Operator learning and pattern dynamics
+    topic: "Research direction: Operator learning, with applications in PDEs and transition path computations."
   - name: Weitao Lan
     since: 2023
     relationship: Primary supervisor, co-supervised with Ruiting Zuo
-  - name: Yanyu Duan
-    since: 2022
-    relationship: Primary supervisor, co-supervised with Xiaoxiao Wu
-    topic: Electrostatics, soft matter, and particle packing
-  - name: Tianhao Hu
-    since: 2022
-    relationship: Primary supervisor, co-supervised with Yang Xiang
-    topic: Data-driven methods for numerical PDEs
-  - name: Zheng Yang
-    since: 2021
-    relationship: Primary supervisor, co-supervised with Rui Zhang
-    topic: Active matter and chemotactic dynamics
+    topic: "Research direction: high-dimensional kernel computations, enhanced sampling."
 mphil:
   - name: Lingchuan Tan
     since: 2024
@@ -51,6 +40,18 @@ undergraduate:
     since: 2024
     relationship: Undergraduate researcher
 alumni:
+  - name: Yanyu Duan
+    period: 2022-2026
+    relationship: Primary supervisor, co-supervised with Xiaoxiao Wu
+    outcome: PhD completed
+  - name: Tianhao Hu
+    period: 2022-2026
+    relationship: Primary supervisor, co-supervised with Yang Xiang
+    outcome: PhD completed
+  - name: Zheng Yang
+    period: 2021-2026
+    relationship: Primary supervisor, co-supervised with Rui Zhang
+    outcome: PhD completed
   - name: Xuanzhao Gao
     period: 2021-2025
     relationship: Primary supervisor, co-supervised with Jin-Guo Liu and Yang Xiang
