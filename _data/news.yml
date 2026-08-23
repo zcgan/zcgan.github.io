@@ -1,6 +1,9 @@
 - date: "2026-08"
   publication_id: coulombic-contact-asymmetry
   text: '"Designing Coulombic contact interactions between polarizable particles through asymmetry" was accepted by <em>Journal of Chemical Theory and Computation</em>.'
+- date: "2026-07"
+  type: external_adoption
+  text: 'LAMMPS adopted our quasi-2D electrostatic error estimates for automatic selection of the extended z dimension in slab-corrected Ewald and PPPM simulations. The feature is available through <code>kspace_modify slab auto</code> in the official 4Jul2026 release (<a href="https://docs.lammps.org/kspace_modify.html">documentation</a>; <a href="https://github.com/lammps/lammps/pull/4939">PR #4939</a>).'
 - date: "2026-06"
   publication_id: lsr-net-fluid
   text: '"LSR-Net: Learning the forward evolution operator for nonlinear fluid dynamics" was accepted by <em>the 15th Asian Control Conference (ASCC 2026)</em>.'
