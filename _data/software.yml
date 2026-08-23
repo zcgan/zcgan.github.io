@@ -43,9 +43,12 @@
   url: "https://github.com/zcgan/HybridMD"
   link_label: GitHub repository
   status: Publicly available research code released under GPL-3.0.
-- name: LAMMPS electrostatics contribution
+- name: LAMMPS official adoption of quasi-2D error estimates
   category: adoption
-  purpose: Quasi-2D electrostatic error analysis used for automatic slab-size selection in Ewald and PPPM simulations.
-  url: "https://github.com/lammps/lammps/pull/4939"
-  link_label: LAMMPS PR #4939
-  status: Merged into the LAMMPS development record through pull request #4939.
+  purpose: LAMMPS incorporates quasi-2D electrostatic error estimates for automatically selecting the extended z dimension used by the slab correction in Ewald and PPPM simulations.
+  links:
+    - label: LAMMPS documentation
+      url: "https://docs.lammps.org/kspace_modify.html"
+    - label: LAMMPS PR #4939
+      url: "https://github.com/lammps/lammps/pull/4939"
+  status: Available in the official 4Jul2026 release through kspace_modify slab auto; the LAMMPS documentation describes the method and cites Gao et al. (2025) and Gan et al. (2025).
