@@ -26,6 +26,7 @@ Additional industrial and internal research grants are not listed here.
 ### Selected recognition {#recognition}
 
 - 2026 Early Career Physicist, Institute of Physics, UK.
+- 2025 Best Presentation Award, The 4th International Symposium on Computational Energy Science (COMPES 2025).
 - 2025 featured journal cover article in <em>Soft Matter</em> for {% include publication-title.html id="effective-dipole-analysis" %}.
 - 2019 <em>Journal of Chemical Physics</em> Editors’ Choice for {% include publication-title.html id="dielectric-spheres-hybrid" %}.
 
