@@ -23,7 +23,7 @@ description: "Assistant Professor of Computational Mathematics and Materials Sci
     </blockquote>
     <p class="home-tagline">Understanding complex physical systems through mathematics, computation, and learning.</p>
   </aside>
-  <p class="lede">I develop mathematical models and scalable computational methods for soft and active materials, with a focus on long-range interactions and scientific machine learning methods.</p>
+  <p class="lede">I develop mathematical models and scalable computational methods for soft and active materials. My work bridges numerical analysis, physics-based modeling, and scientific machine learning, with a focus on long-range interactions and collective dynamics.</p>
 </section>
 
 ## Research interests
