@@ -42,6 +42,10 @@ I have contributed to the development of Honors Calculus I, Research Method, AMA
 
 I mentor postdoctoral researchers and students at the doctoral, MPhil, and undergraduate levels across electrostatics, active matter, materials simulation, scientific computing, and machine learning for PDEs and materials. Current and former group members and their research are listed on the [People page](https://zcgan.github.io/group.html).
 
+## Teaching Resources
+
+Teaching resources will be added here.
+
 ## Course archives
 
 <ul class="link-list">
