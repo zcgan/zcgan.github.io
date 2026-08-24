@@ -1,4 +1,12 @@
 published:
+  - id: coulombic-contact-asymmetry
+    authors: "Y. Duan and Z. Gan"
+    corresponding_authors: ["Z. Gan"]
+    title: "Designing Coulombic contact interactions between polarizable particles through asymmetry"
+    venue: "Journal of Chemical Theory and Computation"
+    year: 2026
+    doi: "10.1021/acs.jctc.6c00946"
+    theme: soft-matter
   - id: dipolar-cohesion-columns
     authors: "Y. Duan, Z. Gan, H. Mohrbach, H.-K. Chan, and R. Messina"
     corresponding_authors: ["H.-K. Chan", "R. Messina"]
@@ -192,14 +200,6 @@ published:
     theme: algorithms
 
 accepted:
-  - id: coulombic-contact-asymmetry
-    authors: "Y. Duan and Z. Gan"
-    corresponding_authors: ["Z. Gan"]
-    title: "Designing Coulombic contact interactions between polarizable particles through asymmetry"
-    venue: "Journal of Chemical Theory and Computation"
-    year: 2026
-    status: "Accepted"
-    pdf: "科研论文成果汇总/accepted/designRule-preprint-JCTC-minorRevision.pdf"
   - id: quasi-ewald-splitting
     authors: "Z. Gan, X. Gao, and Y. Li"
     author_order: alphabetical
