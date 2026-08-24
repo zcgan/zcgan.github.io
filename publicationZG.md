@@ -39,7 +39,7 @@ description: Publications, Accepted Manuscripts & Preprints
         <h5>{{ item.title }}</h5>
         <p class="publication-authors">{% include publication-authors.html item=item %}</p>
         <p class="publication-venue"><em>{{ item.venue }}</em>, {{ item.year }}.{% if item.status %} <strong class="publication-note">{{ item.status }}.</strong>{% endif %}{% if item.note %} <span class="publication-note">{{ item.note }}</span>{% endif %}</p>
-        <p class="publication-links">{% if item.doi %}<a href="https://doi.org/{{ item.doi }}">DOI</a>{% endif %}{% if item.doi and item.pdf %}<span aria-hidden="true">|</span>{% endif %}{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">PDF</a>{% endif %}</p>
+        <p class="publication-links">{% if item.doi %}<a href="{% if item.article_url %}{{ item.article_url }}{% else %}https://doi.org/{{ item.doi }}{% endif %}">DOI</a>{% endif %}{% if item.doi and item.pdf %}<span aria-hidden="true">|</span>{% endif %}{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">PDF</a>{% endif %}</p>
       </article>
     </li>
   {% endfor %}
