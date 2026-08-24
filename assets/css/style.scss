@@ -724,6 +724,24 @@ summary:focus-visible {
   grid-template-columns: 6.2rem minmax(0, 1fr);
 }
 
+.home-bio {
+  border-top: 0;
+}
+
+.home-bio li {
+  grid-template-columns: 5.4rem minmax(0, 1fr);
+  gap: 0.55rem 1rem;
+  padding: 0.32rem 0;
+  border-bottom: 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.home-bio .profile-status {
+  font-size: 0.76rem;
+  line-height: 1.45;
+}
+
 .link-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
