@@ -502,6 +502,35 @@ summary:focus-visible {
   font-size: 0.96rem;
 }
 
+.research-overview {
+  margin-top: 1.45rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--line);
+}
+
+.research-overview summary {
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 0.96rem;
+  font-weight: 700;
+}
+
+.research-overview summary:hover {
+  color: var(--accent-hover);
+}
+
+.research-overview-content {
+  padding-top: 0.65rem;
+}
+
+.research-overview-content > :first-child {
+  margin-top: 0;
+}
+
+.research-overview-content h3 {
+  margin-top: 1.3rem;
+}
+
 .evidence-links {
   margin-top: 1.15rem;
 }
