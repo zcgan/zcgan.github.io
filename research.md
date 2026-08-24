@@ -7,15 +7,6 @@ description: Mathematical modeling, scientific computing, and machine learning f
 <section class="research-detail">
   <h2>Scalable algorithms for long-range interactions</h2>
 
-  <h3>Selected publications</h3>
-  <ul class="evidence-links">
-    {% include publication-evidence.html id="quasi-ewald-splitting" %}
-    {% include publication-evidence.html id="ewald-error-estimates" %}
-    {% include publication-evidence.html id="random-batch-ewald" %}
-    {% include publication-evidence.html id="fast-quasi-2d" %}
-    {% include publication-evidence.html id="confined-hydrodynamic-interactions" %}
-  </ul>
-
   <details class="research-overview">
     <summary>Research overview and future directions</summary>
     <div class="research-overview-content">
@@ -25,20 +16,19 @@ description: Mathematical modeling, scientific computing, and machine learning f
       <p class="research-next">Robust error control in high-contrast dielectric environments, scalable algorithms for strongly confined and heterogeneous geometries, and unified computational frameworks for electrostatic and hydrodynamic interactions.</p>
     </div>
   </details>
+
+  <h3>Selected publications</h3>
+  <ul class="evidence-links">
+    {% include publication-evidence.html id="quasi-ewald-splitting" %}
+    {% include publication-evidence.html id="ewald-error-estimates" %}
+    {% include publication-evidence.html id="random-batch-ewald" %}
+    {% include publication-evidence.html id="fast-quasi-2d" %}
+    {% include publication-evidence.html id="confined-hydrodynamic-interactions" %}
+  </ul>
 </section>
 
 <section class="research-detail">
   <h2>Physical mechanisms in soft and active matter systems</h2>
-
-  <h3>Selected publications</h3>
-  <ul class="evidence-links">
-    {% include publication-evidence.html id="coulombic-contact-asymmetry" %}
-    {% include publication-evidence.html id="dipolar-cohesion-columns" %}
-    {% include publication-evidence.html id="effective-dipole-analysis" %}
-    {% include publication-evidence.html id="like-charge-attraction" %}
-    {% include publication-evidence.html id="negative-dielectric-confinement" %}
-    {% include publication-evidence.html id="autochemotactic-droplets" %}
-  </ul>
 
   <details class="research-overview">
     <summary>Research overview and future directions</summary>
@@ -49,19 +39,20 @@ description: Mathematical modeling, scientific computing, and machine learning f
       <p class="research-next">Emergent interactions and competing mechanisms in asymmetric polarizable systems, the roles of memory and hydrodynamic coupling in collective active dynamics, and how confinement and cohesion drive symmetry breaking and chiral or helical organization.</p>
     </div>
   </details>
+
+  <h3>Selected publications</h3>
+  <ul class="evidence-links">
+    {% include publication-evidence.html id="coulombic-contact-asymmetry" %}
+    {% include publication-evidence.html id="dipolar-cohesion-columns" %}
+    {% include publication-evidence.html id="effective-dipole-analysis" %}
+    {% include publication-evidence.html id="like-charge-attraction" %}
+    {% include publication-evidence.html id="negative-dielectric-confinement" %}
+    {% include publication-evidence.html id="autochemotactic-droplets" %}
+  </ul>
 </section>
 
 <section class="research-detail">
   <h2>Machine learning for PDEs and materials science</h2>
-
-  <h3>Selected publications</h3>
-  <ul class="evidence-links">
-    {% include publication-evidence.html id="lsr-net-fluid" %}
-    {% include publication-evidence.html id="lsr-net-manifolds" %}
-    {% include publication-evidence.html id="lsr-net-early-snapshots" %}
-    {% include publication-evidence.html id="spectral-subspace-pod" %}
-    {% include publication-evidence.html id="rcip-reduced-basis" %}
-  </ul>
 
   <details class="research-overview">
     <summary>Research overview and future directions</summary>
@@ -72,6 +63,15 @@ description: Mathematical modeling, scientific computing, and machine learning f
       <p class="research-next">Out-of-distribution generalization, long-time stability and error accumulation, and the accuracy–efficiency tradeoffs between learning-based and classical numerical methods.</p>
     </div>
   </details>
+
+  <h3>Selected publications</h3>
+  <ul class="evidence-links">
+    {% include publication-evidence.html id="lsr-net-fluid" %}
+    {% include publication-evidence.html id="lsr-net-manifolds" %}
+    {% include publication-evidence.html id="lsr-net-early-snapshots" %}
+    {% include publication-evidence.html id="spectral-subspace-pod" %}
+    {% include publication-evidence.html id="rcip-reduced-basis" %}
+  </ul>
 </section>
 
 <p class="archive-link"><a href="{{ '/publicationZG.html' | relative_url }}">Complete publication record</a></p>
