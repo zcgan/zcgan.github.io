@@ -12,6 +12,7 @@ description: "Assistant Professor of Computational Mathematics and Materials Sci
     <p class="affiliations"><a href="https://funh.hkust-gz.edu.cn/en">Advanced Materials Thrust, HKUST(GZ)</a><br><a href="https://www.math.hkust.edu.hk/">Department of Mathematics, HKUST</a></p>
     <ul class="contact-list" aria-label="Contact and external profiles">
       <li><a href="mailto:zechenggan@ust.hk">Email</a></li>
+      <li><a href="{{ '/最新CV.pdf' | relative_url }}" target="_blank" rel="noopener">CV (PDF)</a></li>
       <li><a href="https://scholar.google.com/citations?user=KHLEMGYAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></li>
       <li><a href="https://github.com/zcgan">GitHub</a></li>
     </ul>
