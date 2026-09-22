@@ -12,3 +12,6 @@ act_workshop.yml
 conference.yml
 .DS_Store
 nsopt/.DS_Store
+
+# Local planning material; keep out of the public repository.
+/HOMEPAGE_REDESIGN_PLAN.md
