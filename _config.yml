@@ -6,6 +6,14 @@ author: Zecheng Gan
 show_downloads: false
 theme: jekyll-theme-minimal
 exclude:
+  # A custom list replaces the Jekyll 3 defaults used by GitHub Pages.
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - HOMEPAGE_REDESIGN_PLAN.md
 # remote_theme: pages-themes/minimal@v0.2.0
 # plugins:
