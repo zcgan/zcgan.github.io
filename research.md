@@ -66,6 +66,7 @@ description: Mathematical modeling, scientific computing, and machine learning f
 
   <h3>Selected publications</h3>
   <ul class="evidence-links">
+    {% include publication-evidence.html id="neural-operators-d-plus-one" %}
     {% include publication-evidence.html id="lsr-net-fluid" %}
     {% include publication-evidence.html id="lsr-net-manifolds" %}
     {% include publication-evidence.html id="lsr-net-early-snapshots" %}
