@@ -201,6 +201,13 @@ published:
     theme: algorithms
 
 accepted:
+  - id: neural-operators-d-plus-one
+    authors: "H. Song, Z. Li, X. Zhang, Z. Gan, Z. Lai, and W. Wang"
+    title: "Reformulating Neural Operators in d+1 Dimensions for Embedding Evolution"
+    venue: "NeurIPS 2026"
+    year: 2026
+    status: "Accepted"
+    article_url: "https://arxiv.org/abs/2505.11766"
   - id: quasi-ewald-splitting
     authors: "Z. Gan, X. Gao, and Y. Li"
     author_order: alphabetical
@@ -265,11 +272,6 @@ preprints:
     title: "Inferring pattern formation from early-stage snapshots via long-short-range neural network"
     status: "Under review"
     pdf: "科研论文成果汇总/accepted/LSR-Net-Revised-PRE-preprint.pdf"
-  - id: neural-operators-d-plus-one
-    authors: "H. Song, Z. Li, X. Zhang, Z. Gan, Z. Lai, and W. Wang"
-    title: "Reformulating neural operators in d+1 dimensions for embedding evolution"
-    status: "Under review"
-    pdf: "科研论文成果汇总/preprint/neuralOperator_d1_preprint.pdf"
   - id: rcip-reduced-basis
     authors: "T. Hu and Z. Gan"
     title: "RCIP-based reduced-basis modeling for frequency sweeps in nearly touching plasmonic disks"

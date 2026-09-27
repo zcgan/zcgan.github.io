@@ -21,7 +21,7 @@ end
 records = YAML.safe_load(raw, aliases: false)
 required = {
   "published" => %w[id authors title venue year],
-  "accepted" => %w[id authors title venue year status pdf],
+  "accepted" => %w[id authors title venue year status],
   "book_chapters" => %w[id authors title status pdf],
   "preprints" => %w[id authors title status pdf]
 }
@@ -37,10 +37,12 @@ required.each do |group, fields|
   end
 end
 
-records.fetch("published").each do |record|
-  next if %w[doi pdf].any? { |field| record.key?(field) && !record[field].to_s.empty? }
+%w[published accepted].each do |group|
+  records.fetch(group).each do |record|
+    next if %w[doi pdf article_url].any? { |field| record.key?(field) && !record[field].to_s.empty? }
 
-  abort "published: missing DOI or PDF for #{record['title'] || 'untitled record'}"
+    abort "#{group}: missing DOI, PDF, or article URL for #{record['title'] || 'untitled record'}"
+  end
 end
 
 duplicates = ids.group_by(&:itself).select { |_value, values| values.size > 1 }.keys
