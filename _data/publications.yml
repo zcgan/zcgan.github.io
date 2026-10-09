@@ -1,4 +1,15 @@
 published:
+  - id: quasi-ewald-splitting
+    authors: "Z. Gan, X. Gao, and Y. Li"
+    author_order: alphabetical
+    corresponding_authors: ["X. Gao"]
+    title: "An O(N) quasi-Ewald splitting method for nanoconfined electrostatics"
+    venue: "Multiscale Modeling & Simulation 24(4), 1515-1541"
+    year: 2026
+    doi: "10.1137/26M1837071"
+    article_url: "https://epubs.siam.org/doi/10.1137/26M1837071"
+    pdf: "科研论文成果汇总/accepted/siam-mms-accepted.pdf"
+    theme: algorithms
   - id: dual-systems-singular-switched
     authors: "Sutrisno, R. H. S. Utomo, M. Z. Almuzakki, A. M. Burohman, and Z. Gan"
     title: "Observable and Reachable Dual Systems for Discrete-Time Surrogate Singular Linear Switched Systems"
@@ -225,14 +236,6 @@ accepted:
     year: 2026
     status: "Accepted"
     article_url: "https://arxiv.org/abs/2505.11766"
-  - id: quasi-ewald-splitting
-    authors: "Z. Gan, X. Gao, and Y. Li"
-    author_order: alphabetical
-    title: "An O(N) quasi-Ewald splitting method for nanoconfined electrostatics"
-    venue: "SIAM Multiscale Modeling and Simulation"
-    year: 2026
-    status: "Accepted"
-    pdf: "科研论文成果汇总/accepted/siam-mms-accepted.pdf"
 
 book_chapters:
   - id: ai-materials-science
