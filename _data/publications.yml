@@ -1,4 +1,21 @@
 published:
+  - id: dual-systems-singular-switched
+    authors: "Sutrisno, R. H. S. Utomo, M. Z. Almuzakki, A. M. Burohman, and Z. Gan"
+    title: "Observable and Reachable Dual Systems for Discrete-Time Surrogate Singular Linear Switched Systems"
+    venue: "15th Asian Control Conference (ASCC), pp. 1500-1505"
+    year: 2026
+    doi: "10.1109/ASCC70886.2026.11701889"
+    article_url: "https://ieeexplore.ieee.org/document/11701889"
+    pdf: "科研论文成果汇总/accepted/ASCC26_Duality_Observability_and_Controllability_finalversion.pdf"
+  - id: lsr-net-fluid
+    authors: "Q. Hou, Sutrisno, Y. Li, and Z. Gan"
+    corresponding_authors: ["Z. Gan"]
+    title: "LSR-Net: Learning the forward evolution operator for nonlinear fluid dynamics"
+    venue: "15th Asian Control Conference (ASCC), pp. 296-301"
+    year: 2026
+    doi: "10.1109/ASCC70886.2026.11702193"
+    pdf: "科研论文成果汇总/published/ASCC26_LSR_finalVersion.pdf"
+    theme: machine-learning
   - id: coulombic-contact-asymmetry
     authors: "Y. Duan and Z. Gan"
     corresponding_authors: ["Z. Gan"]
@@ -216,21 +233,6 @@ accepted:
     year: 2026
     status: "Accepted"
     pdf: "科研论文成果汇总/accepted/siam-mms-accepted.pdf"
-  - id: lsr-net-fluid
-    authors: "Q. Hou, S. Sutrisno, Y. Li, and Z. Gan"
-    corresponding_authors: ["Z. Gan"]
-    title: "LSR-Net: Learning the forward evolution operator for nonlinear fluid dynamics"
-    venue: "15th Asian Control Conference"
-    year: 2026
-    status: "Accepted"
-    pdf: "科研论文成果汇总/accepted/ASCC26_LSR_finalVersion.pdf"
-  - id: dual-systems-singular-switched
-    authors: "Sutrisno, R. H. S. Utomo, M. Z. Almuzakki, A. M. Burohman, and Z. Gan"
-    title: "Observable and Reachable Dual Systems for Discrete-Time Surrogate Singular Linear Switched Systems"
-    venue: "15th Asian Control Conference"
-    year: 2026
-    status: "Accepted"
-    pdf: "科研论文成果汇总/accepted/ASCC26_Duality_Observability_and_Controllability_finalversion.pdf"
 
 book_chapters:
   - id: ai-materials-science

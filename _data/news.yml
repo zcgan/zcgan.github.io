@@ -1,3 +1,6 @@
+- date: "2026-10"
+  publication_id: lsr-net-fluid
+  text: '"LSR-Net: Learning the forward evolution operator for nonlinear fluid dynamics" was published in the proceedings of <em>the 15th Asian Control Conference (ASCC 2026)</em>.'
 - date: "2026-09"
   publication_id: neural-operators-d-plus-one
   text: '"Reformulating Neural Operators in d+1 Dimensions for Embedding Evolution" was accepted by <em>NeurIPS 2026</em>.'
@@ -7,9 +10,6 @@
 - date: "2026-07"
   type: external_adoption
   text: 'LAMMPS adopted our quasi-2D electrostatic error estimates for automatic selection of the extended z dimension in slab-corrected Ewald and PPPM simulations. The feature is available through <code>kspace_modify slab auto</code> in the official 4Jul2026 release (<a href="https://docs.lammps.org/kspace_modify.html">documentation</a>; <a href="https://github.com/lammps/lammps/pull/4939">PR #4939</a>).'
-- date: "2026-06"
-  publication_id: lsr-net-fluid
-  text: '"LSR-Net: Learning the forward evolution operator for nonlinear fluid dynamics" was accepted by <em>the 15th Asian Control Conference (ASCC 2026)</em>.'
 - date: "2026-04"
   publication_id: quasi-ewald-splitting
   text: '"An O(N) quasi-Ewald splitting method for nanoconfined electrostatics" was accepted by <em>SIAM Multiscale Modeling and Simulation</em>.'
